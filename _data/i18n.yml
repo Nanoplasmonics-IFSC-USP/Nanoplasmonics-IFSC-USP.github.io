@@ -101,8 +101,8 @@ en:
             url: https://www4.ifsc.usp.br/pos/processo-seletivo-2/
       - title: Get in touch
         text: |
-          Send us an email with your CV, academic transcript and a few lines about your interests.
-          We will be happy to talk about possible projects in the group.
+          Fill out our contact form or send us an email with your CV, academic transcript and a few
+          lines about your interests. We will be happy to talk about possible projects in the group.
         contact: true
       - title: Apply for a FAPESP scholarship together
         text: |
@@ -118,6 +118,8 @@ en:
           - label: Postdoc
             url: https://fapesp.br/bolsas/pd
     follow_title: Follow us
+    form: Contact form
+    form_text: The easiest way to reach us is our contact form.
 
   footer:
     rights: All rights reserved.
@@ -226,8 +228,8 @@ pt:
             url: https://www4.ifsc.usp.br/pos/processo-seletivo-2/
       - title: Entre em contato
         text: |
-          Envie um e-mail com seu currículo, histórico escolar e algumas linhas sobre seus interesses.
-          Teremos prazer em conversar sobre possíveis projetos no grupo.
+          Preencha nosso formulário de contato ou envie um e-mail com seu currículo, histórico escolar e
+          algumas linhas sobre seus interesses. Teremos prazer em conversar sobre possíveis projetos no grupo.
         contact: true
       - title: Solicite uma bolsa FAPESP conosco
         text: |
@@ -243,6 +245,8 @@ pt:
           - label: Pós-doc
             url: https://fapesp.br/bolsas/pd
     follow_title: Siga-nos
+    form: Formulário de contato
+    form_text: A forma mais fácil de falar conosco é pelo nosso formulário de contato.
 
   footer:
     rights: Todos os direitos reservados.

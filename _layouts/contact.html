@@ -12,6 +12,10 @@ layout: default
       <address>
         {% for line in site.address %}{{ line }}<br>{% endfor %}
       </address>
+      {% if site.contact_form and site.contact_form != "" %}
+      <p class="contact-form-text">{{ t.contact.form_text }}</p>
+      <p><a class="btn btn-form" href="{{ site.contact_form }}">{{ t.contact.form }} ↗</a></p>
+      {% endif %}
       {% if site.email and site.email != "" %}
       <h3>{{ t.contact.email }}</h3>
       <p><a href="mailto:{{ site.email }}">{{ site.email }}</a></p>

@@ -235,6 +235,9 @@ p { margin: 0 0 1em; }
 }
 .btn-ghost { color: var(--on-night); border-color: rgba(255, 255, 255, 0.25); }
 .btn-ghost:hover { background: rgba(255, 255, 255, 0.06); }
+.btn-form { color: #fff; background: var(--green); box-shadow: 0 6px 20px -8px rgba(72, 114, 55, 0.7); }
+.btn-form:hover { background: #3d6230; }
+.contact-form-text { color: var(--ink-muted); margin: 4px 0 10px; }
 .btn-outline { color: var(--link); border-color: var(--line); background: var(--bg); }
 .btn-outline:hover { border-color: var(--link); }
 

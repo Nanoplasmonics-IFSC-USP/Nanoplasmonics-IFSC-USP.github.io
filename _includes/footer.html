@@ -10,6 +10,7 @@
         {% for line in site.address %}{{ line }}<br>{% endfor %}
       </address>
       {% if site.email and site.email != "" %}<p><a href="mailto:{{ site.email }}">{{ site.email }}</a></p>{% endif %}
+      {% if site.contact_form and site.contact_form != "" %}<p><a href="{{ site.contact_form }}">{{ t.contact.form }} ↗</a></p>{% endif %}
     </div>
     <div class="footer-links">
       {% if site.scholar_url and site.scholar_url != "" %}<a href="{{ site.scholar_url }}">Google Scholar</a>{% endif %}

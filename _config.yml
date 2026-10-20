@@ -10,6 +10,7 @@ baseurl: ""
 
 # Contact
 email: "nano@ifsc.usp.br"                                       
+contact_form: "https://docs.google.com/forms/d/e/1FAIpQLSe9ChwyfxQdeR3yBET4JsNZdv9UNw-Jbja7u3A3pnmJ0ODoxg/viewform"   # Google Form
 phone: ""                                       # optional
 address:
   - Instituto de Física de São Carlos (IFSC-USP)
