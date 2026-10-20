@@ -2,7 +2,7 @@
 #   institution: name           country: en/pt
 #   people:      collaborators   topic: en/pt short description
 #   url:         institution or lab website (optional)
-#   logo:        optional, e.g. /assets/img/partners/laval.png
+#   logo:        optional; shown only once the file exists in assets/img/partners/ (PNG/SVG/JPG, transparent PNG best)
 #
 # Built from recurring co-authors in the group's publications — please confirm.
 
@@ -15,6 +15,7 @@
     en: Rare-earth-doped tellurite and germanate glasses, plasmonic structures for telecom bands
     pt: Vidros teluritos e germanatos dopados com terras-raras, estruturas plasmônicas para bandas de telecomunicação
   url: https://copl.ulaval.ca
+  logo: /assets/img/partners/laval.png
 
 - institution: École Polytechnique Fédérale de Lausanne (EPFL)
   country:
@@ -25,6 +26,7 @@
     en: 2D materials (MoS₂ and heterostructures) on plasmonic nanostructures
     pt: Materiais 2D (MoS₂ e heteroestruturas) sobre nanoestruturas plasmônicas
   url: https://www.epfl.ch/labs/lanes/
+  logo: /assets/img/partners/epfl.png
 
 - institution: Rice University
   country:
@@ -35,6 +37,18 @@
     en: 2D materials, nanophotonics and inverse design of plasmonic resonators
     pt: Materiais 2D, nanofotônica e design inverso de ressonadores plasmônicos
   url: https://www.rice.edu
+  logo: /assets/img/partners/rice.png
+
+- institution: Arizona State University (ASU)
+  country:
+    en: United States
+    pt: Estados Unidos
+  people: Prof. Maxim Sukharev
+  topic:
+    en: Theory and simulation of quantum plasmonics and light–matter interaction at the nanoscale
+    pt: Teoria e simulação de plasmônica quântica e interação luz–matéria em nanoescala
+  url: https://www.asu.edu
+  logo: /assets/img/partners/asu.png
 
 - institution: University of Arkansas
   country:
@@ -45,6 +59,7 @@
     en: Semiconductor quantum wells and spin phenomena
     pt: Poços quânticos semicondutores e fenômenos de spin
   url: https://www.uark.edu
+  logo: /assets/img/partners/arkansas.png
 
 - institution: Universidad Nacional Mayor de San Marcos (UNMSM)
   country:
@@ -55,6 +70,7 @@
     en: Glass synthesis, structural and optical characterization
     pt: Síntese de vidros, caracterização estrutural e óptica
   url: https://www.unmsm.edu.pe
+  logo: /assets/img/partners/unmsm.png
 
 - institution: Universidade Estadual Paulista (UNESP)
   country:
@@ -65,6 +81,7 @@
     en: Photonic glasses, optical spectroscopy and plasmonics
     pt: Vidros fotônicos, espectroscopia óptica e plasmônica
   url: https://www.unesp.br
+  logo: /assets/img/partners/unesp.png
 
 - institution: Faculdade de Tecnologia de São Paulo (FATEC-SP)
   country:
@@ -75,6 +92,7 @@
     en: Plasmon-enhanced upconversion and laser emission in rare-earth-doped glasses
     pt: Upconversion e emissão laser intensificadas por plasmons em vidros dopados com terras-raras
   url: https://www.fatecsp.br
+  logo: /assets/img/partners/fatec.png
 
 - institution: Universidade Federal de São Carlos (UFSCar)
   country:
@@ -85,6 +103,7 @@
     en: Magneto-optics, excitons and spin dynamics in semiconductors and 2D materials
     pt: Magneto-óptica, éxcitons e dinâmica de spin em semicondutores e materiais 2D
   url: https://www.ufscar.br
+  logo: /assets/img/partners/ufscar.png
 
 - institution: São Carlos Institute of Chemistry (IQSC-USP)
   country:
@@ -95,13 +114,26 @@
     en: Glass science and rare-earth-doped photonic materials
     pt: Ciência de vidros e materiais fotônicos dopados com terras-raras
   url: https://www.iqsc.usp.br
+  logo: /assets/img/partners/iqsc.png
 
-- institution: São Carlos Institute of Physics (IFSC-USP) — other groups
+- institution: Photonics Group — São Carlos Institute of Physics (IFSC-USP)
   country:
     en: Brazil
     pt: Brasil
-  people: Prof. Cleber R. Mendonça, Prof. Valmor R. Mastelaro
+  people: Prof. Cleber R. Mendonça, Prof. Lino Misoguti, Prof. Leonardo De Boni
   topic:
-    en: Femtosecond-laser processing, nonlinear optics and material characterization
-    pt: Processamento a laser de femtossegundos, óptica não linear e caracterização de materiais
+    en: Femtosecond-laser processing, nonlinear optics and ultrafast spectroscopy
+    pt: Processamento a laser de femtossegundos, óptica não linear e espectroscopia ultrarrápida
   url: https://www.ifsc.usp.br
+  logo: /assets/img/partners/ifsc.png
+
+- institution: São Carlos Institute of Physics (IFSC-USP)
+  country:
+    en: Brazil
+    pt: Brasil
+  people: Prof. Valmor R. Mastelaro
+  topic:
+    en: Structural characterization of materials (XPS, X-ray spectroscopy)
+    pt: Caracterização estrutural de materiais (XPS, espectroscopia de raios X)
+  url: https://www.ifsc.usp.br
+  logo: /assets/img/partners/ifsc.png
