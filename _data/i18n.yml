@@ -7,6 +7,7 @@ en:
     home: Home
     research: Research
     people: People
+    collaborations: Collaborations
     publications: Publications
     news: News
     contact: Contact
@@ -42,9 +43,6 @@ en:
 
   research:
     title: Research
-    collab_title: Collaborations
-    collab_intro: We work with research groups in Brazil and abroad.
-    collab_all: All collaborations
     intro: We combine fabrication, experiments, theory and computation across five research lines.
 
   people:
@@ -60,6 +58,11 @@ en:
       staff: Technical Staff
       alumni: Alumni
     now: Now
+
+  collaborations:
+    title: Collaborations
+    intro: We work with research groups in Brazil and abroad.
+    all: All collaborations
 
   publications:
     title: Publications
@@ -102,6 +105,7 @@ pt:
     home: Início
     research: Pesquisa
     people: Equipe
+    collaborations: Colaborações
     publications: Publicações
     news: Notícias
     contact: Contato
@@ -137,9 +141,6 @@ pt:
 
   research:
     title: Pesquisa
-    collab_title: Colaborações
-    collab_intro: Trabalhamos com grupos de pesquisa no Brasil e no exterior.
-    collab_all: Todas as colaborações
     intro: Combinamos fabricação, experimentos, teoria e computação em cinco linhas de pesquisa.
 
   people:
@@ -155,6 +156,11 @@ pt:
       staff: Equipe Técnica
       alumni: Ex-membros
     now: Atualmente
+
+  collaborations:
+    title: Colaborações
+    intro: Trabalhamos com grupos de pesquisa no Brasil e no exterior.
+    all: Todas as colaborações
 
   publications:
     title: Publicações

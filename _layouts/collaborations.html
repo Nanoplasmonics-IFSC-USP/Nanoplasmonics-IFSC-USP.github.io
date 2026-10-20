@@ -1,0 +1,24 @@
+---
+layout: default
+---
+{% assign t = site.data.i18n[page.lang] %}
+{% assign lang = page.lang %}
+{% include page-header.html title=t.collaborations.title intro=t.collaborations.intro %}
+
+<section class="section">
+  <div class="container">
+    <div class="collab-grid">
+      {% for c in site.data.collaborations %}
+      <article class="collab">
+        {% assign logo_file = nil %}
+        {% if c.logo and c.logo != "" %}{% assign logo_base = c.logo | split: "." | first | append: "." %}{% assign logo_file = site.static_files | where_exp: "f", "f.path contains logo_base" | first %}{% endif %}
+        {% if logo_file %}<img class="collab-logo" src="{{ logo_file.path | relative_url }}" alt="{{ c.institution }}" loading="lazy">{% endif %}
+        <p class="collab-country">{{ c.country[lang] }}</p>
+        <h3 class="collab-name">{% if c.url and c.url != "" %}<a href="{{ c.url }}">{{ c.institution }}</a>{% else %}{{ c.institution }}{% endif %}</h3>
+        {% if c.people and c.people != "" %}<p class="collab-people">{{ c.people }}</p>{% endif %}
+        {% if c.topic %}<p class="collab-topic">{{ c.topic[lang] }}</p>{% endif %}
+      </article>
+      {% endfor %}
+    </div>
+  </div>
+</section>

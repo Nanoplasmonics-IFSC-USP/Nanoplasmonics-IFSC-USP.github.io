@@ -5,6 +5,8 @@
   path: /research/
 - key: people
   path: /people/
+- key: collaborations
+  path: /collaborations/
 - key: publications
   path: /publications/
 - key: news
