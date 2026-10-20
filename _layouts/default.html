@@ -1,0 +1,33 @@
+{% assign t = site.data.i18n[page.lang] %}
+{% if page.lang == "pt" %}{% assign en_url = page.url | remove_first: "/pt" %}{% assign pt_url = page.url %}{% else %}{% assign en_url = page.url %}{% assign pt_url = "/pt" | append: page.url %}{% endif %}
+<!DOCTYPE html>
+<html lang="{% if page.lang == 'pt' %}pt-BR{% else %}en{% endif %}">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>{% if page.title_key and page.title_key != "home" %}{{ t.nav[page.title_key] }} · {% endif %}{{ site.title }} · {{ site.institution_short }}</title>
+  <meta name="description" content="{{ t.site_description }}">
+  <meta property="og:title" content="{{ site.title }}">
+  <meta property="og:description" content="{{ t.site_description }}">
+  <meta property="og:type" content="website">
+  <meta property="og:url" content="{{ page.url | absolute_url }}">
+  {% unless page.no_lang_switch %}
+  <link rel="alternate" hreflang="en" href="{{ en_url | absolute_url }}">
+  <link rel="alternate" hreflang="pt-BR" href="{{ pt_url | absolute_url }}">
+  {% endunless %}
+  <link rel="icon" href="{{ '/assets/img/favicon.png' | relative_url }}" type="image/png">
+  <meta property="og:image" content="{{ '/assets/img/logo.png' | absolute_url }}">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&family=Space+Grotesk:wght@500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="{{ '/assets/css/style.css' | relative_url }}">
+</head>
+<body>
+  {% include header.html %}
+  <main id="main">
+    {{ content }}
+  </main>
+  {% include footer.html %}
+  <script src="{{ '/assets/js/main.js' | relative_url }}"></script>
+</body>
+</html>

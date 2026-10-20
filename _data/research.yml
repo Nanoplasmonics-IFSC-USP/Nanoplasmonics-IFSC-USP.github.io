@@ -1,0 +1,75 @@
+# Research lines. Shown on the home page (title + summary) and the Research page (everything).
+#   id:      short unique name, used for links (no spaces)
+#   image:   optional, e.g. /assets/img/research/plasmonics.jpg
+#   summary: one or two sentences (home page card)
+#   body:    full description (Markdown allowed)
+
+- id: plasmonics
+  image: ""
+  title:
+    en: Plasmonics and nanophotonics
+    pt: Plasmônica e nanofotônica
+  summary:
+    en: Controlling and manipulating light at the nanoscale with metallic and dielectric nanostructures.
+    pt: Controle e manipulação da luz em nanoescala com nanoestruturas metálicas e dielétricas.
+  body:
+    en: |
+      TODO — longer description: questions, methods, main results.
+    pt: |
+      TODO — descrição mais longa: questões, métodos, principais resultados.
+
+- id: 2d-materials
+  image: ""
+  title:
+    en: Two-dimensional materials
+    pt: Materiais bidimensionais (2D)
+  summary:
+    en: Optical and electronic properties of 2D materials and their coupling to nanophotonic structures.
+    pt: Propriedades ópticas e eletrônicas de materiais 2D e seu acoplamento a estruturas nanofotônicas.
+  body:
+    en: |
+      TODO — longer description.
+    pt: |
+      TODO — descrição mais longa.
+
+- id: rare-earth-glasses
+  image: ""
+  title:
+    en: Rare-earth-doped glasses
+    pt: Vidros dopados com terras-raras
+  summary:
+    en: Rare-earth-doped glasses for photonics and quantum technologies.
+    pt: Vidros dopados com íons terras-raras e sua aplicação em fotônica e tecnologias quânticas.
+  body:
+    en: |
+      TODO — longer description.
+    pt: |
+      TODO — descrição mais longa.
+
+- id: light-matter
+  image: ""
+  title:
+    en: Light–matter interaction and quantum phenomena
+    pt: Interação luz–matéria e fenômenos quânticos
+  summary:
+    en: Fundamental light–matter interaction and quantum effects in nanostructured systems.
+    pt: Interação luz–matéria e fenômenos quânticos em sistemas nanoestruturados.
+  body:
+    en: |
+      TODO — longer description.
+    pt: |
+      TODO — descrição mais longa.
+
+- id: computational
+  image: ""
+  title:
+    en: Computational modeling and AI
+    pt: Modelagem computacional e IA
+  summary:
+    en: Computational modeling, artificial intelligence and machine learning for the study, optimization and inverse design of nanostructures.
+    pt: Modelagem computacional, inteligência artificial e aprendizado de máquina aplicados ao estudo, otimização e design inverso de nanoestruturas.
+  body:
+    en: |
+      TODO — longer description.
+    pt: |
+      TODO — descrição mais longa.

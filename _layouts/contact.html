@@ -1,0 +1,53 @@
+---
+layout: default
+---
+{% assign t = site.data.i18n[page.lang] %}
+{% assign lang = page.lang %}
+{% include page-header.html title=t.contact.title intro=t.contact.intro %}
+
+<section class="section">
+  <div class="container contact-grid">
+    <div class="contact-info">
+      <h2 class="section-title">{{ t.contact.address }}</h2>
+      <address>
+        {% for line in site.address %}{{ line }}<br>{% endfor %}
+      </address>
+      {% if site.email and site.email != "" %}
+      <h3>{{ t.contact.email }}</h3>
+      <p><a href="mailto:{{ site.email }}">{{ site.email }}</a></p>
+      {% endif %}
+      {% if site.phone and site.phone != "" %}
+      <h3>{{ t.contact.phone }}</h3>
+      <p>{{ site.phone }}</p>
+      {% endif %}
+    </div>
+    <div class="map">
+      <iframe title="Map" src="https://www.google.com/maps?q={{ site.map_query | uri_escape }}&amp;output=embed" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+    </div>
+  </div>
+</section>
+
+<section class="section section-alt" id="join">
+  <div class="container narrow">
+    <h2 class="section-title">{{ t.contact.join_title }}</h2>
+    <div class="prose">{{ t.contact.join_text | markdownify }}</div>
+
+    <h3>{{ t.contact.positions_title }}</h3>
+    {% if site.data.positions and site.data.positions.size > 0 %}
+      <ul class="positions">
+        {% for pos in site.data.positions %}
+        <li class="position">
+          <p class="position-title">{{ pos.title[lang] }}</p>
+          <div class="prose">{{ pos.text[lang] | markdownify }}</div>
+          {% if pos.link and pos.link != "" %}<a class="text-link" href="{{ pos.link }}">→ {{ pos.link }}</a>{% endif %}
+        </li>
+        {% endfor %}
+      </ul>
+    {% else %}
+      <p class="muted">{{ t.contact.no_positions }}</p>
+    {% endif %}
+    {% if site.email and site.email != "" %}
+    <p><a class="btn btn-primary" href="mailto:{{ site.email }}">{{ site.email }}</a></p>
+    {% endif %}
+  </div>
+</section>

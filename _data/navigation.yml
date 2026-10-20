@@ -1,0 +1,13 @@
+# Menu items. Labels come from _data/i18n.yml (nav section).
+- key: home
+  path: /
+- key: research
+  path: /research/
+- key: people
+  path: /people/
+- key: publications
+  path: /publications/
+- key: news
+  path: /news/
+- key: contact
+  path: /contact/

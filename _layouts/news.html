@@ -1,0 +1,24 @@
+---
+layout: default
+---
+{% assign t = site.data.i18n[page.lang] %}
+{% assign lang = page.lang %}
+{% include page-header.html title=t.news.title intro=t.news.intro %}
+
+<section class="section">
+  <div class="container narrow">
+    {% assign news = site.data.news | sort: "date" | reverse %}
+    <ul class="news-list">
+      {% for n in news %}
+      <li class="news-item">
+        <time datetime="{{ n.date | date: '%Y-%m-%d' }}">{{ n.date | date: t.date_format }}</time>
+        <h2 class="news-title">{{ n.title[lang] }}</h2>
+        {% if n.image and n.image != "" %}<img class="news-image" src="{{ n.image | relative_url }}" alt="" loading="lazy">{% endif %}
+        <div class="prose">{{ n.text[lang] | markdownify }}</div>
+      </li>
+      {% else %}
+      <li><p>{{ t.news.empty }}</p></li>
+      {% endfor %}
+    </ul>
+  </div>
+</section>

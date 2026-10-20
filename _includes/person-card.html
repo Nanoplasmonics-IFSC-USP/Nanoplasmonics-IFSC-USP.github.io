@@ -1,0 +1,24 @@
+{% assign p = include.person %}
+{% assign lang = page.lang %}
+<article class="person">
+  <div class="person-photo">
+    {% if p.photo and p.photo != "" %}
+      <img src="{{ p.photo | relative_url }}" alt="{{ p.name }}" loading="lazy">
+    {% else %}
+      <img class="person-placeholder" src="{{ '/assets/img/logo.png' | relative_url }}" alt="" loading="lazy">
+    {% endif %}
+  </div>
+  <div class="person-body">
+    <h3 class="person-name">{{ p.name }}</h3>
+    {% if p.role %}<p class="person-role">{{ p.role[lang] | default: p.role.en }}</p>{% endif %}
+    {% if p.bio %}<div class="person-bio">{{ p.bio[lang] | default: p.bio.en | markdownify }}</div>{% endif %}
+    <p class="person-links">
+      {% if p.email and p.email != "" %}<a class="chip" href="mailto:{{ p.email }}">Email</a>{% endif %}
+      {% if p.lattes and p.lattes != "" %}<a class="chip" href="{{ p.lattes }}">Lattes</a>{% endif %}
+      {% if p.orcid and p.orcid != "" %}<a class="chip" href="{{ p.orcid }}">ORCID</a>{% endif %}
+      {% if p.scholar and p.scholar != "" %}<a class="chip" href="{{ p.scholar }}">Scholar</a>{% endif %}
+      {% if p.linkedin and p.linkedin != "" %}<a class="chip" href="{{ p.linkedin }}">LinkedIn</a>{% endif %}
+      {% if p.website and p.website != "" %}<a class="chip" href="{{ p.website }}">Website</a>{% endif %}
+    </p>
+  </div>
+</article>

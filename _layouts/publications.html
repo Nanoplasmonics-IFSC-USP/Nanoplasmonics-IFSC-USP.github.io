@@ -1,0 +1,23 @@
+---
+layout: default
+---
+{% assign t = site.data.i18n[page.lang] %}
+{% include page-header.html title=t.publications.title intro=t.publications.intro %}
+
+<section class="section">
+  <div class="container narrow">
+    {% if site.scholar_url and site.scholar_url != "" %}
+    <p><a class="btn btn-outline" href="{{ site.scholar_url }}">{{ t.publications.scholar }} ↗</a></p>
+    {% endif %}
+
+    {% assign by_year = site.data.publications | group_by: "year" | sort: "name" | reverse %}
+    {% for group in by_year %}
+    <div class="pub-year">
+      <h2 class="pub-year-label">{{ group.name }}</h2>
+      <ol class="pub-list">
+        {% for pub in group.items %}{% include publication.html pub=pub %}{% endfor %}
+      </ol>
+    </div>
+    {% endfor %}
+  </div>
+</section>

@@ -1,0 +1,39 @@
+---
+layout: default
+---
+{% assign t = site.data.i18n[page.lang] %}
+{% assign lang = page.lang %}
+{% include page-header.html title=t.people.title intro=t.people.intro %}
+
+{% assign categories = "pi,researcher,postdoc,phd,msc,undergrad,staff" | split: "," %}
+<section class="section">
+  <div class="container">
+    {% for cat in categories %}
+      {% assign members = site.data.people | where: "category", cat %}
+      {% if members.size > 0 %}
+      <div class="people-group">
+        <h2 class="section-title">{{ t.people.categories[cat] }}</h2>
+        <div class="people-grid{% if cat == 'pi' %} people-grid-pi{% endif %}">
+          {% for person in members %}{% include person-card.html person=person %}{% endfor %}
+        </div>
+      </div>
+      {% endif %}
+    {% endfor %}
+
+    {% assign alumni = site.data.people | where: "category", "alumni" %}
+    {% if alumni.size > 0 %}
+    <div class="people-group">
+      <h2 class="section-title">{{ t.people.categories.alumni }}</h2>
+      <ul class="alumni-list">
+        {% for a in alumni %}
+        <li>
+          <span class="alumni-name">{{ a.name }}</span>
+          {% if a.role %}<span class="alumni-role">{{ a.role[lang] }}</span>{% endif %}
+          {% if a.now %}<span class="alumni-now">{{ t.people.now }}: {{ a.now[lang] }}</span>{% endif %}
+        </li>
+        {% endfor %}
+      </ul>
+    </div>
+    {% endif %}
+  </div>
+</section>

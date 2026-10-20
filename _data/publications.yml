@@ -1,0 +1,138 @@
+# Publications, grouped by year on the Publications page (newest first).
+#   featured: true   -> also shown on the home page
+#   doi:  just the DOI, e.g. 10.1021/acs.nanolett.0c00000
+#   pdf:  optional, e.g. /assets/pdf/paper.pdf
+#
+# Imported from Prof. Marega's ORCID + Crossref (2023 onwards). Add older papers below as needed.
+
+- year: 2026
+  title: "Coupled Defect Chemistry and Surface Electrostatics Modulate Rare-Earth Upconversion Kinetics in Oxide Thin Films"
+  authors: "J. Clabel Huamán, M. Pereira-da-Silva, V. Bezzon, V. Mastelaro, E. Marega Junior, C. Mendonça"
+  journal: "ACS Applied Materials & Interfaces"
+  volume: "18"
+  pages: "47822-47835"
+  doi: "10.1021/acsami.6c09128"
+  featured: true
+
+- year: 2026
+  title: "Coupling of Er<sup>3+</sup> ions and Plasmonic Modes in Vertical Nanocavities for Spectral Broadening in Telecom Bands"
+  authors: "G. Lozano Calderón, V. García Rivera, S. Cagnon, S. Toubou Bah, Y. Messaddeq, E. Marega Junior"
+  journal: "Advanced Materials Technologies"
+  volume: "11"
+  pages: "e71001"
+  doi: "10.1002/admt.71001"
+  featured: true
+
+- year: 2026
+  title: "Er<sup>3+</sup>-doped nano-tellurite-glasses embedded in polymeric thin films: An emerging platform for hybrid photonic devices"
+  authors: "J. Chacaliaza-Ricaldi, V. Rivera, J. Clabel H., I. Pinto, Y. Messaddeq, E. Marega"
+  journal: "Materials Research Bulletin"
+  volume: "196"
+  pages: "113903"
+  doi: "10.1016/j.materresbull.2025.113903"
+
+- year: 2026
+  title: "Green light tuning by up-conversion emission in Er<sup>3+</sup>-doped tellurite glasses for enhanced light-emitting devices"
+  authors: "F. Angulo S., G. Lozano C., J. Chacaliaza-Ricaldi, V. Fuertes, E. Marega Jr., V. Rivera"
+  journal: "Optical Materials"
+  volume: "178"
+  pages: "118208"
+  doi: "10.1016/j.optmat.2026.118208"
+
+- year: 2026
+  title: "Structural engineering and optical nonlinearities based on Nb<sub>2</sub>O<sub>5</sub> effects in tellurite-zinc-lanthanum glasses"
+  authors: "J. Alejos-Hendenmann, J. Chacaliaza-Ricaldi, N. Marucci, M. Ferreira, A. Pimenta, J. Ramos-Guivar, C. Mendonça, E. Marega, V. Rivera"
+  journal: "Journal of Alloys and Compounds"
+  volume: "1082"
+  pages: "191394"
+  doi: "10.1016/j.jallcom.2026.191394"
+
+- year: 2025
+  title: "Tailoring SHG Efficiency via t‐Te Nanocrystals in Tellurite Glasses by Femtosecond Laser Micromachining"
+  authors: "J. Huamán, K. de Paula, J. Vollet‐Filho, E. Marega Junior, L. Misoguti, C. Mendonça"
+  journal: "Laser & Photonics Reviews"
+  volume: "20"
+  pages: "e02668"
+  doi: "10.1002/lpor.202502668"
+  featured: true
+
+- year: 2024
+  title: "Germanate-tellurite glasses with low Er<sup>3+</sup>ions concentration and their radiative emissions"
+  authors: "J. Chacaliaza-Ricaldi, V. Rivera, I. Pinto, Y. Messaddeq, E. Marega"
+  journal: "Journal of Non-Crystalline Solids"
+  volume: "638"
+  pages: "123063"
+  doi: "10.1016/j.jnoncrysol.2024.123063"
+
+- year: 2024
+  title: "Magnetoabsorption and spin polarization inversion in GaAs/AlGaAs quantum wells"
+  authors: "G. Jacobsen, V. Lopes-Oliveira, V. Laurindo, A. Malachias, B. Moreno, Y. Mazur, G. Salamo, G. Marques, E. Marega, V. Lopez-Richard, M. Teodoro"
+  journal: "Physical Review B"
+  volume: "110"
+  pages: "035417"
+  doi: "10.1103/physrevb.110.035417"
+
+- year: 2024
+  title: "Nonlinear optical properties in Pr<sup>3+</sup>-Er<sup>3+</sup>-codoped tellurite glasses"
+  authors: "J. Clabel H., G. Lozano C., J. Chacaliaza-Ricaldi, V. Mastelaro, C. Mendonça, Y. Messaddeq, E. Marega, V. Rivera"
+  journal: "Materials Research Bulletin"
+  volume: "177"
+  pages: "112832"
+  doi: "10.1016/j.materresbull.2024.112832"
+
+- year: 2024
+  title: "Quantum-plasmonic engineering to improve the 1.53 µm radiative emission in Er<sup>3+</sup>-doped tellurite glasses under controlled temperature"
+  authors: "G. Lozano C., V. Rivera, S. Celaschi, Y. Messaddeq, E. Marega"
+  journal: "Materials Research Bulletin"
+  volume: "180"
+  pages: "113038"
+  doi: "10.1016/j.materresbull.2024.113038"
+  featured: true
+
+- year: 2023
+  title: "Impact of residual doping on surface current of InGaAs/InP photodiode passivated with regrown InP"
+  authors: "O. Braga, C. Delfino, R. Kawabata, L. Pinto, G. Vieira, M. Pires, P. Souza, E. Marega, J. Carlin, S. Krishna"
+  journal: "Opto-Electronics Review"
+  volume: ""
+  pages: "e144562"
+  doi: "10.24425/opelre.2023.144562"
+
+- year: 2023
+  title: "Improving emission performance and bandwidth broadening of the Er<sup>3+</sup>-doped tellurite – tungsten glasses at 1.5 μm via Pr<sup>3+</sup> ions"
+  authors: "G. Lozano C., J. Chacaliaza-Ricaldi, J. Clabel H., Y. Messaddeq, V. Rivera, E. Marega"
+  journal: "Journal of Luminescence"
+  volume: "260"
+  pages: "119853"
+  doi: "10.1016/j.jlumin.2023.119853"
+
+- year: 2023
+  title: "Influence of Pr<sup>3+</sup>ions on the structural properties of Er<sup>3+</sup>-doped tellurite-tungsten glasses"
+  authors: "J. Chacaliaza-Ricaldi, G. Lozano C., J. Clabel H., F. Ferri, A. Rodrigues, Y. Messaddeq, V. Rivera, E. Marega"
+  journal: "Journal of Non-Crystalline Solids"
+  volume: "616"
+  pages: "122471"
+  doi: "10.1016/j.jnoncrysol.2023.122471"
+
+- year: 2023
+  title: "Investigation of InGaAs/InP photodiode surface passivation using epitaxial regrowth of InP via photoluminescence and photocurrent"
+  authors: "O. Braga, C. Delfino, R. Kawabata, L. Pinto, G. Vieira, M. Pires, P. Souza, E. Marega, J. Carlin, S. Krishna"
+  journal: "Materials Science in Semiconductor Processing"
+  volume: "154"
+  pages: "107200"
+  doi: "10.1016/j.mssp.2022.107200"
+
+- year: 2023
+  title: "Thermometry and optical study of Er<sup>3+</sup>-Yb<sup>3+</sup> doped tellurite glasses as a suitable candidate for optical fibre"
+  authors: "G. Lozano C., V. Rivera, Y. Messaddeq, E. Marega Jr."
+  journal: "Journal of Alloys and Compounds"
+  volume: "948"
+  pages: "169777"
+  doi: "10.1016/j.jallcom.2023.169777"
+
+- year: 2023
+  title: "Unsophisticated LSPR biosensors: Optical characterization based on 3D modeling-simulation and experimental study"
+  authors: "G. Haidari, M. Ghasemi, E. Marega Junior"
+  journal: "Optical Materials"
+  volume: "144"
+  pages: "114354"
+  doi: "10.1016/j.optmat.2023.114354"

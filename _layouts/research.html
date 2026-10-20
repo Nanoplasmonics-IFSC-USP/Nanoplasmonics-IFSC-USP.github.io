@@ -1,0 +1,23 @@
+---
+layout: default
+---
+{% assign t = site.data.i18n[page.lang] %}
+{% assign lang = page.lang %}
+{% include page-header.html title=t.research.title intro=t.research.intro %}
+
+<section class="section">
+  <div class="container">
+    {% for r in site.data.research %}
+    <article class="research-item" id="{{ r.id }}">
+      <div class="research-media{% if r.image == nil or r.image == "" %} card-media-empty{% endif %}">
+        {% if r.image and r.image != "" %}<img src="{{ r.image | relative_url }}" alt="{{ r.title[lang] }}" loading="lazy">{% else %}<span aria-hidden="true">{{ forloop.index | prepend: "0" }}</span>{% endif %}
+      </div>
+      <div class="research-text">
+        <h2>{{ r.title[lang] }}</h2>
+        <p class="research-summary">{{ r.summary[lang] }}</p>
+        <div class="prose">{{ r.body[lang] | markdownify }}</div>
+      </div>
+    </article>
+    {% endfor %}
+  </div>
+</section>

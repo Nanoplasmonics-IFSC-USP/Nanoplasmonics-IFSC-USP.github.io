@@ -1,0 +1,182 @@
+# All interface text and page text, in English (en) and Portuguese (pt).
+# Text blocks marked with "|" accept Markdown (paragraphs, **bold**, [links](url)).
+
+en:
+  site_description: Nanoplasmonics research group at the São Carlos Institute of Physics, University of São Paulo.
+  nav:
+    home: Home
+    research: Research
+    people: People
+    publications: Publications
+    news: News
+    contact: Contact
+  menu: Menu
+  switch_language: Ver em português
+
+  home:
+    eyebrow: São Carlos Institute of Physics · USP
+    hero_title: Light at the nanoscale
+    hero_subtitle: We explore light–matter interaction at the nanoscale, at the interface of photonics, quantum optics, electromagnetism and solid-state physics.
+    cta_research: Our research
+    cta_join: Join the group
+    about_title: About the group
+    about: |
+      We are a research group in **Quantum Nanophotonics**, working at the interface of photonics,
+      quantum optics, electromagnetism and solid-state physics. Our work seeks to understand and exploit
+      fundamental light–matter interaction phenomena at the nanoscale, combining experimental, theoretical
+      and computational approaches: from the fabrication and characterization of materials and
+      nanostructures to the modeling and simulation of photonic systems.
+
+      The group integrates fabrication, experiments, theory, electromagnetic simulation and computational
+      modeling to develop new materials, structures and methods for controlling light, with applications
+      in nanophotonics, integrated photonics and quantum technologies.
+    research_title: Research lines
+    research_more: Learn more
+    news_title: Latest news
+    news_all: All news
+    pubs_title: Selected publications
+    pubs_all: All publications
+    join_title: Interested in joining us?
+    join_text: We welcome undergraduate, master's and PhD students, and postdocs.
+    join_button: Open positions
+
+  research:
+    title: Research
+    intro: We combine fabrication, experiments, theory and computation across five research lines.
+
+  people:
+    title: People
+    intro: Meet the team.
+    categories:
+      pi: Principal Investigator
+      researcher: Faculty
+      postdoc: Postdoctoral Researchers
+      phd: PhD Students
+      msc: MSc Students
+      undergrad: Undergraduate Students
+      staff: Technical Staff
+      alumni: Alumni
+    now: Now
+
+  publications:
+    title: Publications
+    intro: Peer-reviewed articles by group members.
+    scholar: Full list on Google Scholar
+    pdf: PDF
+
+  news:
+    title: News
+    intro: What's happening in the group.
+    empty: No news yet.
+
+  contact:
+    title: Contact
+    intro: Get in touch or come visit us.
+    address: Address
+    email: Email
+    phone: Phone
+    join_title: Join us
+    join_text: |
+      We are always looking for motivated students and researchers with a background in physics,
+      materials science, chemistry or engineering.
+
+      If you are interested, send an email with your CV and a short description of your interests.
+    positions_title: Open positions
+    no_positions: There are no open calls at the moment, but feel free to get in touch.
+
+  footer:
+    rights: All rights reserved.
+
+  date_format: "%b %-d, %Y"
+  not_found: Page not found.
+  back_home: Back to home
+
+pt:
+  site_description: Grupo de pesquisa em Nanoplasmônica do Instituto de Física de São Carlos, Universidade de São Paulo.
+  nav:
+    home: Início
+    research: Pesquisa
+    people: Equipe
+    publications: Publicações
+    news: Notícias
+    contact: Contato
+  menu: Menu
+  switch_language: View in English
+
+  home:
+    eyebrow: Instituto de Física de São Carlos · USP
+    hero_title: Luz em nanoescala
+    hero_subtitle: Exploramos a interação luz–matéria em escala nanométrica, na interface entre fotônica, óptica quântica, eletromagnetismo e física do estado sólido.
+    cta_research: Nossa pesquisa
+    cta_join: Faça parte do grupo
+    about_title: Sobre o grupo
+    about: |
+      Somos um grupo de pesquisa em **Nanofotônica Quântica** que atua na interface entre fotônica,
+      óptica quântica, eletromagnetismo e física do estado sólido. Nosso trabalho busca compreender e
+      explorar fenômenos fundamentais de interação luz–matéria em escala nanométrica, combinando abordagens
+      experimentais, teóricas e computacionais, desde a fabricação e caracterização de materiais e
+      nanoestruturas até a modelagem e simulação de sistemas fotônicos.
+
+      O grupo integra fabricação, experimentação, teoria, simulação eletromagnética e modelagem
+      computacional, buscando desenvolver novos materiais, estruturas e metodologias para o controle da luz
+      e para aplicações em nanofotônica, fotônica integrada e tecnologias quânticas.
+    research_title: Linhas de pesquisa
+    research_more: Saiba mais
+    news_title: Últimas notícias
+    news_all: Todas as notícias
+    pubs_title: Publicações em destaque
+    pubs_all: Todas as publicações
+    join_title: Quer fazer parte do grupo?
+    join_text: Recebemos alunos de iniciação científica, mestrado e doutorado, e pós-doutorandos.
+    join_button: Vagas abertas
+
+  research:
+    title: Pesquisa
+    intro: Combinamos fabricação, experimentos, teoria e computação em cinco linhas de pesquisa.
+
+  people:
+    title: Equipe
+    intro: Conheça o time.
+    categories:
+      pi: Coordenador
+      researcher: Docentes
+      postdoc: Pós-doutorandos
+      phd: Doutorandos
+      msc: Mestrandos
+      undergrad: Iniciação Científica
+      staff: Equipe Técnica
+      alumni: Ex-membros
+    now: Atualmente
+
+  publications:
+    title: Publicações
+    intro: Artigos revisados por pares publicados por membros do grupo.
+    scholar: Lista completa no Google Scholar
+    pdf: PDF
+
+  news:
+    title: Notícias
+    intro: O que está acontecendo no grupo.
+    empty: Nenhuma notícia ainda.
+
+  contact:
+    title: Contato
+    intro: Entre em contato ou venha nos visitar.
+    address: Endereço
+    email: E-mail
+    phone: Telefone
+    join_title: Faça parte
+    join_text: |
+      Estamos sempre em busca de alunos e pesquisadores motivados, com formação em física,
+      ciência dos materiais, química ou engenharia.
+
+      Se tiver interesse, envie um e-mail com seu currículo e uma breve descrição dos seus interesses.
+    positions_title: Vagas abertas
+    no_positions: No momento não há vagas abertas, mas fique à vontade para entrar em contato.
+
+  footer:
+    rights: Todos os direitos reservados.
+
+  date_format: "%d/%m/%Y"
+  not_found: Página não encontrada.
+  back_home: Voltar ao início

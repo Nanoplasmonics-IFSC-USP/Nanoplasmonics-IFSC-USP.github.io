@@ -1,0 +1,11 @@
+# Open positions, shown on the Contact page under "Join us".
+# Delete all entries (leave the file with only comments) when there are no open positions.
+#
+# Example:
+# - title:
+#     en: PhD scholarship (FAPESP)
+#     pt: Bolsa de doutorado (FAPESP)
+#   text:
+#     en: Description, requirements and deadline.
+#     pt: Descrição, requisitos e prazo.
+#   link: https://...

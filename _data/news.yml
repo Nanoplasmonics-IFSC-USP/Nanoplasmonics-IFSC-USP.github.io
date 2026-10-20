@@ -1,0 +1,15 @@
+# News items, shown newest first. The 3 most recent also appear on the home page.
+#   date:  YYYY-MM-DD
+#   image: optional, e.g. /assets/img/news/defense.jpg
+#   text:  Markdown allowed
+#
+# PLACEHOLDER CONTENT — replace with real news.
+
+- date: 2026-10-20
+  image: ""
+  title:
+    en: Our new website is online
+    pt: Nosso novo site está no ar
+  text:
+    en: Welcome to the new website of the Nanoplasmonics Group!
+    pt: Bem-vindo ao novo site do Grupo de Nanoplasmônica!

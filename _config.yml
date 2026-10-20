@@ -1,0 +1,45 @@
+# ---------------------------------------------------------------
+#  Site settings — edit the values below
+# ---------------------------------------------------------------
+title: Nanoplasmonics Group                     # TODO: confirm official group name
+institution: Instituto de Física de São Carlos — Universidade de São Paulo
+institution_short: IFSC · USP
+logo: /assets/img/logo-light.png               # light version for the dark top bar (dark version: /assets/img/logo.png)
+url: "https://nanoplasmonics-ifsc-usp.github.io"
+baseurl: ""
+
+# Contact
+email: ""                                       # TODO: group contact email
+phone: ""                                       # optional
+address:
+  - Instituto de Física de São Carlos (IFSC-USP)
+  - Av. Trabalhador São-carlense, 400
+  - São Carlos – SP, 13566-590, Brazil
+map_query: "Instituto de Física de São Carlos, USP"
+
+# Links (leave empty "" to hide)
+scholar_url: ""          # Google Scholar profile of the PI
+instagram: ""
+linkedin: ""
+youtube: ""
+github: "https://github.com/Nanoplasmonics-IFSC-USP"
+
+# ---------------------------------------------------------------
+#  Build settings — usually no need to touch
+# ---------------------------------------------------------------
+markdown: kramdown
+exclude:
+  - README.md
+  - Gemfile
+  - Gemfile.lock
+  - vendor
+
+defaults:
+  - scope:
+      path: ""
+    values:
+      lang: en
+  - scope:
+      path: "pt"
+    values:
+      lang: pt

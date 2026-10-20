@@ -1,0 +1,10 @@
+{% assign pub = include.pub %}
+<li class="pub">
+  <p class="pub-title">{{ pub.title }}</p>
+  <p class="pub-authors">{{ pub.authors }}</p>
+  <p class="pub-venue">
+    <em>{{ pub.journal }}</em>{% if pub.volume and pub.volume != "" %} <strong>{{ pub.volume }}</strong>{% endif %}{% if pub.pages and pub.pages != "" %}, {{ pub.pages }}{% endif %} ({{ pub.year }})
+    {% if pub.doi and pub.doi != "" %}<a class="chip" href="https://doi.org/{{ pub.doi }}">DOI</a>{% endif %}
+    {% if pub.pdf and pub.pdf != "" %}<a class="chip" href="{{ pub.pdf | relative_url }}">{{ site.data.i18n[page.lang].publications.pdf }}</a>{% endif %}
+  </p>
+</li>

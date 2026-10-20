@@ -1,0 +1,41 @@
+{% assign t = site.data.i18n[page.lang] %}
+{% if page.lang == "pt" %}
+  {% assign prefix = "/pt" %}
+  {% assign other_url = page.url | remove_first: "/pt" %}
+  {% assign other_lang = "en" %}
+{% else %}
+  {% assign prefix = "" %}
+  {% assign other_url = "/pt" | append: page.url %}
+  {% assign other_lang = "pt" %}
+{% endif %}
+<header class="site-header">
+  <div class="container nav-wrap">
+    <a class="brand" href="{{ prefix | append: '/' | relative_url }}">
+      {% if site.logo and site.logo != "" %}<img class="brand-logo" src="{{ site.logo | relative_url }}" alt="{{ site.title }}">{% else %}<span class="brand-mark" aria-hidden="true"></span>{% endif %}
+      <span class="brand-text">
+        {% unless site.logo and site.logo != "" %}<span class="brand-name">{{ site.title }}</span>{% endunless %}
+        <span class="brand-inst">{{ site.institution_short }}</span>
+      </span>
+    </a>
+
+    <button class="nav-toggle" type="button" aria-expanded="false" aria-controls="site-nav">
+      <span class="nav-toggle-bar" aria-hidden="true"></span>
+      <span class="visually-hidden">{{ t.menu }}</span>
+    </button>
+
+    <nav id="site-nav" class="site-nav" aria-label="Main">
+      <ul>
+        {% for item in site.data.navigation %}
+          {% assign href = prefix | append: item.path %}
+          <li><a href="{{ href | relative_url }}"{% if page.title_key == item.key %} aria-current="page"{% endif %}>{{ t.nav[item.key] }}</a></li>
+        {% endfor %}
+      </ul>
+      {% unless page.no_lang_switch %}
+      <a class="lang-switch" href="{{ other_url | relative_url }}" hreflang="{{ other_lang }}" lang="{{ other_lang }}" title="{{ t.switch_language }}">
+        <span{% if page.lang == "en" %} class="is-active"{% endif %}>EN</span>
+        <span{% if page.lang == "pt" %} class="is-active"{% endif %}>PT</span>
+      </a>
+      {% endunless %}
+    </nav>
+  </div>
+</header>
