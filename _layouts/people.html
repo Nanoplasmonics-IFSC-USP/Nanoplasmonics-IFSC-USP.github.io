@@ -30,6 +30,12 @@ layout: default
           <span class="alumni-name">{{ a.name }}</span>
           {% if a.role %}<span class="alumni-role">{{ a.role[lang] }}</span>{% endif %}
           {% if a.now %}<span class="alumni-now">{{ t.people.now }}: {{ a.now[lang] }}</span>{% endif %}
+          <span class="person-links">
+            {% if a.lattes and a.lattes != "" %}<a class="chip" href="{{ a.lattes }}">Lattes</a>{% endif %}
+            {% if a.orcid and a.orcid != "" %}<a class="chip" href="{{ a.orcid }}">ORCID</a>{% endif %}
+            {% if a.scholar and a.scholar != "" %}<a class="chip" href="{{ a.scholar }}">Scholar</a>{% endif %}
+            {% if a.linkedin and a.linkedin != "" %}<a class="chip" href="{{ a.linkedin }}">LinkedIn</a>{% endif %}
+          </span>
         </li>
         {% endfor %}
       </ul>

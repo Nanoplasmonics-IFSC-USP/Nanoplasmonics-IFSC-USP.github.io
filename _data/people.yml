@@ -209,3 +209,18 @@
   bio:
     en: TODO — research topic.
     pt: TODO — tema de pesquisa.
+
+# ---------------- Alumni ----------------
+
+- name: Dr. Gaston Lozano Calderón
+  category: alumni
+  role:
+    en: MSc (2020) and PhD (2025) in Physics, IFSC-USP
+    pt: Mestrado (2020) e Doutorado (2025) em Física, IFSC-USP
+  now:
+    en: Postdoctoral researcher at the São Carlos Institute of Chemistry (IQSC-USP)
+    pt: Pós-doutorando no Instituto de Química de São Carlos (IQSC-USP)
+  orcid: https://orcid.org/0000-0002-1738-8334
+  scholar: ""
+  lattes: ""
+  linkedin: ""

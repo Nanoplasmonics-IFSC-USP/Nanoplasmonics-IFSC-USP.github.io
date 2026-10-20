@@ -356,6 +356,8 @@ p { margin: 0 0 1em; }
 .alumni-list li { padding: 14px 0; border-bottom: 1px solid var(--line); display: flex; flex-direction: column; }
 .alumni-name { font-weight: 600; }
 .alumni-role, .alumni-now { font-size: 0.92rem; color: var(--ink-muted); }
+.alumni-list .person-links { margin-top: 8px; }
+.alumni-list .person-links:empty { display: none; }
 
 /* ---------- Publications ---------- */
 
