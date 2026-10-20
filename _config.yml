@@ -9,7 +9,7 @@ url: "https://nanoplasmonics-ifsc-usp.github.io"
 baseurl: ""
 
 # Contact
-email: ""                                       # TODO: group contact email
+email: "nano@ifsc.usp.br"                                       
 phone: ""                                       # optional
 address:
   - Instituto de Física de São Carlos (IFSC-USP)
@@ -18,11 +18,11 @@ address:
 map_query: "Instituto de Física de São Carlos, USP"
 
 # Links (leave empty "" to hide)
-linktree: ""             # e.g. https://linktr.ee/...
+linktree: "https://linktr.ee/nanoplasmonics_ifsc"             # e.g. https://linktr.ee/...
 scholar_url: "https://scholar.google.com/citations?user=DogZ64IAAAAJ"   # Google Scholar profile of the PI
-instagram: ""
-linkedin: ""
-youtube: ""
+instagram: "https://www.instagram.com/nanoplasmonics_ifsc"
+linkedin: "https://www.linkedin.com/company/nanoplasmonics-ifsc-usp/"
+youtube: "https://www.youtube.com/@NanoplasmonicsIFSC-USP"
 github: "https://github.com/Nanoplasmonics-IFSC-USP"
 
 # ---------------------------------------------------------------
