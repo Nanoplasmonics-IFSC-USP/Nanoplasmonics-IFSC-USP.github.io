@@ -13,10 +13,8 @@
     en: Controlling and manipulating light at the nanoscale with metallic and dielectric nanostructures.
     pt: Controle e manipulação da luz em nanoescala com nanoestruturas metálicas e dielétricas.
   body:
-    en: |
-      TODO — longer description: questions, methods, main results.
-    pt: |
-      TODO — descrição mais longa: questões, métodos, principais resultados.
+    en: ""
+    pt: ""
 
 - id: 2d-materials
   image: ""
@@ -27,10 +25,8 @@
     en: Optical and electronic properties of 2D materials and their coupling to nanophotonic structures.
     pt: Propriedades ópticas e eletrônicas de materiais 2D e seu acoplamento a estruturas nanofotônicas.
   body:
-    en: |
-      TODO — longer description.
-    pt: |
-      TODO — descrição mais longa.
+    en: ""
+    pt: ""
 
 - id: rare-earth-glasses
   image: ""
@@ -41,10 +37,8 @@
     en: Rare-earth-doped glasses for photonics and quantum technologies.
     pt: Vidros dopados com íons terras-raras e sua aplicação em fotônica e tecnologias quânticas.
   body:
-    en: |
-      TODO — longer description.
-    pt: |
-      TODO — descrição mais longa.
+    en: ""
+    pt: ""
 
 - id: light-matter
   image: ""
@@ -55,10 +49,8 @@
     en: Fundamental light–matter interaction and quantum effects in nanostructured systems.
     pt: Interação luz–matéria e fenômenos quânticos em sistemas nanoestruturados.
   body:
-    en: |
-      TODO — longer description.
-    pt: |
-      TODO — descrição mais longa.
+    en: ""
+    pt: ""
 
 - id: computational
   image: ""
@@ -69,7 +61,5 @@
     en: Computational modeling, artificial intelligence and machine learning for the study, optimization and inverse design of nanostructures.
     pt: Modelagem computacional, inteligência artificial e aprendizado de máquina aplicados ao estudo, otimização e design inverso de nanoestruturas.
   body:
-    en: |
-      TODO — longer description.
-    pt: |
-      TODO — descrição mais longa.
+    en: ""
+    pt: ""

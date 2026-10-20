@@ -18,17 +18,9 @@
     pt: Professor · IFSC-USP
   bio:
     en: >-
-      Professor at the São Carlos Institute of Physics (IFSC-USP) and member of the
-      Optics and Photonics Research Center (CEPOF). His research covers nanophotonics,
-      plasmonics, semiconductors and quantum dots, with more than 180 publications.
-      He has also been a visiting professor at the University of Electronic Science
-      and Technology of China (UESTC) since 2015.
+      Member of the Optics and Photonics Research Center (CEPOF); PhD in Physics from IFSC-USP. Works on nanophotonics, plasmonics, semiconductor quantum dots and 2D materials.
     pt: >-
-      Professor do Instituto de Física de São Carlos (IFSC-USP) e membro do
-      Centro de Pesquisa em Óptica e Fotônica (CEPOF). Atua em nanofotônica,
-      plasmônica, semicondutores e pontos quânticos, com mais de 180 publicações.
-      É também professor visitante da University of Electronic Science and
-      Technology of China (UESTC) desde 2015.
+      Membro do Centro de Pesquisa em Óptica e Fotônica (CEPOF); doutor em Física pelo IFSC-USP. Atua em nanofotônica, plasmônica, pontos quânticos semicondutores e materiais 2D.
   email: ""
   lattes: ""
   orcid: https://orcid.org/0000-0002-3334-4630
@@ -45,15 +37,9 @@
     pt: Professor · UNESP
   bio:
     en: >-
-      Physicist working on photonics, tellurite and germanate glasses, optical
-      spectroscopy, metallic nanoparticles and plasmonics. PhD from the Federal
-      University of São Carlos (2009) and MSc from UNICAMP (2005). He was a research
-      professional at COPL, Université Laval (Canada), and a FAPESP Young Researcher at IFSC-USP.
+      Department of Physics, IGCE-UNESP; PhD from the Federal University of São Carlos (UFSCar). Works on photonic glasses, rare-earth spectroscopy, plasmonics and integrated photonics.
     pt: >-
-      Físico com atuação em fotônica, vidros teluritos e germanatos, espectroscopia
-      óptica, nanopartículas metálicas e plasmônica. Doutor pela Universidade Federal
-      de São Carlos (2009) e mestre pela UNICAMP (2005). Foi pesquisador no COPL,
-      Université Laval (Canadá), e Jovem Pesquisador FAPESP no IFSC-USP.
+      Departamento de Física, IGCE-UNESP; doutor pela Universidade Federal de São Carlos (UFSCar). Atua em vidros fotônicos, espectroscopia de terras-raras, plasmônica e fotônica integrada.
   email: ""
   lattes: http://lattes.cnpq.br/4335695906660499
   orcid: https://orcid.org/0000-0002-2312-970X
@@ -68,13 +54,9 @@
     pt: Professora · UNESP
   bio:
     en: >-
-      PhD in Physics from the University of São Paulo (2015). Works on rare-earth-doped
-      glasses, optical spectroscopy, nonlinear optical properties and plasmon-enhanced
-      luminescence, as well as physics education.
+      PhD in Physics from the University of São Paulo (USP). Works on solid-state spectroscopy, rare-earth-doped glasses, solid-state lasers and plasmon-enhanced luminescence.
     pt: >-
-      Doutora em Física pela Universidade de São Paulo (2015). Atua em vidros dopados
-      com terras-raras, espectroscopia óptica, propriedades ópticas não lineares e
-      luminescência intensificada por plasmons, além de ensino de física.
+      Doutora em Física pela Universidade de São Paulo (USP). Atua em espectroscopia de sólidos, vidros dopados com terras-raras, lasers de estado sólido e luminescência intensificada por plasmons.
   email: ""
   lattes: ""
   orcid: https://orcid.org/0000-0002-7225-2667
@@ -91,13 +73,9 @@
     pt: Pós-doutoranda · CEPOF
   bio:
     en: >-
-      Postdoc at CEPOF/IFSC-USP since 2023, previously a postdoc at UFMG. Experienced in
-      Raman, photoluminescence and second-harmonic generation spectroscopy, GaAs nanowires
-      and microcavities, and 2D materials on plasmonic nanostructures.
+      Previously a postdoc at the Federal University of Minas Gerais (UFMG). Works on optical spectroscopy (Raman, photoluminescence and second-harmonic generation) of 2D materials and plasmonic nanostructures.
     pt: >-
-      Pós-doutoranda no CEPOF/IFSC-USP desde 2023, anteriormente pós-doutoranda na UFMG.
-      Experiência em espectroscopia Raman, fotoluminescência e geração de segundo harmônico,
-      nanofios e microcavidades de GaAs, e materiais 2D sobre nanoestruturas plasmônicas.
+      Anteriormente pós-doutoranda na Universidade Federal de Minas Gerais (UFMG). Atua em espectroscopia óptica (Raman, fotoluminescência e geração de segundo harmônico) de materiais 2D e nanoestruturas plasmônicas.
   email: ""
   lattes: ""
   orcid: https://orcid.org/0000-0002-5063-8710
@@ -105,37 +83,34 @@
 
 # ---------------- PhD students ----------------
 
-- name: Vinicius Bastos Marcos
+- name: Vinícius Bastos Marcos
   category: phd
   photo: /assets/img/people/vinicius-bastos-marcos.jpg
   role:
-    en: PhD student
-    pt: Doutorando
+    en: PhD student · IFSC-USP
+    pt: Doutorando · IFSC-USP
   bio:
     en: >-
-      Works on the inverse design of high-Q plasmonic resonators for strong coupling
-      with quantum emitters, combining FDTD simulations and neural networks.
+      FAPESP direct-doctorate scholar; BSc in Computational Physics from IFSC-USP. Works on the inverse design of nanophotonic devices, combining electromagnetic simulations with deep learning and physics-informed neural networks.
     pt: >-
-      Trabalha com design inverso de ressonadores plasmônicos de alto fator Q para
-      acoplamento forte com emissores quânticos, combinando simulações FDTD e redes neurais.
+      Bolsista de doutorado direto FAPESP; bacharel em Física Computacional pelo IFSC-USP. Atua no design inverso de dispositivos nanofotônicos, combinando simulações eletromagnéticas com aprendizado profundo e redes neurais informadas pela física.
   email: viniciusbmarcos@usp.br
-  lattes: ""
-  orcid: ""
-  linkedin: ""
+  lattes: http://lattes.cnpq.br/2111967318340206
+  linkedin: https://www.linkedin.com/in/vin%C3%ADcius-bastos-marcos-4b3aa6317/
   scholar: https://scholar.google.com/citations?user=3j4LFuMAAAAJ
-
+  website: https://vinibastosm.github.io/
 
 - name: Willer Frank de Sousa Oliveira
   category: phd
   photo: ""
   role:
-    en: PhD student
-    pt: Doutorando
+    en: PhD student · IFSC-USP
+    pt: Doutorando · IFSC-USP
   bio:
     en: >-
-      MSc in Physics from USP (2025) and degree in Physics teaching from IFCE (2023).
+      MSc in Physics from USP and degree in Physics teaching from IFCE. Works on plasmon-enhanced nonlinear optics and charge transfer in 2D materials (MoS₂, WS₂) on gold nanostructures.
     pt: >-
-      Mestre em Física pela USP (2025) e licenciado em Física pelo IFCE (2023).
+      Mestre em Física pela USP e licenciado em Física pelo IFCE. Atua em óptica não linear intensificada por plasmons e transferência de carga em materiais 2D (MoS₂, WS₂) sobre nanoestruturas de ouro.
   lattes: ""
   orcid: https://orcid.org/0009-0009-9397-4157
   linkedin: ""
@@ -146,15 +121,13 @@
   category: phd
   photo: ""
   role:
-    en: PhD student
-    pt: Doutorando
+    en: PhD student · IFSC-USP
+    pt: Doutorando · IFSC-USP
   bio:
     en: >-
-      BSc (2020) and MSc (2023) from USP. Works on plasmonics and semiconductors,
-      including plasmon-induced effects in MoS₂ monolayers on gold nanostructures.
+      BSc and MSc in Physics from USP. Works on light–matter interaction in 2D materials (MoS₂) coupled to plasmonic nanostructures, including plasmon-induced doping, strain and second-harmonic generation.
     pt: >-
-      Bacharel (2020) e mestre (2023) pela USP. Atua em plasmônica e semicondutores,
-      incluindo efeitos induzidos por plasmons em monocamadas de MoS₂ sobre nanoestruturas de ouro.
+      Bacharel e mestre em Física pela USP. Atua na interação luz–matéria em materiais 2D (MoS₂) acoplados a nanoestruturas plasmônicas, incluindo dopagem induzida por plasmons, deformação e geração de segundo harmônico.
   lattes: ""
   orcid: https://orcid.org/0000-0001-9844-0669
   linkedin: ""
@@ -165,17 +138,13 @@
   category: phd
   photo: ""
   role:
-    en: PhD student
-    pt: Doutorando
+    en: PhD student · IFSC-USP
+    pt: Doutorando · IFSC-USP
   bio:
     en: >-
-      BSc in Computational Physics from IFSC-USP (2025). Works on plasmonic nanostructures
-      and the computational modeling of integrated photonic and plasmonic systems, currently
-      near-infrared nanolasers and supercontinuum generation.
+      BSc in Computational Physics from IFSC-USP. Works on the computational modeling of plasmonic and integrated photonic systems, including near-infrared nanolasers and supercontinuum generation.
     pt: >-
-      Bacharel em Física Computacional pelo IFSC-USP (2025). Atua em nanoestruturas plasmônicas
-      e modelagem computacional de sistemas fotônicos e plasmônicos integrados, atualmente com
-      nanolasers no infravermelho próximo e geração de supercontínuo.
+      Bacharel em Física Computacional pelo IFSC-USP. Atua na modelagem computacional de sistemas plasmônicos e fotônicos integrados, incluindo nanolasers no infravermelho próximo e geração de supercontínuo.
   lattes: ""
   orcid: https://orcid.org/0009-0001-5989-1704
   linkedin: ""
@@ -186,35 +155,31 @@
   category: msc
   photo: ""
   role:
-    en: MSc student
-    pt: Mestrando
+    en: MSc student · IFSC-USP
+    pt: Mestrando · IFSC-USP
   bio:
-    en: TODO — research topic.
-    pt: TODO — tema de pesquisa.
+    en: >-
+      Works on rare-earth-doped tellurite and germanate glasses for photonic applications.
+    pt: >-
+      Atua em vidros teluritos e germanatos dopados com terras-raras para aplicações em fotônica.
   lattes: ""
   linkedin: ""
 
 # ---------------- Undergraduates ----------------
 
-- name: Anderson TODO-surname
+- name: Anderson
   category: undergrad
   photo: /assets/img/people/anderson.jpg
   role:
-    en: Undergraduate researcher
-    pt: Iniciação Científica
-  bio:
-    en: TODO — research topic.
-    pt: TODO — tema de pesquisa.
+    en: Undergraduate researcher · IFSC-USP
+    pt: Iniciação Científica · IFSC-USP
 
-- name: Alexandre TODO-surname
+- name: Alexandre
   category: undergrad
   photo: /assets/img/people/alexandre.jpg
   role:
-    en: Undergraduate researcher
-    pt: Iniciação Científica
-  bio:
-    en: TODO — research topic.
-    pt: TODO — tema de pesquisa.
+    en: Undergraduate researcher · IFSC-USP
+    pt: Iniciação Científica · IFSC-USP
 
 # ---------------- Alumni ----------------
 

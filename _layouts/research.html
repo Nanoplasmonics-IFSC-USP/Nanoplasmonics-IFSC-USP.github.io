@@ -15,7 +15,7 @@ layout: default
       <div class="research-text">
         <h2>{{ r.title[lang] }}</h2>
         <p class="research-summary">{{ r.summary[lang] }}</p>
-        <div class="prose">{{ r.body[lang] | markdownify }}</div>
+        {% if r.body[lang] and r.body[lang] != "" %}<div class="prose">{{ r.body[lang] | markdownify }}</div>{% endif %}
       </div>
     </article>
     {% endfor %}
