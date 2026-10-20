@@ -1,0 +1,107 @@
+# Collaborations, shown on the Research page and (names only) on the home page.
+#   institution: name           country: en/pt
+#   people:      collaborators   topic: en/pt short description
+#   url:         institution or lab website (optional)
+#   logo:        optional, e.g. /assets/img/partners/laval.png
+#
+# Built from recurring co-authors in the group's publications — please confirm.
+
+- institution: Université Laval — Centre d'optique, photonique et laser (COPL)
+  country:
+    en: Canada
+    pt: Canadá
+  people: Prof. Younès Messaddeq
+  topic:
+    en: Rare-earth-doped tellurite and germanate glasses, plasmonic structures for telecom bands
+    pt: Vidros teluritos e germanatos dopados com terras-raras, estruturas plasmônicas para bandas de telecomunicação
+  url: https://copl.ulaval.ca
+
+- institution: École Polytechnique Fédérale de Lausanne (EPFL)
+  country:
+    en: Switzerland
+    pt: Suíça
+  people: Prof. Andras Kis, Riccardo Chiesa, Zhenyu Wang
+  topic:
+    en: 2D materials (MoS₂ and heterostructures) on plasmonic nanostructures
+    pt: Materiais 2D (MoS₂ e heteroestruturas) sobre nanoestruturas plasmônicas
+  url: https://www.epfl.ch/labs/lanes/
+
+- institution: Rice University
+  country:
+    en: United States
+    pt: Estados Unidos
+  people: Dr. Guilherme Migliato Marega
+  topic:
+    en: 2D materials, nanophotonics and inverse design of plasmonic resonators
+    pt: Materiais 2D, nanofotônica e design inverso de ressonadores plasmônicos
+  url: https://www.rice.edu
+
+- institution: University of Arkansas
+  country:
+    en: United States
+    pt: Estados Unidos
+  people: Prof. Gregory Salamo, Dr. Yuriy Mazur
+  topic:
+    en: Semiconductor quantum wells and spin phenomena
+    pt: Poços quânticos semicondutores e fenômenos de spin
+  url: https://www.uark.edu
+
+- institution: Universidad Nacional Mayor de San Marcos (UNMSM)
+  country:
+    en: Peru
+    pt: Peru
+  people: Prof. Juan Ramos-Guivar
+  topic:
+    en: Glass synthesis, structural and optical characterization
+    pt: Síntese de vidros, caracterização estrutural e óptica
+  url: https://www.unmsm.edu.pe
+
+- institution: Universidade Estadual Paulista (UNESP)
+  country:
+    en: Brazil
+    pt: Brasil
+  people: Prof. Victor A. G. Rivera, Profa. Jéssica F. M. dos Santos
+  topic:
+    en: Photonic glasses, optical spectroscopy and plasmonics
+    pt: Vidros fotônicos, espectroscopia óptica e plasmônica
+  url: https://www.unesp.br
+
+- institution: Faculdade de Tecnologia de São Paulo (FATEC-SP)
+  country:
+    en: Brazil
+    pt: Brasil
+  people: Profa. Luciana R. P. Kassab
+  topic:
+    en: Plasmon-enhanced upconversion and laser emission in rare-earth-doped glasses
+    pt: Upconversion e emissão laser intensificadas por plasmons em vidros dopados com terras-raras
+  url: https://www.fatecsp.br
+
+- institution: Universidade Federal de São Carlos (UFSCar)
+  country:
+    en: Brazil
+    pt: Brasil
+  people: Prof. Marcio D. Teodoro, Prof. Victor Lopez-Richard
+  topic:
+    en: Magneto-optics, excitons and spin dynamics in semiconductors and 2D materials
+    pt: Magneto-óptica, éxcitons e dinâmica de spin em semicondutores e materiais 2D
+  url: https://www.ufscar.br
+
+- institution: São Carlos Institute of Chemistry (IQSC-USP)
+  country:
+    en: Brazil
+    pt: Brasil
+  people: Prof. Danilo Manzani
+  topic:
+    en: Glass science and rare-earth-doped photonic materials
+    pt: Ciência de vidros e materiais fotônicos dopados com terras-raras
+  url: https://www.iqsc.usp.br
+
+- institution: São Carlos Institute of Physics (IFSC-USP) — other groups
+  country:
+    en: Brazil
+    pt: Brasil
+  people: Prof. Cleber R. Mendonça, Prof. Valmor R. Mastelaro
+  topic:
+    en: Femtosecond-laser processing, nonlinear optics and material characterization
+    pt: Processamento a laser de femtossegundos, óptica não linear e caracterização de materiais
+  url: https://www.ifsc.usp.br

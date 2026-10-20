@@ -21,3 +21,23 @@ layout: default
     {% endfor %}
   </div>
 </section>
+
+{% if site.data.collaborations and site.data.collaborations.size > 0 %}
+<section class="section section-alt" id="collaborations">
+  <div class="container">
+    <h2 class="section-title">{{ t.research.collab_title }}</h2>
+    <p class="section-intro">{{ t.research.collab_intro }}</p>
+    <div class="collab-grid">
+      {% for c in site.data.collaborations %}
+      <article class="collab">
+        {% if c.logo and c.logo != "" %}<img class="collab-logo" src="{{ c.logo | relative_url }}" alt="" loading="lazy">{% endif %}
+        <p class="collab-country">{{ c.country[lang] }}</p>
+        <h3 class="collab-name">{% if c.url and c.url != "" %}<a href="{{ c.url }}">{{ c.institution }}</a>{% else %}{{ c.institution }}{% endif %}</h3>
+        {% if c.people and c.people != "" %}<p class="collab-people">{{ c.people }}</p>{% endif %}
+        {% if c.topic %}<p class="collab-topic">{{ c.topic[lang] }}</p>{% endif %}
+      </article>
+      {% endfor %}
+    </div>
+  </div>
+</section>
+{% endif %}

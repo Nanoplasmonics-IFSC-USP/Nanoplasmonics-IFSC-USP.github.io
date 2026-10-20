@@ -78,7 +78,7 @@
   email: ""
   lattes: ""
   orcid: https://orcid.org/0000-0002-7225-2667
-  scholar: ""
+  scholar: https://scholar.google.com/citations?user=JkLVSJAAAAAJ
   linkedin: ""
 
 # ---------------- Postdocs ----------------
@@ -122,6 +122,8 @@
   lattes: ""
   orcid: ""
   linkedin: ""
+  scholar: https://scholar.google.com/citations?user=3j4LFuMAAAAJ
+
 
 - name: Willer Frank de Sousa Oliveira
   category: phd
@@ -137,6 +139,8 @@
   lattes: ""
   orcid: https://orcid.org/0009-0009-9397-4157
   linkedin: ""
+  scholar: https://scholar.google.com/citations?user=1rwzhd0AAAAJ
+
 
 - name: Matheus Lemes
   category: phd
@@ -154,6 +158,8 @@
   lattes: ""
   orcid: https://orcid.org/0000-0001-9844-0669
   linkedin: ""
+  scholar: https://scholar.google.com/citations?user=A-G7MlYAAAAJ
+
 
 - name: Gabriel Lima Alves
   category: phd

@@ -1,6 +1,6 @@
 {% assign pub = include.pub %}
 <li class="pub">
-  <p class="pub-title">{{ pub.title }}</p>
+  <p class="pub-title">{% if pub.type == "book" or pub.type == "chapter" %}<span class="pub-type">{{ site.data.i18n[page.lang].publications[pub.type] }}</span> {% endif %}{{ pub.title }}</p>
   <p class="pub-authors">{{ pub.authors }}</p>
   <p class="pub-venue">
     <em>{{ pub.journal }}</em>{% if pub.volume and pub.volume != "" %} <strong>{{ pub.volume }}</strong>{% endif %}{% if pub.pages and pub.pages != "" %}, {{ pub.pages }}{% endif %} ({{ pub.year }})

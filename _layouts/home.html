@@ -76,6 +76,19 @@ layout: default
   </div>
 </section>
 
+{% if site.data.collaborations and site.data.collaborations.size > 0 %}
+<section class="section section-alt">
+  <div class="container">
+    <h2 class="section-title">{{ t.research.collab_title }}</h2>
+    <p class="section-intro">{{ t.research.collab_intro }}</p>
+    <ul class="collab-strip">
+      {% for c in site.data.collaborations %}<li><span class="collab-strip-name">{{ c.institution | split: " — " | first }}</span><span class="collab-strip-country">{{ c.country[lang] }}</span></li>{% endfor %}
+    </ul>
+    <a class="text-link" href="{{ prefix | append: '/research/' | relative_url }}#collaborations">{{ t.research.collab_all }} →</a>
+  </div>
+</section>
+{% endif %}
+
 <section class="cta">
   <div class="container cta-inner">
     <div>

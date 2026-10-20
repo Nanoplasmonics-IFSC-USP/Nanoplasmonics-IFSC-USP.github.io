@@ -42,6 +42,9 @@ en:
 
   research:
     title: Research
+    collab_title: Collaborations
+    collab_intro: We work with research groups in Brazil and abroad.
+    collab_all: All collaborations
     intro: We combine fabrication, experiments, theory and computation across five research lines.
 
   people:
@@ -60,9 +63,11 @@ en:
 
   publications:
     title: Publications
-    intro: Peer-reviewed articles by group members.
+    intro: Articles, books and book chapters by group members (2020 onwards).
     scholar: Full list on Google Scholar
     pdf: PDF
+    book: Book
+    chapter: Book chapter
 
   news:
     title: News
@@ -132,6 +137,9 @@ pt:
 
   research:
     title: Pesquisa
+    collab_title: Colaborações
+    collab_intro: Trabalhamos com grupos de pesquisa no Brasil e no exterior.
+    collab_all: Todas as colaborações
     intro: Combinamos fabricação, experimentos, teoria e computação em cinco linhas de pesquisa.
 
   people:
@@ -150,9 +158,11 @@ pt:
 
   publications:
     title: Publicações
-    intro: Artigos revisados por pares publicados por membros do grupo.
+    intro: Artigos, livros e capítulos de livros de membros do grupo (desde 2020).
     scholar: Lista completa no Google Scholar
     pdf: PDF
+    book: Livro
+    chapter: Capítulo de livro
 
   news:
     title: Notícias
