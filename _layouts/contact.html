@@ -20,6 +20,11 @@ layout: default
       <h3>{{ t.contact.phone }}</h3>
       <p>{{ site.phone }}</p>
       {% endif %}
+      {% capture social %}{% include social-links.html %}{% endcapture %}
+      {% if social contains "href" %}
+      <h3>{{ t.contact.follow_title }}</h3>
+      <p class="social">{{ social }}</p>
+      {% endif %}
     </div>
     <div class="map">
       <iframe title="Map" src="https://www.google.com/maps?q={{ site.map_query | uri_escape }}&amp;output=embed" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
@@ -45,9 +50,19 @@ layout: default
       </ul>
     {% else %}
       <p class="muted">{{ t.contact.no_positions }}</p>
-    {% endif %}
-    {% if site.email and site.email != "" %}
-    <p><a class="btn btn-primary" href="mailto:{{ site.email }}">{{ site.email }}</a></p>
+      <div class="routes">
+        {% for r in t.contact.routes %}
+        <article class="route">
+          <span class="route-num" aria-hidden="true">{{ forloop.index }}</span>
+          <h4 class="route-title">{{ r.title }}</h4>
+          <div class="prose">{{ r.text | markdownify }}</div>
+          <p class="route-links">
+            {% for l in r.links %}<a class="chip" href="{{ l.url }}">{{ l.label }} ↗</a>{% endfor %}
+            {% if r.contact %}{% include contact-links.html %}{% endif %}
+          </p>
+        </article>
+        {% endfor %}
+      </div>
     {% endif %}
   </div>
 </section>

@@ -87,10 +87,37 @@ en:
     join_text: |
       We are always looking for motivated students and researchers with a background in physics,
       materials science, chemistry or engineering.
-
-      If you are interested, send an email with your CV and a short description of your interests.
     positions_title: Open positions
-    no_positions: There are no open calls at the moment, but feel free to get in touch.
+    no_positions: There are no open scholarship calls at the moment, but there are other ways to join the group.
+    routes:
+      - title: Apply to the graduate program
+        text: |
+          Apply for an MSc or PhD in the **Graduate Program in Physics at IFSC-USP**. The program runs regular
+          selection processes and offers scholarships to selected students.
+        links:
+          - label: How to apply
+            url: https://www4.ifsc.usp.br/pos/ingressando-na-pos/
+          - label: Selection process
+            url: https://www4.ifsc.usp.br/pos/processo-seletivo-2/
+      - title: Get in touch
+        text: |
+          Send us an email with your CV, academic transcript and a few lines about your interests.
+          We will be happy to talk about possible projects in the group.
+        contact: true
+      - title: Apply for a FAPESP scholarship together
+        text: |
+          We can prepare a scholarship proposal **together** and submit it to **FAPESP**, for undergraduate
+          research (IC), MSc, PhD or postdoctoral projects.
+        links:
+          - label: IC
+            url: https://fapesp.br/bolsas/ic
+          - label: MSc
+            url: https://fapesp.br/bolsas/ms
+          - label: PhD
+            url: https://fapesp.br/bolsas/dr
+          - label: Postdoc
+            url: https://fapesp.br/bolsas/pd
+    follow_title: Follow us
 
   footer:
     rights: All rights reserved.
@@ -185,10 +212,37 @@ pt:
     join_text: |
       Estamos sempre em busca de alunos e pesquisadores motivados, com formação em física,
       ciência dos materiais, química ou engenharia.
-
-      Se tiver interesse, envie um e-mail com seu currículo e uma breve descrição dos seus interesses.
     positions_title: Vagas abertas
-    no_positions: No momento não há vagas abertas, mas fique à vontade para entrar em contato.
+    no_positions: No momento não há chamadas abertas com bolsa, mas há outras formas de fazer parte do grupo.
+    routes:
+      - title: Candidate-se à pós-graduação
+        text: |
+          Candidate-se ao mestrado ou doutorado no **Programa de Pós-Graduação em Física do IFSC-USP**. O programa
+          realiza processos seletivos regulares e oferece bolsas aos alunos selecionados.
+        links:
+          - label: Como ingressar
+            url: https://www4.ifsc.usp.br/pos/ingressando-na-pos/
+          - label: Processo seletivo
+            url: https://www4.ifsc.usp.br/pos/processo-seletivo-2/
+      - title: Entre em contato
+        text: |
+          Envie um e-mail com seu currículo, histórico escolar e algumas linhas sobre seus interesses.
+          Teremos prazer em conversar sobre possíveis projetos no grupo.
+        contact: true
+      - title: Solicite uma bolsa FAPESP conosco
+        text: |
+          Podemos elaborar **juntos** uma proposta de bolsa para submeter à **FAPESP**, para projetos de
+          iniciação científica (IC), mestrado, doutorado ou pós-doutorado.
+        links:
+          - label: IC
+            url: https://fapesp.br/bolsas/ic
+          - label: Mestrado
+            url: https://fapesp.br/bolsas/ms
+          - label: Doutorado
+            url: https://fapesp.br/bolsas/dr
+          - label: Pós-doc
+            url: https://fapesp.br/bolsas/pd
+    follow_title: Siga-nos
 
   footer:
     rights: Todos os direitos reservados.

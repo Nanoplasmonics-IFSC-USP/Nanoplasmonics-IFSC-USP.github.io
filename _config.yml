@@ -18,6 +18,7 @@ address:
 map_query: "Instituto de Física de São Carlos, USP"
 
 # Links (leave empty "" to hide)
+linktree: ""             # e.g. https://linktr.ee/...
 scholar_url: "https://scholar.google.com/citations?user=DogZ64IAAAAJ"   # Google Scholar profile of the PI
 instagram: ""
 linkedin: ""
