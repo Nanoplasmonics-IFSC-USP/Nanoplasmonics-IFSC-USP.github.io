@@ -8,7 +8,6 @@ layout: default
 {% assign categories = "pi,researcher,postdoc,phd,msc,undergrad,exchange,staff" | split: "," %}
 <section class="section">
   <div class="container">
-    {% include group-photo.html %}
     {% for cat in categories %}
       {% assign members = site.data.people | where: "category", cat %}
       {% if members.size > 0 %}

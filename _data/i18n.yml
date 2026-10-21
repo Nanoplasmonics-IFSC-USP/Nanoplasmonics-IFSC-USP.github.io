@@ -20,6 +20,11 @@ en:
     hero_subtitle: We explore light–matter interaction at the nanoscale, at the interface of photonics, quantum optics, electromagnetism and solid-state physics.
     cta_research: Our research
     cta_join: Join the group
+    team_eyebrow: Our team
+    team_title: The people behind the research
+    team_text: Professors, postdocs, graduate and undergraduate students and technicians working together at IFSC-USP.
+    team_button: Meet the team
+    team_alt: The Nanoplasmonics Group in front of the São Carlos Institute of Physics (IFSC-USP)
     about_title: About the group
     about: |
       We are a research group in **Quantum Nanophotonics**, working at the interface of photonics,
@@ -49,7 +54,6 @@ en:
     title: People
     intro: Meet the team.
     thesis: Thesis
-    group_photo: The group in front of the São Carlos Institute of Physics (IFSC-USP).
     categories:
       pi: Principal Investigator
       researcher: Faculty
@@ -150,6 +154,11 @@ pt:
     hero_subtitle: Exploramos a interação luz–matéria em escala nanométrica, na interface entre fotônica, óptica quântica, eletromagnetismo e física do estado sólido.
     cta_research: Nossa pesquisa
     cta_join: Faça parte do grupo
+    team_eyebrow: Nossa equipe
+    team_title: As pessoas por trás da pesquisa
+    team_text: Professores, pós-doutorandos, alunos de pós-graduação e de iniciação científica e técnicos trabalhando juntos no IFSC-USP.
+    team_button: Conheça a equipe
+    team_alt: O Grupo de Nanoplasmônica em frente ao Instituto de Física de São Carlos (IFSC-USP)
     about_title: Sobre o grupo
     about: |
       Somos um grupo de pesquisa em **Nanofotônica Quântica** que atua na interface entre fotônica,
@@ -179,7 +188,6 @@ pt:
     title: Equipe
     intro: Conheça o time.
     thesis: Tese
-    group_photo: O grupo em frente ao Instituto de Física de São Carlos (IFSC-USP).
     categories:
       pi: Coordenador
       researcher: Docentes

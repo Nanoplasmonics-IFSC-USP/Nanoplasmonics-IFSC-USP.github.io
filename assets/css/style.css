@@ -221,6 +221,27 @@ p { margin: 0 0 1em; }
   .plasmon { max-width: 260px; }
 }
 
+/* ---------- Team photo band (home) ---------- */
+
+.team-band { --band-split: max(32%, calc((100% - var(--container)) / 2 + 460px)); position: relative; overflow: hidden; background: var(--night); color: var(--on-night); min-height: clamp(440px, 52vw, 640px); display: flex; align-items: center; }
+.team-band-img { position: absolute; top: 0; bottom: 0; right: 0; left: var(--band-split); width: auto; height: 100%; object-fit: cover; object-position: 12% 40%; }
+.team-band::before {
+  content: ""; position: absolute; inset: 0; z-index: 1;
+  background:
+    linear-gradient(90deg, var(--night) var(--band-split), rgba(7, 11, 23, 0.5) calc(var(--band-split) + 40px), transparent calc(var(--band-split) + 110px)),
+    radial-gradient(520px 320px at 8% 20%, rgba(143, 161, 0, 0.16), transparent 70%);
+}
+.team-band-inner { position: relative; z-index: 2; width: 100%; }
+.team-band-text { max-width: 400px; }
+.team-band h2 { font-size: clamp(1.8rem, 3.4vw, 2.6rem); margin-bottom: 14px; color: #fff; }
+.team-band-text > p:not(.eyebrow) { color: var(--on-night-muted); margin-bottom: 28px; }
+@media (max-width: 760px) {
+  .team-band { flex-direction: column; align-items: stretch; min-height: 0; }
+  .team-band-img { position: static; width: 100%; height: auto; aspect-ratio: 16 / 10; object-position: 50% 40%; }
+  .team-band::before { display: none; }
+  .team-band-inner { padding-top: 32px; padding-bottom: 48px; }
+}
+
 /* ---------- Buttons ---------- */
 
 .btn {
@@ -357,11 +378,6 @@ p { margin: 0 0 1em; }
 }
 .chip:hover { background: #e1ecc8; }
 
-.group-photo { margin: 0; }
-.prose + .group-photo { margin-top: 32px; }
-.group-photo + .people-group { margin-top: 56px; }
-.group-photo img { width: 100%; height: auto; display: block; border-radius: var(--radius); border: 1px solid var(--line); }
-.group-photo figcaption { margin-top: 8px; font-size: 0.85rem; color: var(--ink-muted); text-align: center; }
 .alumni-list { list-style: none; padding: 0; margin: 0; display: grid; grid-template-columns: repeat(auto-fill, minmax(300px, 1fr)); gap: 12px 32px; }
 .alumni-list li { padding: 14px 0; border-bottom: 1px solid var(--line); display: flex; gap: 16px; align-items: flex-start; }
 .alumni-body { display: flex; flex-direction: column; min-width: 0; }

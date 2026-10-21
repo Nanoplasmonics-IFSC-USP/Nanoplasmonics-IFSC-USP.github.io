@@ -25,7 +25,18 @@ layout: default
   <div class="container narrow">
     <h2 class="section-title">{{ t.home.about_title }}</h2>
     <div class="prose">{{ t.home.about | markdownify }}</div>
-    {% include group-photo.html %}
+  </div>
+</section>
+
+<section class="team-band">
+  <img class="team-band-img" src="{{ '/assets/img/group.jpg' | relative_url }}" alt="{{ t.home.team_alt }}" loading="lazy">
+  <div class="container team-band-inner">
+    <div class="team-band-text">
+      <p class="eyebrow">{{ t.home.team_eyebrow }}</p>
+      <h2>{{ t.home.team_title }}</h2>
+      <p>{{ t.home.team_text }}</p>
+      <a class="btn btn-primary" href="{{ prefix | append: '/people/' | relative_url }}">{{ t.home.team_button }} →</a>
+    </div>
   </div>
 </section>
 
