@@ -48,6 +48,7 @@ en:
   people:
     title: People
     intro: Meet the team.
+    thesis: Thesis
     group_photo: The group in front of the São Carlos Institute of Physics (IFSC-USP).
     categories:
       pi: Principal Investigator
@@ -177,6 +178,7 @@ pt:
   people:
     title: Equipe
     intro: Conheça o time.
+    thesis: Tese
     group_photo: O grupo em frente ao Instituto de Física de São Carlos (IFSC-USP).
     categories:
       pi: Coordenador

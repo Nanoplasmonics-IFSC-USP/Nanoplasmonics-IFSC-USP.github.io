@@ -7,6 +7,7 @@
 #   bio:     en/pt short text (Markdown allowed)
 #   email, lattes, orcid, scholar, linkedin, website: links (leave "" to hide)
 #   now:     alumni only — current position (en/pt)
+#   thesis:  alumni only — link to the thesis/dissertation (USP digital library)
 
 # ---------------- Principal Investigator ----------------
 
@@ -222,10 +223,16 @@
 
 - name: Marciano Lima Medeiros
   category: exchange
-  photo: ""
+  photo: /assets/img/people/marciano.jpg
   role:
     en: PhD student · UNIFEI (Itajubá)
     pt: Doutorando · UNIFEI (Itajubá)
+  bio:
+    en: >-
+      PhD student in Electrical Engineering at UNIFEI, where he also obtained his MSc; BSc in Physics from the Regional University of Cariri (URCA). Works on silicon nanophotonics: rare-earth-doped tellurite glasses and the modeling of on-chip optical amplifiers based on Er³⁺/Yb³⁺/Tm³⁺-doped nanowaveguides, Bragg couplers and SOI waveguides.
+    pt: >-
+      Doutorando em Engenharia Elétrica na UNIFEI, onde também concluiu o mestrado; graduado em Física pela Universidade Regional do Cariri (URCA). Atua em nanofotônica em silício: vidros teluritos dopados com terras-raras e modelagem de amplificadores ópticos on-chip baseados em nanoguias tridopados (Er³⁺/Yb³⁺/Tm³⁺), nanoacopladores de Bragg e nanoguias em SOI.
+  lattes: http://lattes.cnpq.br/2628692420856172
 
 # ---------------- Technical staff ----------------
 
@@ -254,7 +261,127 @@
   now:
     en: Postdoctoral researcher at the São Carlos Institute of Chemistry (IQSC-USP)
     pt: Pós-doutorando no Instituto de Química de São Carlos (IQSC-USP)
+  thesis: https://www.teses.usp.br/teses/disponiveis/76/76134/tde-14042025-110633/
   orcid: https://orcid.org/0000-0002-1738-8334
   scholar: ""
   lattes: ""
   linkedin: ""
+
+- name: Manoel Messias Pereira de Miranda
+  category: alumni
+  role:
+    en: MSc (2018) in Physics, IFSC-USP
+    pt: Mestrado (2018) em Física, IFSC-USP
+  thesis: https://www.teses.usp.br/teses/disponiveis/76/76132/tde-25052018-100644/
+
+- name: Dr. Otavio de Brito Silva
+  category: alumni
+  role:
+    en: MSc (2012) and PhD (2017) in Physics, IFSC-USP
+    pt: Mestrado (2012) e Doutorado (2017) em Física, IFSC-USP
+  thesis: https://www.teses.usp.br/teses/disponiveis/76/76131/tde-11102017-153834/
+
+- name: Dr. Fernando Wellysson de Alencar Sobreira
+  category: alumni
+  role:
+    en: PhD (2016) in Physics, IFSC-USP
+    pt: Doutorado (2016) em Física, IFSC-USP
+  thesis: https://www.teses.usp.br/teses/disponiveis/76/76131/tde-25012017-135410/
+
+- name: Rafael Bratifich
+  category: alumni
+  role:
+    en: MSc (2015) in Physics, IFSC-USP
+    pt: Mestrado (2015) em Física, IFSC-USP
+  thesis: https://www.teses.usp.br/teses/disponiveis/76/76132/tde-11092015-103111/
+
+- name: Rodrigo Marques de Oliveira
+  category: alumni
+  role:
+    en: MSc (2003) in Physics, IFSC-USP
+    pt: Mestrado (2003) em Física, IFSC-USP
+  thesis: https://www.teses.usp.br/teses/disponiveis/76/76132/tde-12032004-144417/
+
+- name: Dr. Rafael Humberto Scapin
+  category: alumni
+  role:
+    en: PhD (2003) in Physics, IFSC-USP
+    pt: Doutorado (2003) em Física, IFSC-USP
+  thesis: https://www.teses.usp.br/teses/disponiveis/76/76132/tde-06062007-183824/
+
+- name: Marcos José Semenzato
+  category: alumni
+  role:
+    en: MSc (2002) in Materials Science and Engineering, USP
+    pt: Mestrado (2002) em Ciência e Engenharia de Materiais, USP
+  thesis: https://www.teses.usp.br/teses/disponiveis/88/88131/tde-03122002-103444/
+
+- name: Aparecido Rodrigues da Silva
+  category: alumni
+  role:
+    en: MSc (2002) in Materials Science and Engineering, USP
+    pt: Mestrado (2002) em Ciência e Engenharia de Materiais, USP
+  thesis: https://www.teses.usp.br/teses/disponiveis/88/88131/tde-20102010-100921/
+
+- name: Dr. Luiz Gilberto de Oliveira Messias
+  category: alumni
+  role:
+    en: PhD (2001) in Physics, IFSC-USP
+    pt: Doutorado (2001) em Física, IFSC-USP
+  thesis: https://www.teses.usp.br/teses/disponiveis/76/76132/tde-01042014-151711/
+
+- name: Dr. Diógenes Bosquetti
+  category: alumni
+  role:
+    en: PhD (2001) in Physics, IFSC-USP
+    pt: Doutorado (2001) em Física, IFSC-USP
+  thesis: https://www.teses.usp.br/teses/disponiveis/76/76131/tde-08122014-173104/
+
+- name: Dr. Emmanuel Olivier Petitprez
+  category: alumni
+  role:
+    en: PhD (2000) in Materials Science and Engineering, USP
+    pt: Doutorado (2000) em Ciência e Engenharia de Materiais, USP
+  thesis: https://www.teses.usp.br/teses/disponiveis/88/88131/tde-18082015-154146/
+
+- name: Kellis Germano Freitas
+  category: alumni
+  role:
+    en: MSc (1999) in Physics, IFSC-USP
+    pt: Mestrado (1999) em Física, IFSC-USP
+  thesis: https://www.teses.usp.br/teses/disponiveis/76/76132/tde-01042014-150229/
+
+- name: Marcus Vinícius Alves
+  category: alumni
+  role:
+    en: MSc (1999) in Physics, IFSC-USP
+    pt: Mestrado (1999) em Física, IFSC-USP
+  thesis: https://www.teses.usp.br/teses/disponiveis/76/76132/tde-01042014-171353/
+
+- name: Erisaura Leomil Registro
+  category: alumni
+  role:
+    en: MSc (1999) in Physics, IFSC-USP
+    pt: Mestrado (1999) em Física, IFSC-USP
+  thesis: https://www.teses.usp.br/teses/disponiveis/76/76132/tde-19082014-092007/
+
+- name: Marco José Franceschini
+  category: alumni
+  role:
+    en: MSc (1997) in Physics, IFSC-USP
+    pt: Mestrado (1997) em Física, IFSC-USP
+  thesis: https://www.teses.usp.br/teses/disponiveis/76/76132/tde-01042014-160711/
+
+- name: Renato Antonio Cruz
+  category: alumni
+  role:
+    en: MSc (1997) in Physics, IFSC-USP
+    pt: Mestrado (1997) em Física, IFSC-USP
+  thesis: https://www.teses.usp.br/teses/disponiveis/76/76132/tde-19092007-105831/
+
+- name: Sergio Gasques Rodrigues
+  category: alumni
+  role:
+    en: MSc (1997) in Materials Science and Engineering, USP
+    pt: Mestrado (1997) em Ciência e Engenharia de Materiais, USP
+  thesis: https://www.teses.usp.br/teses/disponiveis/88/88131/tde-22082015-113608/
