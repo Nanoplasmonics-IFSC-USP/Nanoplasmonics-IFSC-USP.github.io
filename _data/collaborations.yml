@@ -116,6 +116,17 @@
   url: https://www.ufscar.br
   logo: /assets/img/partners/ufscar.png
 
+- institution: Faculty of Philosophy, Sciences and Letters of Ribeirão Preto (FFCLRP-USP)
+  country:
+    en: Brazil
+    pt: Brasil
+  people: Profa. Rogéria Rocha Gonçalves
+  topic:
+    en: Rare-earth-doped luminescent materials, glass ceramics and planar waveguides for broadband photonics
+    pt: Materiais luminescentes dopados com terras-raras, vitrocerâmicas e guias de onda planares para fotônica de banda larga
+  url: https://www.ffclrp.usp.br
+  logo: /assets/img/partners/ffclrp.png
+
 - institution: São Carlos Institute of Chemistry (IQSC-USP)
   country:
     en: Brazil

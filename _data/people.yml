@@ -46,18 +46,18 @@
   category: researcher
   photo: /assets/img/people/victor.jpg
   role:
-    en: Professor · UNESP
-    pt: Professor · UNESP
+    en: Professor · UNESP Rio Claro
+    pt: Professor · UNESP Rio Claro
   bio:
     en: >-
-      Department of Physics, IGCE-UNESP; PhD from the Federal University of São Carlos (UFSCar). Works on photonic glasses, rare-earth spectroscopy, plasmonics and integrated photonics.
+      Professor at the Department of Physics, IGCE-UNESP (Rio Claro), since 2026. BSc in Physics from the Universidad Nacional Federico Villarreal (Peru), MSc from UNICAMP and PhD from UFSCar; postdocs at IFSC-USP and researcher at COPL, Université Laval (Canada). Former professor and graduate program director at UNMSM (Peru) and head of CONCYTEC's National Program for Basic Sciences. Works on photonic glasses, optical fibers, lasers, optical spectroscopy and plasmonics for telecommunications and sensing; author of over 87 papers and 2 Springer books.
     pt: >-
-      Departamento de Física, IGCE-UNESP; doutor pela Universidade Federal de São Carlos (UFSCar). Atua em vidros fotônicos, espectroscopia de terras-raras, plasmônica e fotônica integrada.
-  email: ""
+      Professor do Departamento de Física do IGCE-UNESP (Rio Claro) desde 2026. Graduado em Física pela Universidad Nacional Federico Villarreal (Peru), mestre pela UNICAMP e doutor pela UFSCar; pós-doutorados no IFSC-USP e pesquisador no COPL, Université Laval (Canadá). Foi professor e diretor de pós-graduação na UNMSM (Peru) e responsável pelo Programa Nacional de Ciências Básicas do CONCYTEC. Atua em vidros fotônicos, fibras ópticas, lasers, espectroscopia óptica e plasmônica para telecomunicações e sensoriamento; autor de mais de 87 artigos e 2 livros pela Springer.
+  email: vag.rivera@unesp.br
   lattes: http://lattes.cnpq.br/4335695906660499
   orcid: https://orcid.org/0000-0002-2312-970X
   scholar: https://scholar.google.com/citations?user=9UEJUQ0AAAAJ
-  linkedin: ""
+  linkedin: https://www.linkedin.com/in/victor-anthony-garcia-rivera-v-a-g-rivera-a09b75103/
 
 - name: Profa. Dra. Jéssica Fabiana Marino dos Santos
   category: researcher
@@ -258,7 +258,6 @@
 
 - name: Dr. Gaston Lozano Calderón
   category: alumni
-  photo: /assets/img/people/gaston.jpg
   role:
     en: MSc (2020) and PhD (2025) in Physics, IFSC-USP
     pt: Mestrado (2020) e Doutorado (2025) em Física, IFSC-USP
