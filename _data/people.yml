@@ -149,17 +149,26 @@
   orcid: https://orcid.org/0009-0001-5989-1704
   linkedin: ""
 
-- name: José Ricaldi
+- name: José Yitzhak Aarón Chacaliaza Ricaldi
   category: phd
   photo: /assets/img/people/jose-ricaldi.jpg
   role:
     en: PhD student · IFSC-USP
     pt: Doutorando · IFSC-USP
   note:
-    en: Currently in Spain on a FAPESP BEPE research internship abroad.
-    pt: Atualmente na Espanha com Bolsa Estágio de Pesquisa no Exterior (BEPE) FAPESP.
-  lattes: ""
-  linkedin: ""
+    en: >-
+      Currently in Spain on a FAPESP BEPE research internship, supervised by Dr. José Gonzalo de los Reyes at the Instituto de Óptica "Daza de Valdés" (IO-CSIC), Madrid.
+    pt: >-
+      Atualmente na Espanha com Bolsa Estágio de Pesquisa no Exterior (BEPE) FAPESP, sob supervisão do Dr. José Gonzalo de los Reyes no Instituto de Óptica "Daza de Valdés" (IO-CSIC), Madri.
+  bio:
+    en: >-
+      BSc and teaching degree in Physics from the Universidad Nacional Mayor de San Marcos (UNMSM, Peru). Works on rare-earth-doped glasses, thin films and nanocomposites coupled to surface plasmon polaritons for nanophotonics and quantum communications.
+    pt: >-
+      Bacharel e licenciado em Física pela Universidad Nacional Mayor de San Marcos (UNMSM, Peru). Atua em vidros, filmes finos e nanocompósitos dopados com íons de terras-raras acoplados a plasmon-poláritons de superfície, para aplicações em nanofotônica e comunicações quânticas.
+  email: jchacaliaza@usp.br
+  lattes: http://lattes.cnpq.br/7488698035791708
+  scholar: https://scholar.google.com/citations?user=jme1Uj0AAAAJ
+  linkedin: https://www.linkedin.com/in/jyacr/
 
 # ---------------- MSc students ----------------
 

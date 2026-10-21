@@ -28,6 +28,17 @@
   url: https://www.epfl.ch/labs/lanes/
   logo: /assets/img/partners/epfl.png
 
+- institution: Instituto de Óptica "Daza de Valdés" (IO-CSIC) — Laser Processing Group
+  country:
+    en: Spain
+    pt: Espanha
+  people: Dr. José Gonzalo de los Reyes
+  topic:
+    en: Laser fabrication of plasmonic nanostructures and rare-earth-doped thin films (host of a FAPESP BEPE internship)
+    pt: Fabricação a laser de nanoestruturas plasmônicas e filmes finos dopados com terras-raras (estágio BEPE FAPESP)
+  url: https://lpg.io.csic.es
+  logo: /assets/img/partners/io-csic.png
+
 - institution: Rice University
   country:
     en: United States
@@ -116,24 +127,13 @@
   url: https://www.iqsc.usp.br
   logo: /assets/img/partners/iqsc.png
 
-- institution: Photonics Group — São Carlos Institute of Physics (IFSC-USP)
-  country:
-    en: Brazil
-    pt: Brasil
-  people: Prof. Cleber R. Mendonça, Prof. Lino Misoguti, Prof. Leonardo De Boni
-  topic:
-    en: Femtosecond-laser processing, nonlinear optics and ultrafast spectroscopy
-    pt: Processamento a laser de femtossegundos, óptica não linear e espectroscopia ultrarrápida
-  url: https://www.ifsc.usp.br
-  logo: /assets/img/partners/ifsc.png
-
 - institution: São Carlos Institute of Physics (IFSC-USP)
   country:
     en: Brazil
     pt: Brasil
-  people: Prof. Valmor R. Mastelaro
+  people: "Photonics Group: Prof. Cleber R. Mendonça, Prof. Lino Misoguti, Prof. Leonardo De Boni · Prof. Valmor R. Mastelaro"
   topic:
-    en: Structural characterization of materials (XPS, X-ray spectroscopy)
-    pt: Caracterização estrutural de materiais (XPS, espectroscopia de raios X)
+    en: Femtosecond-laser processing, nonlinear optics and ultrafast spectroscopy (Photonics Group); structural characterization of materials (XPS, X-ray spectroscopy)
+    pt: Processamento a laser de femtossegundos, óptica não linear e espectroscopia ultrarrápida (Grupo de Fotônica); caracterização estrutural de materiais (XPS, espectroscopia de raios X)
   url: https://www.ifsc.usp.br
   logo: /assets/img/partners/ifsc.png
