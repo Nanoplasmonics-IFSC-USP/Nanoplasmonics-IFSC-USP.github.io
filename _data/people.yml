@@ -14,18 +14,30 @@
   category: pi
   photo: /assets/img/people/euclydes.jpg
   role:
-    en: Professor · IFSC-USP
-    pt: Professor · IFSC-USP
+    en: Full Professor · IFSC-USP
+    pt: Professor Titular · IFSC-USP
   bio:
     en: >-
-      Member of the Optics and Photonics Research Center (CEPOF); PhD in Physics from IFSC-USP. Works on nanophotonics, plasmonics, semiconductor quantum dots and 2D materials.
+      Full Professor at IFSC-USP, CNPq Research Productivity Fellow (level 1B) and Visiting Professor at the Institute of Fundamental and Frontier Sciences (UESTC, China). BSc (1988) and PhD (1993) in Physics from USP, with postdocs at IFSC-USP and the University of Arkansas (2004–2005), where he was also a Visiting Professor.
+
+
+      His research focuses on nanophotonics and plasmonics: strong light–matter coupling, plasmon-induced doping and strain in transition-metal dichalcogenide monolayers (such as MoS₂) on metasurfaces and metallic nanostructures, in collaboration with EPFL; InAs/GaAs quantum dots integrated into photonic cavities as single-photon sources for quantum information; luminescence, infrared emission and optical thermometry in Er³⁺/Yb³⁺-doped tellurite and germanate glasses and thin films with metallic nanoparticles; and the growth of III–V and SiGeSn semiconductors, in long-standing cooperation with the Institute of Nanoscale Science and Engineering (University of Arkansas).
+
+
+      Principal Investigator and Outreach Coordinator at the Optics and Photonics Research Center (CEPOF/FAPESP) and member of the SISFOTON-USP and SISNANO-USP networks. He conceived the competition that became the Brazilian Physics Olympiad (OBF), served as its national coordinator, and co-founded the Brazilian Physics Olympiad for Public Schools (OBFEP).
     pt: >-
-      Membro do Centro de Pesquisa em Óptica e Fotônica (CEPOF); doutor em Física pelo IFSC-USP. Atua em nanofotônica, plasmônica, pontos quânticos semicondutores e materiais 2D.
-  email: ""
-  lattes: ""
+      Professor Titular do IFSC-USP, bolsista de Produtividade em Pesquisa do CNPq (nível 1B) e Professor Visitante no Institute of Fundamental and Frontier Sciences (UESTC, China). Graduado (1988) e doutor (1993) em Física pela USP, com pós-doutorados no IFSC-USP e na University of Arkansas (2004–2005), onde também atuou como Professor Visitante.
+
+
+      Sua pesquisa é voltada à nanofotônica e à plasmônica: acoplamento forte luz–matéria, dopagem induzida por plasmons e efeitos de deformação em monocamadas de dicalcogenetos de metais de transição (como MoS₂) sobre metassuperfícies e nanoestruturas metálicas, em colaboração com a EPFL; pontos quânticos InAs/GaAs integrados a cavidades fotônicas como fontes de fótons únicos para informação quântica; luminescência, emissão no infravermelho e termometria óptica em vidros e filmes finos teluritos e germanatos dopados com Er³⁺/Yb³⁺ e nanopartículas metálicas; e o crescimento de semicondutores III–V e SiGeSn, em cooperação de longa data com o Institute of Nanoscale Science and Engineering (University of Arkansas).
+
+
+      Pesquisador Principal e Coordenador de Difusão do Centro de Pesquisa em Óptica e Fotônica (CEPOF/FAPESP) e membro das redes SISFOTON-USP e SISNANO-USP. Idealizou a competição que deu origem à Olimpíada Brasileira de Física (OBF), da qual foi Coordenador Nacional, e cofundou a Olimpíada Brasileira de Física das Escolas Públicas (OBFEP).
+  email: euclydes@ifsc.usp.br
+  lattes: http://lattes.cnpq.br/1410215769571368
   orcid: https://orcid.org/0000-0002-3334-4630
   scholar: https://scholar.google.com/citations?user=DogZ64IAAAAJ
-  linkedin: ""
+  linkedin: https://www.linkedin.com/in/euclydes-marega-junior-84077013/
 
 # ---------------- Faculty / collaborating professors ----------------
 
@@ -96,6 +108,7 @@
       Bolsista de doutorado direto FAPESP; bacharel em Física Computacional pelo IFSC-USP. Atua no design inverso de dispositivos nanofotônicos, combinando simulações eletromagnéticas com aprendizado profundo e redes neurais informadas pela física.
   email: viniciusbmarcos@usp.br
   lattes: http://lattes.cnpq.br/2111967318340206
+  orcid: https://orcid.org/0009-0009-8980-2168
   linkedin: https://www.linkedin.com/in/vin%C3%ADcius-bastos-marcos-4b3aa6317/
   scholar: https://scholar.google.com/citations?user=3j4LFuMAAAAJ
   website: https://vinibastosm.github.io/
@@ -128,9 +141,10 @@
       BSc and MSc in Physics from USP. Works on light–matter interaction in 2D materials (MoS₂) coupled to plasmonic nanostructures, including plasmon-induced doping, strain and second-harmonic generation.
     pt: >-
       Bacharel e mestre em Física pela USP. Atua na interação luz–matéria em materiais 2D (MoS₂) acoplados a nanoestruturas plasmônicas, incluindo dopagem induzida por plasmons, deformação e geração de segundo harmônico.
+  email: matheus.lemes@usp.br
   lattes: ""
   orcid: https://orcid.org/0000-0001-9844-0669
-  linkedin: ""
+  linkedin: https://www.linkedin.com/in/matheus-f-s-lemes/
   scholar: https://scholar.google.com/citations?user=A-G7MlYAAAAJ
 
 
@@ -167,6 +181,7 @@
       Bacharel e licenciado em Física pela Universidad Nacional Mayor de San Marcos (UNMSM, Peru). Atua em vidros, filmes finos e nanocompósitos dopados com íons de terras-raras acoplados a plasmon-poláritons de superfície, para aplicações em nanofotônica e comunicações quânticas.
   email: jchacaliaza@usp.br
   lattes: http://lattes.cnpq.br/7488698035791708
+  orcid: https://orcid.org/0000-0001-7262-3774
   scholar: https://scholar.google.com/citations?user=jme1Uj0AAAAJ
   linkedin: https://www.linkedin.com/in/jyacr/
 
