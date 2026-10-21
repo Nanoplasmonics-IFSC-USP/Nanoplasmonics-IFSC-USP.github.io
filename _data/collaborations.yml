@@ -39,6 +39,17 @@
   url: https://lpg.io.csic.es
   logo: /assets/img/partners/io-csic.png
 
+- institution: Instituto de Cerámica y Vidrio (ICV-CSIC), Madrid — Ceramics for Smart Systems Group
+  country:
+    en: Spain
+    pt: Espanha
+  people: Dr. Víctor Fuertes de la Llave
+  topic:
+    en: Nanoengineering of glass ceramics, nanocrystals, doped optical fibers, luminescence and optical amplifiers
+    pt: Nanoengenharia de vitrocerâmicas, nanocristais, fibras ópticas dopadas, luminescência e amplificadores ópticos
+  url: https://www.icv.csic.es
+  logo: /assets/img/partners/icv-csic.png
+
 - institution: Rice University
   country:
     en: United States
@@ -104,6 +115,17 @@
     pt: Interação luz–matéria em nanoescala — fabricação, simulação numérica e medida da dinâmica de plásmons de superfície (pesquisador visitante FAPESP no IFSC-USP)
   url: https://www.univ-tlse3.fr
   logo: /assets/img/partners/toulouse.png
+
+- institution: Université de Limoges — Institut de Recherche sur les Céramiques (IRCER)
+  country:
+    en: France
+    pt: França
+  people: Dra. Gaëlle Delaizir
+  topic:
+    en: Glasses and glass ceramics, tellurium-based materials, crystallization, optical properties and luminescence
+    pt: Vidros e vitrocerâmicas, materiais à base de telúrio, cristalização, propriedades ópticas e luminescência
+  url: https://www.ircer.fr
+  logo: /assets/img/partners/limoges.png
 
 - institution: Universidade Estadual Paulista (UNESP)
   country:
