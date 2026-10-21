@@ -4,7 +4,7 @@
 title: Nanoplasmonics Group
 institution: Instituto de Física de São Carlos — Universidade de São Paulo
 institution_short: IFSC · USP
-logo: /assets/img/logo-light.png               # light version for the dark top bar (dark version: /assets/img/logo.png)
+logo: /assets/img/logo.png                     # original logo, shown on a white badge in the dark top bar
 url: "https://nanoplasmonics-ifsc-usp.github.io"
 baseurl: ""
 
