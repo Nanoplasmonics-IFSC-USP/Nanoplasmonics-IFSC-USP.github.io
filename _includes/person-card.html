@@ -11,6 +11,7 @@
   <div class="person-body">
     <h3 class="person-name">{{ p.name }}</h3>
     {% if p.role %}<p class="person-role">{{ p.role[lang] | default: p.role.en }}</p>{% endif %}
+    {% if p.note %}<p class="person-note">{{ p.note[lang] | default: p.note.en }}</p>{% endif %}
     {% if p.bio %}<div class="person-bio">{{ p.bio[lang] | default: p.bio.en | markdownify }}</div>{% endif %}
     <p class="person-links">
       {% if p.email and p.email != "" %}<a class="chip" href="mailto:{{ p.email }}">Email</a>{% endif %}

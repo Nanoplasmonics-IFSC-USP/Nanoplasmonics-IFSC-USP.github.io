@@ -1,5 +1,5 @@
 # Group members. The People page groups them by category, in this order:
-#   pi, researcher, postdoc, phd, msc, undergrad, staff, alumni
+#   pi, researcher, postdoc, phd, msc, undergrad, exchange, staff, alumni
 #
 # Fields (only name and category are required):
 #   photo:   /assets/img/people/<file>.jpg   (square photos look best; leave "" for a placeholder)
@@ -12,7 +12,7 @@
 
 - name: Prof. Dr. Euclydes Marega Junior
   category: pi
-  photo: ""
+  photo: /assets/img/people/euclydes.jpg
   role:
     en: Professor · IFSC-USP
     pt: Professor · IFSC-USP
@@ -31,7 +31,7 @@
 
 - name: Prof. Dr. Victor Anthony Garcia Rivera
   category: researcher
-  photo: ""
+  photo: /assets/img/people/victor.jpg
   role:
     en: Professor · UNESP
     pt: Professor · UNESP
@@ -48,7 +48,7 @@
 
 - name: Profa. Dra. Jéssica Fabiana Marino dos Santos
   category: researcher
-  photo: ""
+  photo: /assets/img/people/jessica.jpg
   role:
     en: Professor · UNESP
     pt: Professora · UNESP
@@ -67,10 +67,10 @@
 
 - name: Dra. Ana Clara Sampaio Pimenta
   category: postdoc
-  photo: ""
+  photo: /assets/img/people/ana-clara.jpg
   role:
-    en: Postdoctoral researcher · CEPOF
-    pt: Pós-doutoranda · CEPOF
+    en: Postdoctoral researcher · IFSC-USP / CEPOF
+    pt: Pós-doutoranda · IFSC-USP / CEPOF
   bio:
     en: >-
       Previously a postdoc at the Federal University of Minas Gerais (UFMG). Works on optical spectroscopy (Raman, photoluminescence and second-harmonic generation) of 2D materials and plasmonic nanostructures.
@@ -102,7 +102,7 @@
 
 - name: Willer Frank de Sousa Oliveira
   category: phd
-  photo: ""
+  photo: /assets/img/people/willer.jpg
   role:
     en: PhD student · IFSC-USP
     pt: Doutorando · IFSC-USP
@@ -119,7 +119,7 @@
 
 - name: Matheus Fernandes Sousa Lemes
   category: phd
-  photo: ""
+  photo: /assets/img/people/matheus.jpg
   role:
     en: PhD student · IFSC-USP
     pt: Doutorando · IFSC-USP
@@ -136,7 +136,7 @@
 
 - name: Gabriel Lima Alves
   category: phd
-  photo: ""
+  photo: /assets/img/people/gabriel.jpg
   role:
     en: PhD student · IFSC-USP
     pt: Doutorando · IFSC-USP
@@ -149,11 +149,23 @@
   orcid: https://orcid.org/0009-0001-5989-1704
   linkedin: ""
 
+- name: José Ricaldi
+  category: phd
+  photo: /assets/img/people/jose-ricaldi.jpg
+  role:
+    en: PhD student · IFSC-USP
+    pt: Doutorando · IFSC-USP
+  note:
+    en: Currently in Spain on a FAPESP BEPE research internship abroad.
+    pt: Atualmente na Espanha com Bolsa Estágio de Pesquisa no Exterior (BEPE) FAPESP.
+  lattes: ""
+  linkedin: ""
+
 # ---------------- MSc students ----------------
 
 - name: Jyan Carlos Quispe Aquice
   category: msc
-  photo: ""
+  photo: /assets/img/people/jyan-carlos.jpg
   role:
     en: MSc student · IFSC-USP
     pt: Mestrando · IFSC-USP
@@ -181,10 +193,36 @@
     en: Undergraduate researcher · IFSC-USP
     pt: Iniciação Científica · IFSC-USP
 
+# ---------------- Exchange students ----------------
+
+- name: Marciano Lima Medeiros
+  category: exchange
+  photo: ""
+  role:
+    en: PhD student · UNIFEI (Itajubá)
+    pt: Doutorando · UNIFEI (Itajubá)
+
+# ---------------- Technical staff ----------------
+
+- name: Carlos
+  category: staff
+  photo: /assets/img/people/carlos.jpg
+  role:
+    en: Technician · IFSC-USP
+    pt: Técnico · IFSC-USP
+
+- name: Haroldo
+  category: staff
+  photo: /assets/img/people/haroldo.jpg
+  role:
+    en: Technician · IFSC-USP
+    pt: Técnico · IFSC-USP
+
 # ---------------- Alumni ----------------
 
 - name: Dr. Gaston Lozano Calderón
   category: alumni
+  photo: /assets/img/people/gaston.jpg
   role:
     en: MSc (2020) and PhD (2025) in Physics, IFSC-USP
     pt: Mestrado (2020) e Doutorado (2025) em Física, IFSC-USP

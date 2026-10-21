@@ -55,6 +55,7 @@ en:
       phd: PhD Students
       msc: MSc Students
       undergrad: Undergraduate Students
+      exchange: Exchange Students
       staff: Technical Staff
       alumni: Alumni
     now: Now
@@ -182,7 +183,8 @@ pt:
       phd: Doutorandos
       msc: Mestrandos
       undergrad: Iniciação Científica
-      staff: Equipe Técnica
+      exchange: Intercâmbio
+      staff: Técnicos
       alumni: Ex-membros
     now: Atualmente
 

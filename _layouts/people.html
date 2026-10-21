@@ -5,7 +5,7 @@ layout: default
 {% assign lang = page.lang %}
 {% include page-header.html title=t.people.title intro=t.people.intro %}
 
-{% assign categories = "pi,researcher,postdoc,phd,msc,undergrad,staff" | split: "," %}
+{% assign categories = "pi,researcher,postdoc,phd,msc,undergrad,exchange,staff" | split: "," %}
 <section class="section">
   <div class="container">
     {% for cat in categories %}
@@ -27,6 +27,8 @@ layout: default
       <ul class="alumni-list">
         {% for a in alumni %}
         <li>
+          {% if a.photo and a.photo != "" %}<img class="alumni-photo" src="{{ a.photo | relative_url }}" alt="{{ a.name }}" loading="lazy">{% endif %}
+          <div class="alumni-body">
           <span class="alumni-name">{{ a.name }}</span>
           {% if a.role %}<span class="alumni-role">{{ a.role[lang] }}</span>{% endif %}
           {% if a.now %}<span class="alumni-now">{{ t.people.now }}: {{ a.now[lang] }}</span>{% endif %}
@@ -36,6 +38,7 @@ layout: default
             {% if a.scholar and a.scholar != "" %}<a class="chip" href="{{ a.scholar }}">Scholar</a>{% endif %}
             {% if a.linkedin and a.linkedin != "" %}<a class="chip" href="{{ a.linkedin }}">LinkedIn</a>{% endif %}
           </span>
+          </div>
         </li>
         {% endfor %}
       </ul>

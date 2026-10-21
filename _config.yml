@@ -1,7 +1,7 @@
 # ---------------------------------------------------------------
 #  Site settings — edit the values below
 # ---------------------------------------------------------------
-title: Nanoplasmonics Group                     # TODO: confirm official group name
+title: Nanoplasmonics Group
 institution: Instituto de Física de São Carlos — Universidade de São Paulo
 institution_short: IFSC · USP
 logo: /assets/img/logo-light.png               # light version for the dark top bar (dark version: /assets/img/logo.png)
