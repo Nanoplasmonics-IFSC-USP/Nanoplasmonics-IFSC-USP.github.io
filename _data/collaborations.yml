@@ -32,7 +32,7 @@
   country:
     en: Spain
     pt: Espanha
-  people: Dr. José Gonzalo de los Reyes
+  people: Prof. José Gonzalo de los Reyes
   topic:
     en: Laser fabrication of plasmonic nanostructures and rare-earth-doped thin films (host of a FAPESP BEPE internship)
     pt: Fabricação a laser de nanoestruturas plasmônicas e filmes finos dopados com terras-raras (estágio BEPE FAPESP)
@@ -43,10 +43,10 @@
   country:
     en: United States
     pt: Estados Unidos
-  people: Dr. Guilherme Migliato Marega
+  people: Prof. Guilherme Migliato Marega
   topic:
-    en: 2D materials, nanophotonics and inverse design of plasmonic resonators
-    pt: Materiais 2D, nanofotônica e design inverso de ressonadores plasmônicos
+    en: 2D materials and inverse design
+    pt: Materiais 2D e design inverso
   url: https://www.rice.edu
   logo: /assets/img/partners/rice.png
 
@@ -93,6 +93,17 @@
     pt: Nanofotônica e plasmônica, óptica de campo próximo e microscopia de varredura por sonda de nanoestruturas metálicas
   url: https://uog.edu.pk
   logo: /assets/img/partners/uog.png
+
+- institution: Université Paul Sabatier (Toulouse III)
+  country:
+    en: France
+    pt: França
+  people: Prof. John Weiner
+  topic:
+    en: Light–matter interaction at the nanoscale — fabrication, numerical simulation and measurement of surface plasmon dynamics (FAPESP visiting researcher at IFSC-USP)
+    pt: Interação luz–matéria em nanoescala — fabricação, simulação numérica e medida da dinâmica de plásmons de superfície (pesquisador visitante FAPESP no IFSC-USP)
+  url: https://www.univ-tlse3.fr
+  logo: /assets/img/partners/toulouse.png
 
 - institution: Universidade Estadual Paulista (UNESP)
   country:

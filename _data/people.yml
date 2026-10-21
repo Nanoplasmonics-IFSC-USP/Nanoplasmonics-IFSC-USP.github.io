@@ -178,9 +178,9 @@
     pt: Doutorando · IFSC-USP
   note:
     en: >-
-      Currently in Spain on a FAPESP BEPE research internship, supervised by Dr. José Gonzalo de los Reyes at the Instituto de Óptica "Daza de Valdés" (IO-CSIC), Madrid.
+      Currently in Spain on a FAPESP BEPE research internship, supervised by Prof. José Gonzalo de los Reyes at the Instituto de Óptica "Daza de Valdés" (IO-CSIC), Madrid.
     pt: >-
-      Atualmente na Espanha com Bolsa Estágio de Pesquisa no Exterior (BEPE) FAPESP, sob supervisão do Dr. José Gonzalo de los Reyes no Instituto de Óptica "Daza de Valdés" (IO-CSIC), Madri.
+      Atualmente na Espanha com Bolsa Estágio de Pesquisa no Exterior (BEPE) FAPESP, sob supervisão do Prof. José Gonzalo de los Reyes no Instituto de Óptica "Daza de Valdés" (IO-CSIC), Madri.
   bio:
     en: >-
       BSc and teaching degree in Physics from the Universidad Nacional Mayor de San Marcos (UNMSM, Peru). Works on rare-earth-doped glasses, thin films and nanocomposites coupled to surface plasmon polaritons for nanophotonics and quantum communications.
@@ -365,8 +365,8 @@
   category: alumni
   level: msc
   role:
-    en: MSc (2002) in Materials Science and Engineering, USP
-    pt: Mestrado (2002) em Ciência e Engenharia de Materiais, USP
+    en: Undergraduate research (1998) and MSc (2002) in Materials Science and Engineering, USP
+    pt: Iniciação Científica (1998) e Mestrado (2002) em Ciência e Engenharia de Materiais, USP
   thesis: https://www.teses.usp.br/teses/disponiveis/88/88131/tde-20102010-100921/
 
 - name: Dr. Luiz Gilberto de Oliveira Messias
@@ -447,3 +447,182 @@
     en: MSc (1997) in Materials Science and Engineering, USP
     pt: Mestrado (1997) em Ciência e Engenharia de Materiais, USP
   thesis: https://www.teses.usp.br/teses/disponiveis/88/88131/tde-22082015-113608/
+
+# ---- Former postdocs ----
+
+- name: Dra. Iram Taj Awan
+  category: alumni
+  level: postdoc
+  role:
+    en: Postdoc (2019), IFSC-USP
+    pt: Pós-doutorado (2019), IFSC-USP
+
+- name: Dr. José Luis Clabel Huamán
+  category: alumni
+  level: postdoc
+  role:
+    en: Postdoc (2017–2019), IFSC-USP
+    pt: Pós-doutorado (2017–2019), IFSC-USP
+
+- name: Dr. Fábio Aparecido Ferri
+  category: alumni
+  level: postdoc
+  role:
+    en: Postdoc (2015), IFSC-USP
+    pt: Pós-doutorado (2015), IFSC-USP
+
+- name: Dr. Sérgio Paulo Amaral Osório
+  category: alumni
+  level: postdoc
+  role:
+    en: Postdoc (2014), IFSC-USP
+    pt: Pós-doutorado (2014), IFSC-USP
+
+- name: Dr. Pedro Pablo González Borrero
+  category: alumni
+  level: postdoc
+  role:
+    en: Research fellow (2000), FAPESP · IFSC-USP
+    pt: Bolsista de pesquisa (2000), FAPESP · IFSC-USP
+
+# ---- Former undergraduate researchers (Iniciação Científica) ----
+
+- name: Lívia Oliveira Dantas Clementino
+  category: alumni
+  level: undergrad
+  role:
+    en: Undergraduate research (2017) in Physical and Biomolecular Sciences, USP
+    pt: Iniciação Científica (2017) em Ciências Físicas e Biomoleculares, USP
+
+- name: Daniel Yoshio Akamatsu
+  category: alumni
+  level: undergrad
+  role:
+    en: Undergraduate research (2017) in Physics, USP
+    pt: Iniciação Científica (2017) em Física, USP
+
+- name: Henrique de Almeida Tórtura
+  category: alumni
+  level: undergrad
+  role:
+    en: Undergraduate research (2017) in Physics, USP
+    pt: Iniciação Científica (2017) em Física, USP
+
+- name: Bruno dos Santos Pereira Machado
+  category: alumni
+  level: undergrad
+  role:
+    en: Undergraduate research (2015) in Physics, UFSCar
+    pt: Iniciação Científica (2015) em Física, UFSCar
+
+- name: Carlos Eduardo Teles
+  category: alumni
+  level: undergrad
+  role:
+    en: Undergraduate research (2012) in Computational Physics, IFSC-USP
+    pt: Iniciação Científica (2012) em Física Computacional, IFSC-USP
+
+- name: Leticia Melocro
+  category: alumni
+  level: undergrad
+  role:
+    en: Undergraduate research (2011) in Physics, IFSC-USP
+    pt: Iniciação Científica (2011) em Física, IFSC-USP
+
+- name: Rodrigo Andrade e Silva
+  category: alumni
+  level: undergrad
+  role:
+    en: Undergraduate research (2011) in Physics, IFSC-USP
+    pt: Iniciação Científica (2011) em Física, IFSC-USP
+
+- name: Marcelo Kiyochi Kawamura
+  category: alumni
+  level: undergrad
+  role:
+    en: Undergraduate research (2011) in Physics Engineering, IFSC-USP
+    pt: Iniciação Científica (2011) em Engenharia Física, IFSC-USP
+
+- name: Andreia Correia de Melo
+  category: alumni
+  level: undergrad
+  role:
+    en: Undergraduate research (2010) in Physics, IFSC-USP
+    pt: Iniciação Científica (2010) em Física, IFSC-USP
+
+- name: Mario Sergio Mariano
+  category: alumni
+  level: undergrad
+  role:
+    en: Undergraduate research (2007), IFSC-USP
+    pt: Iniciação Científica (2007), IFSC-USP
+
+- name: Marcello Mota
+  category: alumni
+  level: undergrad
+  role:
+    en: Undergraduate research (2006), EESC-USP
+    pt: Iniciação Científica (2006), EESC-USP
+
+- name: Thiago Neves Doretto
+  category: alumni
+  level: undergrad
+  role:
+    en: Undergraduate research (1999) in Physics, USP
+    pt: Iniciação Científica (1999) em Física, USP
+
+- name: Daniel Espanhol Razera
+  category: alumni
+  level: undergrad
+  role:
+    en: Undergraduate research (1999) in Physics, USP
+    pt: Iniciação Científica (1999) em Física, USP
+
+- name: Mateus Cecílio Gerólamo
+  category: alumni
+  level: undergrad
+  role:
+    en: Undergraduate research (1998) in Physics, USP
+    pt: Iniciação Científica (1998) em Física, USP
+
+- name: Hélio Kikuchi
+  category: alumni
+  level: undergrad
+  role:
+    en: Undergraduate research (1998) in Physics, USP
+    pt: Iniciação Científica (1998) em Física, USP
+
+- name: Vivaldo Leira Campo Jr.
+  category: alumni
+  level: undergrad
+  role:
+    en: Undergraduate research (1997) in Physics, USP
+    pt: Iniciação Científica (1997) em Física, USP
+
+- name: Ana Lúcia Libardi
+  category: alumni
+  level: undergrad
+  role:
+    en: Undergraduate research (1997) in Physics, USP
+    pt: Iniciação Científica (1997) em Física, USP
+
+- name: Fernando I. de Lima Leite
+  category: alumni
+  level: undergrad
+  role:
+    en: Undergraduate research (1996) in Physics, IFSC-USP
+    pt: Iniciação Científica (1996) em Física, IFSC-USP
+
+- name: Ernanni D. Vieira
+  category: alumni
+  level: undergrad
+  role:
+    en: Undergraduate research (1996) in Physics, IFSC-USP
+    pt: Iniciação Científica (1996) em Física, IFSC-USP
+
+- name: Silvio Cesar Athayde
+  category: alumni
+  level: undergrad
+  role:
+    en: Undergraduate research (1995) in Physics, USP
+    pt: Iniciação Científica (1995) em Física, USP
