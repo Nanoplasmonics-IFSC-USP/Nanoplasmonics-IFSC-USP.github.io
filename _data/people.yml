@@ -269,19 +269,33 @@
 
 # ---------------- Technical staff ----------------
 
-- name: Carlos
+- name: Carlos Alberto de Sousa
   category: staff
   photo: /assets/img/people/carlos.jpg
   role:
     en: Technician · IFSC-USP
     pt: Técnico · IFSC-USP
+  bio:
+    en: >-
+      Technician at the Department of Physics and Materials Science, IFSC-USP; teaching degree in Exact Sciences (Physics and Chemistry) from IFSC-USP. Experienced in chemistry, with emphasis on electrochemistry, metal deposition by evaporation and semiconductors.
+    pt: >-
+      Técnico do Departamento de Física e Ciência dos Materiais do IFSC-USP; licenciado em Ciências Exatas (habilitação em Física e Química) pelo IFSC-USP. Tem experiência em Química, com ênfase em eletroquímica, deposição de metais por evaporação e semicondutores.
+  email: carlos@ifsc.usp.br
+  lattes: http://lattes.cnpq.br/2036185861737575
 
-- name: Haroldo
+- name: Haroldo Arakaki
   category: staff
   photo: /assets/img/people/haroldo.jpg
   role:
-    en: Technician · IFSC-USP
-    pt: Técnico · IFSC-USP
+    en: Engineer · IFSC-USP
+    pt: Engenheiro · IFSC-USP
+  bio:
+    en: >-
+      Engineer at IFSC-USP; BSc in Electrical Engineering (Electronics) from EESC-USP, with an emphasis in Electronic Computing from ICMSC-USP, and MSc in Physics from IFSC-USP. Develops scientific instrumentation and data-acquisition and control software, and works on MBE growth and characterization of III-V semiconductors (GaAs/AlGaAs:Si, InAs), electron microscopy, electron- and ion-beam (SEM/FIB) sample processing and optical lithography.
+    pt: >-
+      Engenheiro do IFSC-USP; graduado em Engenharia Elétrica (Eletrônica) pela EESC-USP, com ênfase em Computação Eletrônica pelo ICMSC-USP, e mestre em Física pelo IFSC-USP. Desenvolve instrumentação científica e programas de controle e aquisição de dados, e atua no crescimento por MBE e na caracterização de semicondutores III-V (GaAs/AlGaAs:Si, InAs), em microscopia eletrônica, processamento de amostras por feixe de elétrons e de íons (MEV/FIB) e litografia óptica.
+  email: arakaki@ifsc.usp.br
+  lattes: http://lattes.cnpq.br/0430099527189852
 
 # ---------------- Alumni ----------------
 
