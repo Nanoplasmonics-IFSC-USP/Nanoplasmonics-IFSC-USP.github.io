@@ -201,6 +201,17 @@
   url: https://www.iqsc.usp.br
   logo: /assets/img/partners/iqsc.png
 
+- institution: São Carlos School of Engineering (EESC-USP) — Department of Electrical and Computer Engineering
+  country:
+    en: Brazil
+    pt: Brasil
+  people: Prof. Ben-Hur Viana Borges
+  topic:
+    en: Nanophotonics, plasmonics and metamaterials — design and numerical modeling of photonic devices
+    pt: Nanofotônica, plasmônica e metamateriais — projeto e modelagem numérica de dispositivos fotônicos
+  url: https://www.eesc.usp.br
+  logo: /assets/img/partners/eesc.png
+
 - institution: São Carlos Institute of Physics (IFSC-USP) — Photonics Group
   country:
     en: Brazil
