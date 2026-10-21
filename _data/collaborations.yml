@@ -201,13 +201,24 @@
   url: https://www.iqsc.usp.br
   logo: /assets/img/partners/iqsc.png
 
-- institution: São Carlos Institute of Physics (IFSC-USP)
+- institution: São Carlos Institute of Physics (IFSC-USP) — Photonics Group
   country:
     en: Brazil
     pt: Brasil
-  people: "Photonics Group: Prof. Cleber R. Mendonça, Prof. Lino Misoguti, Prof. Leonardo De Boni · Prof. Valmor R. Mastelaro · Prof. Marcos Oliveira · Dra. Beatriz Helena Costa"
+  people: Prof. Cleber R. Mendonça, Prof. Lino Misoguti, Prof. Leonardo De Boni
   topic:
-    en: Femtosecond-laser processing, nonlinear optics and ultrafast spectroscopy (Photonics Group); structural characterization of materials (XPS, X-ray spectroscopy)
-    pt: Processamento a laser de femtossegundos, óptica não linear e espectroscopia ultrarrápida (Grupo de Fotônica); caracterização estrutural de materiais (XPS, espectroscopia de raios X)
+    en: Femtosecond-laser processing, nonlinear optics and ultrafast spectroscopy
+    pt: Processamento a laser de femtossegundos, óptica não linear e espectroscopia ultrarrápida
+  url: https://www.ifsc.usp.br
+  logo: /assets/img/partners/ifsc.png
+
+- institution: São Carlos Institute of Physics (IFSC-USP) — Magnetic Resonance
+  country:
+    en: Brazil
+    pt: Brasil
+  people: Prof. Valmor R. Mastelaro, Prof. Marcos Oliveira, Dra. Beatriz Helena Costa
+  topic:
+    en: Structural characterization of materials (magnetic resonance, XPS, X-ray spectroscopy)
+    pt: Caracterização estrutural de materiais (ressonância magnética, XPS, espectroscopia de raios X)
   url: https://www.ifsc.usp.br
   logo: /assets/img/partners/ifsc.png
