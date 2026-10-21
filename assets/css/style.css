@@ -456,6 +456,7 @@ p { margin: 0 0 1em; }
 .news-tag-group { background: #e6edf7; color: #2c4a74; }
 .news-tag-event, .news-tag-outreach { background: #f3ecdf; color: #7a5313; }
 .news-tag-award { background: #fbf1cf; color: #806000; }
+.news-tag-opportunity { background: #f6e6ea; color: #8a2f48; }
 
 .news-cards { display: grid; gap: 24px; }
 .news-card {

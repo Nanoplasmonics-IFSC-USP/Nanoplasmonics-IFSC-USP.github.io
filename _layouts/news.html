@@ -6,7 +6,7 @@ layout: default
 {% include page-header.html title=t.news.title intro=t.news.intro %}
 
 {% assign news = site.data.news | sort: "date" | reverse %}
-{% assign news_categories = "defense,event,award,outreach,group" | split: "," %}
+{% assign news_categories = "defense,event,award,outreach,group,opportunity" | split: "," %}
 <section class="section">
   <div class="container">
     <div class="people-filter" role="toolbar" aria-label="{{ t.news.title }}" data-filter-target="news-list">

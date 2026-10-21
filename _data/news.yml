@@ -1,6 +1,6 @@
 # News items, shown newest first. The 3 most recent also appear on the home page.
 #   date:      YYYY-MM-DD (for items known only to the month, use day 01 and add  precision: month)
-#   category:  defense | group | event | award | outreach
+#   category:  defense | group | event | award | outreach | opportunity
 #   image:     optional, e.g. /assets/img/news/defense.jpg (research illustrations also work)
 #   image_fit: optional, "contain" for logos (default fills the box)
 #   venue:     optional, journal/publisher shown in the picture box when there is no image
@@ -16,6 +16,63 @@
   text:
     en: Welcome to the new website of the Nanoplasmonics Group! Here you can find our research lines, team, publications, collaborations and news — in English and Portuguese.
     pt: Bem-vindo ao novo site do Grupo de Nanoplasmônica! Aqui você encontra nossas linhas de pesquisa, equipe, publicações, colaborações e notícias — em português e inglês.
+
+- date: 2026-10-01
+  precision: month
+  category: event
+  image: /assets/img/news/sifsc-xv.jpg
+  title:
+    en: The group at SIFSC XV
+    pt: O grupo na SIFSC XV
+  text:
+    en: The group took part in the XV IFSC Week (SIFSC) at our institute. Undergraduate researcher Gabriel Lima Alves presented his project *Study of plasmonic cavities for use in quantum repeaters* at SIFSC and SIICUSP, and our undergraduate students ran a stand inviting other students to join a study group they are starting.
+    pt: O grupo participou da XV Semana Integrada do IFSC (SIFSC), no nosso instituto. O aluno de iniciação científica Gabriel Lima Alves apresentou o projeto *Estudo das propriedades de cavidades plasmônicas para uso em repetidores quânticos* na SIFSC e no SIICUSP, e nossos alunos de IC montaram um estande convidando outros estudantes para um grupo de estudos que estão iniciando.
+  link: https://www.linkedin.com/posts/nanoplasmonics-ifsc-usp_veja-a-participa%C3%A7%C3%A3o-de-nosso-grupo-na-sifsc-activity-7516199226272423937-O5vj
+
+- date: 2026-09-27
+  category: event
+  image: /assets/img/news/bmrs-2026.jpg
+  title:
+    en: The group at the B-MRS Meeting 2026
+    pt: O grupo no Encontro da SBPMat 2026
+  text:
+    en: From September 27 to October 1 the group attended the annual meeting of the Brazilian Materials Research Society (SBPMat / B-MRS) in Curitiba. Prof. Euclydes Marega Jr. gave two invited symposium talks and an oral presentation, and PhD students Willer Oliveira and Vinicius Bastos Marcos and MSc student Jyan Carlos Quispe Aquice presented posters.
+    pt: De 27 de setembro a 1º de outubro o grupo participou do encontro anual da Sociedade Brasileira de Pesquisa em Materiais (SBPMat / B-MRS), em Curitiba. O Prof. Euclydes Marega Jr. ministrou duas palestras convidadas em simpósios e uma apresentação oral, e os doutorandos Willer Oliveira e Vinicius Bastos Marcos e o mestrando Jyan Carlos Quispe Aquice apresentaram pôsteres.
+  link: https://www.linkedin.com/posts/nanoplasmonics-ifsc-usp_entre-os-dias-27-de-setembro-e-1%C2%BA-de-outubro-activity-7518000436768063488-kOQI
+
+- date: 2026-09-18
+  category: opportunity
+  title:
+    en: "FAPESP Young Investigator call for international researchers — join our group"
+    pt: "Chamada FAPESP Jovem Pesquisador para pesquisadores internacionais — venha para o grupo"
+  text:
+    en: >-
+      FAPESP's Young Investigator Grant for International Researchers will fund up to 20 researchers of any nationality who have worked abroad for at least two years after their PhD to set up a laboratory in São Paulo state — up to BRL 2.5 million over 60 months. **Deadline: November 19, 2026.** Interested in applying with our group? Email Prof. Euclydes at [euclydes@usp.br](mailto:euclydes@usp.br).
+    pt: >-
+      O Auxílio Jovem Pesquisador para Pesquisadores Internacionais da FAPESP vai apoiar até 20 pesquisadores de qualquer nacionalidade, com pelo menos dois anos de atuação no exterior após o doutorado, para montar um laboratório no estado de São Paulo — até R$ 2,5 milhões em 60 meses. **Prazo: 19 de novembro de 2026.** Quer se candidatar com o nosso grupo? Escreva ao Prof. Euclydes: [euclydes@usp.br](mailto:euclydes@usp.br).
+  link: https://fapesp.br/18389
+
+- date: 2026-08-30
+  category: event
+  image: /assets/img/news/siegman-2026.jpg
+  title:
+    en: Aarón Chacaliaza Ricaldi at the Siegman International School on Lasers
+    pt: Aarón Chacaliaza Ricaldi na Siegman International School on Lasers
+  text:
+    en: PhD student José Yitzhak Aarón Chacaliaza Ricaldi, currently on a FAPESP BEPE internship in Spain, attended the 2026 Siegman International School on Lasers (August 30 – September 5) at Politecnico di Milano and CNR-IFN in Milan, Italy, where he presented the poster *Er³⁺-doped oxide- and oxyfluoro-tellurite glass thin films fabricated via pulsed laser deposition for photonic integrated circuits*.
+    pt: O doutorando José Yitzhak Aarón Chacaliaza Ricaldi, atualmente em estágio BEPE FAPESP na Espanha, participou da 2026 Siegman International School on Lasers (30 de agosto a 5 de setembro), no Politecnico di Milano e no CNR-IFN, em Milão, Itália, onde apresentou o pôster *Er³⁺-doped oxide- and oxyfluoro-tellurite glass thin films fabricated via pulsed laser deposition for photonic integrated circuits*.
+  link: https://www.linkedin.com/posts/nanoplasmonics-ifsc-usp_nosso-estudante-de-doutorado-aar%C3%B3n-participou-activity-7503864715908145152-eW6y
+
+- date: 2026-08-17
+  category: event
+  image: /assets/img/news/vollet-2026.jpg
+  title:
+    en: The group at the III “Dimas Roberto Vollet” Physics Congress
+    pt: O grupo no III Congresso “Dimas Roberto Vollet” de Física
+  text:
+    en: "At the III \"Dimas Roberto Vollet\" Physics Congress (August 17–20, UNESP Rio Claro), Prof. Victor Rivera gave an oral presentation on his project *Tellurite glasses and their applications in photonics*, PhD student Marciano de Lima Medeiros presented *16-level rate equation models for spontaneous emission in bulk glass systems co-doped with Yb³⁺–Er³⁺–Tm³⁺*, and MSc student Jyan Carlos Quispe Aquice presented *Tuning of broadband near-infrared emission in bismuth-doped tellurite glasses for optical amplifiers*."
+    pt: "No III Congresso \"Dimas Roberto Vollet\" de Física (17 a 20 de agosto, UNESP Rio Claro), o Prof. Victor Rivera fez apresentação oral sobre seu projeto *Vidros teluritos e suas aplicações em fotônica*, o doutorando Marciano de Lima Medeiros apresentou o pôster *Modelos de equações de taxa com 16 níveis para a emissão espontânea em sistemas vítreos bulk tridopados com Yb³⁺–Er³⁺–Tm³⁺* e o mestrando Jyan Carlos Quispe Aquice apresentou *Tuning of broadband near-infrared emission in bismuth-doped tellurite glasses for optical amplifiers*."
+  link: https://pt.linkedin.com/posts/nanoplasmonics-ifsc-usp_participation-in-the-iii-dimas-roberto-vollet-activity-7498008017695637504-dONE
 
 - date: 2026-06-01
   precision: month
