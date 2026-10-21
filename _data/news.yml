@@ -88,6 +88,18 @@
 
 - date: 2026-03-01
   precision: month
+  category: group
+  image: /assets/img/partners/io-csic.png
+  image_fit: contain
+  title:
+    en: José Chacaliaza Ricaldi starts a FAPESP BEPE research internship in Madrid
+    pt: José Chacaliaza Ricaldi inicia estágio de pesquisa BEPE FAPESP em Madri
+  text:
+    en: PhD student José Yitzhak Aarón Chacaliaza Ricaldi began a FAPESP Research Internship Abroad (BEPE) at the Instituto de Óptica "Daza de Valdés" (IO-CSIC), Madrid, supervised by Dr. José Gonzalo de los Reyes in the Laser Processing Group.
+    pt: O doutorando José Yitzhak Aarón Chacaliaza Ricaldi iniciou uma Bolsa Estágio de Pesquisa no Exterior (BEPE) da FAPESP no Instituto de Óptica "Daza de Valdés" (IO-CSIC), em Madri, sob supervisão do Dr. José Gonzalo de los Reyes, no Grupo de Processamento a Laser.
+
+- date: 2026-03-01
+  precision: month
   category: publication
   venue: "Materials Research Bulletin"
   link: https://doi.org/10.1016/j.materresbull.2025.113903
@@ -173,18 +185,6 @@
   text:
     en: Tuning the period of metal nanogratings to optimize plasmon-enhanced upconversion luminescence in Er³⁺/Yb³⁺ co-doped glasses.
     pt: Ajuste do período de nanogrades metálicas para otimizar a luminescência por conversão ascendente intensificada por plasmons em vidros codopados com Er³⁺/Yb³⁺.
-
-- date: 2025-03-01
-  precision: month
-  category: group
-  image: /assets/img/partners/io-csic.png
-  image_fit: contain
-  title:
-    en: José Chacaliaza Ricaldi starts a FAPESP BEPE research internship in Madrid
-    pt: José Chacaliaza Ricaldi inicia estágio de pesquisa BEPE FAPESP em Madri
-  text:
-    en: PhD student José Yitzhak Aarón Chacaliaza Ricaldi began a FAPESP Research Internship Abroad (BEPE) at the Instituto de Óptica "Daza de Valdés" (IO-CSIC), Madrid, supervised by Dr. José Gonzalo de los Reyes in the Laser Processing Group.
-    pt: O doutorando José Yitzhak Aarón Chacaliaza Ricaldi iniciou uma Bolsa Estágio de Pesquisa no Exterior (BEPE) da FAPESP no Instituto de Óptica "Daza de Valdés" (IO-CSIC), em Madri, sob supervisão do Dr. José Gonzalo de los Reyes, no Grupo de Processamento a Laser.
 
 - date: 2025-02-20
   category: defense
