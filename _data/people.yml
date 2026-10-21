@@ -198,10 +198,11 @@
     pt: Mestrando · IFSC-USP
   bio:
     en: >-
-      Works on rare-earth-doped tellurite and germanate glasses for photonic applications.
+      Degree in Physical-Mathematical Sciences from the Universidad Nacional del Altiplano (Puno, Peru, 2021). Works on rare-earth-doped tellurite glasses for luminescent materials, optical thermometry and telecommunications.
     pt: >-
-      Atua em vidros teluritos e germanatos dopados com terras-raras para aplicações em fotônica.
-  lattes: ""
+      Graduado em Ciencias Físico Matemáticas pela Universidad Nacional del Altiplano (Puno, Peru, 2021). Atua em vidros teluritos dopados com terras-raras para materiais luminescentes, termometria óptica e telecomunicações.
+  email: carlos.aquice@usp.br
+  lattes: http://lattes.cnpq.br/6755854550036461
   linkedin: ""
 
 # ---------------- Undergraduates ----------------
@@ -281,6 +282,10 @@
     en: MSc (2012) and PhD (2017) in Physics, IFSC-USP
     pt: Mestrado (2012) e Doutorado (2017) em Física, IFSC-USP
   thesis: https://www.teses.usp.br/teses/disponiveis/76/76131/tde-11102017-153834/
+  now:
+    en: Adjunct Professor at the State University of Piauí (UESPI)
+    pt: Professor Adjunto na Universidade Estadual do Piauí (UESPI)
+  orcid: https://orcid.org/0000-0003-1103-679X
 
 - name: Dr. Fernando Wellysson de Alencar Sobreira
   category: alumni
@@ -288,6 +293,10 @@
     en: PhD (2016) in Physics, IFSC-USP
     pt: Doutorado (2016) em Física, IFSC-USP
   thesis: https://www.teses.usp.br/teses/disponiveis/76/76131/tde-25012017-135410/
+  now:
+    en: Professor at the Federal Institute of Ceará (IFCE), Camocim campus
+    pt: Professor do Instituto Federal do Ceará (IFCE), campus Camocim
+  orcid: https://orcid.org/0000-0002-3161-6372
 
 - name: Rafael Bratifich
   category: alumni
@@ -337,6 +346,10 @@
     en: PhD (2001) in Physics, IFSC-USP
     pt: Doutorado (2001) em Física, IFSC-USP
   thesis: https://www.teses.usp.br/teses/disponiveis/76/76131/tde-08122014-173104/
+  now:
+    en: Professor at Centro Paula Souza (Fatec)
+    pt: Professor no Centro Paula Souza (Fatec)
+  orcid: https://orcid.org/0000-0002-6290-4174
 
 - name: Dr. Emmanuel Olivier Petitprez
   category: alumni
@@ -344,6 +357,9 @@
     en: PhD (2000) in Materials Science and Engineering, USP
     pt: Doutorado (2000) em Ciência e Engenharia de Materiais, USP
   thesis: https://www.teses.usp.br/teses/disponiveis/88/88131/tde-18082015-154146/
+  now:
+    en: R&D engineer at STMicroelectronics (France)
+    pt: Engenheiro de P&D na STMicroelectronics (França)
 
 - name: Kellis Germano Freitas
   category: alumni
