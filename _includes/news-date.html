@@ -1,0 +1,1 @@
+{% assign n = include.item %}{% assign t = site.data.i18n[page.lang] %}<time datetime="{{ n.date | date: '%Y-%m-%d' }}">{% if n.precision == "month" %}{{ n.date | date: t.month_format }}{% else %}{{ n.date | date: t.date_format }}{% endif %}</time>

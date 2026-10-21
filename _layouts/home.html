@@ -68,7 +68,7 @@ layout: default
       <ul class="news-list news-list-compact">
         {% for n in news limit: 3 %}
         <li>
-          <time datetime="{{ n.date | date: '%Y-%m-%d' }}">{{ n.date | date: t.date_format }}</time>
+          <p class="news-meta">{% if n.category %}<span class="news-tag news-tag-{{ n.category }}">{{ t.news.categories[n.category] }}</span>{% endif %}{% include news-date.html item=n %}</p>
           <p class="news-title">{{ n.title[lang] }}</p>
         </li>
         {% else %}

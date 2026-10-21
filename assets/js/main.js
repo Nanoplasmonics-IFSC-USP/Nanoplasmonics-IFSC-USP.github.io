@@ -18,23 +18,26 @@
   });
 })();
 
-// People page category filter
+// Category filters (People and News pages)
 (function () {
-  var grid = document.getElementById('people-grid');
-  var buttons = document.querySelectorAll('.filter-btn');
-  if (!grid || !buttons.length) return;
-  var cards = grid.querySelectorAll('.person');
+  var toolbars = document.querySelectorAll('[data-filter-target]');
+  toolbars.forEach(function (toolbar) {
+    var target = document.getElementById(toolbar.getAttribute('data-filter-target'));
+    if (!target) return;
+    var buttons = toolbar.querySelectorAll('.filter-btn');
+    var items = target.querySelectorAll('[data-category]');
 
-  buttons.forEach(function (button) {
-    button.addEventListener('click', function () {
-      var filter = button.getAttribute('data-filter');
-      buttons.forEach(function (b) {
-        var active = b === button;
-        b.classList.toggle('is-active', active);
-        b.setAttribute('aria-pressed', active ? 'true' : 'false');
-      });
-      cards.forEach(function (card) {
-        card.hidden = filter !== 'all' && card.getAttribute('data-category') !== filter;
+    buttons.forEach(function (button) {
+      button.addEventListener('click', function () {
+        var filter = button.getAttribute('data-filter');
+        buttons.forEach(function (b) {
+          var active = b === button;
+          b.classList.toggle('is-active', active);
+          b.setAttribute('aria-pressed', active ? 'true' : 'false');
+        });
+        items.forEach(function (item) {
+          item.hidden = filter !== 'all' && item.getAttribute('data-category') !== filter;
+        });
       });
     });
   });

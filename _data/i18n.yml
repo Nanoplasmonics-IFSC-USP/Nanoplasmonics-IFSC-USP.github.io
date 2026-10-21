@@ -85,6 +85,17 @@ en:
     title: News
     intro: What's happening in the group.
     empty: No news yet.
+    categories:
+      publication: Publication
+      defense: Defense
+      event: Event
+      award: Award
+      outreach: Outreach
+      group: Group
+    links:
+      paper: Read the paper
+      thesis: Read the thesis
+      more: Learn more
 
   contact:
     title: Contact
@@ -134,6 +145,7 @@ en:
     rights: All rights reserved.
 
   date_format: "%b %-d, %Y"
+  month_format: "%b %Y"
   not_found: Page not found.
   back_home: Back to home
 
@@ -221,6 +233,17 @@ pt:
     title: Notícias
     intro: O que está acontecendo no grupo.
     empty: Nenhuma notícia ainda.
+    categories:
+      publication: Publicação
+      defense: Defesa
+      event: Evento
+      award: Prêmio
+      outreach: Divulgação
+      group: Grupo
+    links:
+      paper: Ler o artigo
+      thesis: Ler a tese
+      more: Saiba mais
 
   contact:
     title: Contato
@@ -270,5 +293,6 @@ pt:
     rights: Todos os direitos reservados.
 
   date_format: "%d/%m/%Y"
+  month_format: "%m/%Y"
   not_found: Página não encontrada.
   back_home: Voltar ao início

@@ -5,20 +5,37 @@ layout: default
 {% assign lang = page.lang %}
 {% include page-header.html title=t.news.title intro=t.news.intro %}
 
+{% assign news = site.data.news | sort: "date" | reverse %}
+{% assign news_categories = "publication,defense,event,award,outreach,group" | split: "," %}
 <section class="section">
-  <div class="container narrow">
-    {% assign news = site.data.news | sort: "date" | reverse %}
-    <ul class="news-list">
-      {% for n in news %}
-      <li class="news-item">
-        <time datetime="{{ n.date | date: '%Y-%m-%d' }}">{{ n.date | date: t.date_format }}</time>
-        <h2 class="news-title">{{ n.title[lang] }}</h2>
-        {% if n.image and n.image != "" %}<img class="news-image" src="{{ n.image | relative_url }}" alt="" loading="lazy">{% endif %}
-        <div class="prose">{{ n.text[lang] | markdownify }}</div>
-      </li>
-      {% else %}
-      <li><p>{{ t.news.empty }}</p></li>
+  <div class="container">
+    <div class="people-filter" role="toolbar" aria-label="{{ t.news.title }}" data-filter-target="news-list">
+      <button type="button" class="filter-btn is-active" data-filter="all" aria-pressed="true">{{ t.people.all }}</button>
+      {% for cat in news_categories %}
+        {% assign items = news | where: "category", cat %}
+        {% if items.size > 0 %}<button type="button" class="filter-btn" data-filter="{{ cat }}" aria-pressed="false">{{ t.news.categories[cat] }} <span class="filter-count">{{ items.size }}</span></button>{% endif %}
       {% endfor %}
-    </ul>
+    </div>
+
+    <div class="news-cards" id="news-list">
+      {% for n in news %}
+      <article class="news-card" data-category="{{ n.category }}">
+        <div class="news-card-media{% if n.image == nil or n.image == "" %} card-media-empty{% endif %}{% if n.image_fit == "contain" %} is-contain{% endif %}">
+          {% if n.image and n.image != "" %}<img src="{{ n.image | relative_url }}?v={{ site.time | date: '%s' }}" alt="" loading="lazy">{% elsif n.venue %}<span class="news-venue">{{ n.venue }}</span>{% endif %}
+        </div>
+        <div class="news-card-body">
+          <p class="news-meta">
+            {% if n.category %}<span class="news-tag news-tag-{{ n.category }}">{{ t.news.categories[n.category] }}</span>{% endif %}
+            {% include news-date.html item=n %}
+          </p>
+          <h2 class="news-title">{{ n.title[lang] }}</h2>
+          <div class="prose">{{ n.text[lang] | markdownify }}</div>
+          {% if n.link and n.link != "" %}{% assign label = n.link_label | default: "more" %}<a class="card-link" href="{{ n.link }}">{{ t.news.links[label] }} →</a>{% endif %}
+        </div>
+      </article>
+      {% else %}
+      <p>{{ t.news.empty }}</p>
+      {% endfor %}
+    </div>
   </div>
 </section>

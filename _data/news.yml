@@ -1,15 +1,224 @@
 # News items, shown newest first. The 3 most recent also appear on the home page.
-#   date:  YYYY-MM-DD
-#   image: optional, e.g. /assets/img/news/defense.jpg
-#   text:  Markdown allowed
-#
-# PLACEHOLDER CONTENT — replace with real news.
+#   date:      YYYY-MM-DD (for items known only to the month, use day 01 and add  precision: month)
+#   category:  publication | defense | group | event | award | outreach
+#   image:     optional, e.g. /assets/img/news/defense.jpg (research illustrations also work)
+#   image_fit: optional, "contain" for logos (default fills the box)
+#   venue:     optional, journal/publisher shown in the picture box when there is no image
+#   link:      optional URL; link_label picks the button text (paper | thesis | more)
+#   text:      Markdown allowed
 
 - date: 2026-10-20
-  image: ""
+  category: group
+  image: /assets/img/group.jpg
   title:
     en: Our new website is online
     pt: Nosso novo site está no ar
   text:
-    en: Welcome to the new website of the Nanoplasmonics Group!
-    pt: Bem-vindo ao novo site do Grupo de Nanoplasmônica!
+    en: Welcome to the new website of the Nanoplasmonics Group! Here you can find our research lines, team, publications, collaborations and news — in English and Portuguese.
+    pt: Bem-vindo ao novo site do Grupo de Nanoplasmônica! Aqui você encontra nossas linhas de pesquisa, equipe, publicações, colaborações e notícias — em português e inglês.
+
+- date: 2026-10-01
+  precision: month
+  category: publication
+  image: /assets/img/research/rare-earth-glasses.svg
+  title:
+    en: Three new papers on rare-earth-doped tellurite glasses
+    pt: Três novos artigos sobre vidros teluritos dopados com terras-raras
+  text:
+    en: |
+      Three papers published this month extend our work on tellurite-based glasses:
+
+      - [Green light tuning by up-conversion emission in Er³⁺-doped tellurite glasses for enhanced light-emitting devices](https://doi.org/10.1016/j.optmat.2026.118208) — *Optical Materials*
+      - [Multicolor emission tuning in Yb³⁺/Tm³⁺/Er³⁺ triply doped germanate-tellurite glasses](https://doi.org/10.1016/j.jnoncrysol.2026.124302) — *Journal of Non-Crystalline Solids*
+      - [Structural engineering and optical nonlinearities based on Nb₂O₅ effects in tellurite-zinc-lanthanum glasses](https://doi.org/10.1016/j.jallcom.2026.191394) — *Journal of Alloys and Compounds*
+    pt: |
+      Três artigos publicados neste mês ampliam nosso trabalho com vidros teluritos:
+
+      - [Green light tuning by up-conversion emission in Er³⁺-doped tellurite glasses for enhanced light-emitting devices](https://doi.org/10.1016/j.optmat.2026.118208) — *Optical Materials*
+      - [Multicolor emission tuning in Yb³⁺/Tm³⁺/Er³⁺ triply doped germanate-tellurite glasses](https://doi.org/10.1016/j.jnoncrysol.2026.124302) — *Journal of Non-Crystalline Solids*
+      - [Structural engineering and optical nonlinearities based on Nb₂O₅ effects in tellurite-zinc-lanthanum glasses](https://doi.org/10.1016/j.jallcom.2026.191394) — *Journal of Alloys and Compounds*
+
+- date: 2026-08-26
+  category: publication
+  venue: "ACS Applied Materials & Interfaces"
+  link: https://doi.org/10.1021/acsami.6c09128
+  link_label: paper
+  title:
+    en: Paper in ACS Applied Materials & Interfaces
+    pt: Artigo na ACS Applied Materials & Interfaces
+  text:
+    en: How defect chemistry and surface electrostatics control rare-earth upconversion kinetics in oxide thin films — a collaboration with the IFSC-USP Photonics Group.
+    pt: Como a química de defeitos e a eletrostática de superfície controlam a cinética de conversão ascendente de terras-raras em filmes finos óxidos — colaboração com o Grupo de Fotônica do IFSC-USP.
+
+- date: 2026-06-01
+  precision: month
+  category: group
+  image: /assets/img/partners/unesp.png
+  image_fit: contain
+  title:
+    en: Prof. Victor Rivera joins UNESP Rio Claro
+    pt: Prof. Victor Rivera assume como docente na UNESP Rio Claro
+  text:
+    en: Prof. Victor Anthony Garcia Rivera is now a professor at the Department of Physics of the Institute of Geosciences and Exact Sciences (IGCE), UNESP Rio Claro, and continues his long-standing collaboration with the group.
+    pt: O Prof. Victor Anthony Garcia Rivera agora é docente do Departamento de Física do Instituto de Geociências e Ciências Exatas (IGCE) da UNESP Rio Claro e segue sua longa colaboração com o grupo.
+
+- date: 2026-05-13
+  category: publication
+  venue: "Springer Nature"
+  link: https://doi.org/10.1007/978-3-032-18501-3
+  link_label: more
+  title:
+    en: "New book by Springer Nature: A Brief Guide to Optical Spectroscopy of Trivalent Rare Earth Ions in Glasses"
+    pt: "Novo livro pela Springer Nature: A Brief Guide to Optical Spectroscopy of Trivalent Rare Earth Ions in Glasses"
+  text:
+    en: Written by group members and collaborators (G. Lozano C., J. Chacaliaza-Ricaldi, J. dos Santos, E. Marega Jr., Y. Messaddeq and V. Rivera), the book is a practical guide to the optical spectroscopy of rare-earth ions in glasses.
+    pt: Escrito por membros e colaboradores do grupo (G. Lozano C., J. Chacaliaza-Ricaldi, J. dos Santos, E. Marega Jr., Y. Messaddeq e V. Rivera), o livro é um guia prático de espectroscopia óptica de íons terras-raras em vidros.
+
+- date: 2026-04-19
+  category: publication
+  image: /assets/img/research/plasmonics.svg
+  link: https://doi.org/10.1002/admt.71001
+  link_label: paper
+  title:
+    en: Paper in Advanced Materials Technologies
+    pt: Artigo na Advanced Materials Technologies
+  text:
+    en: Coupling Er³⁺ ions to plasmonic modes in vertical nanocavities broadens their emission across the telecom bands — work by Gaston Lozano Calderón with Université Laval.
+    pt: O acoplamento de íons Er³⁺ a modos plasmônicos em nanocavidades verticais alarga sua emissão nas bandas de telecomunicações — trabalho de Gaston Lozano Calderón com a Université Laval.
+
+- date: 2026-03-01
+  precision: month
+  category: publication
+  venue: "Materials Research Bulletin"
+  link: https://doi.org/10.1016/j.materresbull.2025.113903
+  link_label: paper
+  title:
+    en: Paper in Materials Research Bulletin
+    pt: Artigo na Materials Research Bulletin
+  text:
+    en: Er³⁺-doped nano-tellurite glasses embedded in polymeric thin films, a new platform for hybrid photonic devices — work by José Chacaliaza Ricaldi.
+    pt: Nanovidros teluritos dopados com Er³⁺ incorporados em filmes finos poliméricos, uma nova plataforma para dispositivos fotônicos híbridos — trabalho de José Chacaliaza Ricaldi.
+
+- date: 2025-12-01
+  precision: month
+  category: publication
+  venue: "Journal of Non-Crystalline Solids"
+  link: https://doi.org/10.1016/j.jnoncrysol.2025.123835
+  link_label: paper
+  title:
+    en: Paper in the Journal of Non-Crystalline Solids
+    pt: Artigo no Journal of Non-Crystalline Solids
+  text:
+    en: Tailoring the gamma-ray shielding performance of zinc-tellurite glasses through metal oxide substitution.
+    pt: Ajuste do desempenho de blindagem contra raios gama de vidros telurito-zinco por meio da substituição de óxidos metálicos.
+
+- date: 2025-11-11
+  category: publication
+  venue: "Laser & Photonics Reviews"
+  link: https://doi.org/10.1002/lpor.202502668
+  link_label: paper
+  title:
+    en: Paper in Laser & Photonics Reviews
+    pt: Artigo na Laser & Photonics Reviews
+  text:
+    en: Femtosecond-laser micromachining creates t-Te nanocrystals inside tellurite glasses, tailoring their second-harmonic generation efficiency — a collaboration with the IFSC-USP Photonics Group.
+    pt: A microusinagem com laser de femtossegundos cria nanocristais de t-Te em vidros teluritos, ajustando a eficiência de geração de segundo harmônico — colaboração com o Grupo de Fotônica do IFSC-USP.
+
+- date: 2025-09-01
+  precision: month
+  category: publication
+  venue: "Materials Research Bulletin"
+  link: https://doi.org/10.1016/j.materresbull.2025.113458
+  link_label: paper
+  title:
+    en: Paper in Materials Research Bulletin
+    pt: Artigo na Materials Research Bulletin
+  text:
+    en: Improved, low-threshold laser emission at 1081 nm in Yb³⁺-doped tellurite glasses.
+    pt: Emissão laser aprimorada e de baixo limiar em 1081 nm em vidros teluritos dopados com Yb³⁺.
+
+- date: 2025-07-16
+  category: defense
+  image: /assets/img/research/2d-materials.svg
+  link: https://www.teses.usp.br/teses/disponiveis/76/76134/tde-27082025-093115/
+  link_label: thesis
+  title:
+    en: Willer Oliveira defends his master's dissertation
+    pt: Willer Oliveira defende sua dissertação de mestrado
+  text:
+    en: "Willer Frank de Sousa Oliveira defended his MSc dissertation, *Plasmon-exciton coupling regimes in MoS₂ monolayers on gold gratings: a reflectance analysis via FDTD simulations*. Congratulations, Willer! He continues in the group as a PhD student."
+    pt: "Willer Frank de Sousa Oliveira defendeu sua dissertação de mestrado, *Plasmon-exciton coupling regimes in MoS₂ monolayers on gold gratings: a reflectance analysis via FDTD simulations*. Parabéns, Willer! Ele segue no grupo como doutorando."
+
+- date: 2025-07-09
+  category: publication
+  venue: "IntechOpen"
+  link: https://doi.org/10.5772/intechopen.1010425
+  link_label: paper
+  title:
+    en: "Book chapter: Glass Thin Films — From Deposition to Integrated Photonic Applications"
+    pt: "Capítulo de livro: Glass Thin Films — From Deposition to Integrated Photonic Applications"
+  text:
+    en: A review of glass thin films, from deposition techniques to integrated photonic applications, published by IntechOpen.
+    pt: Uma revisão sobre filmes finos de vidro, das técnicas de deposição às aplicações em fotônica integrada, publicada pela IntechOpen.
+
+- date: 2025-04-01
+  precision: month
+  category: publication
+  venue: "Journal of Luminescence"
+  link: https://doi.org/10.1016/j.jlumin.2024.121020
+  link_label: paper
+  title:
+    en: Paper in the Journal of Luminescence
+    pt: Artigo no Journal of Luminescence
+  text:
+    en: Tuning the period of metal nanogratings to optimize plasmon-enhanced upconversion luminescence in Er³⁺/Yb³⁺ co-doped glasses.
+    pt: Ajuste do período de nanogrades metálicas para otimizar a luminescência por conversão ascendente intensificada por plasmons em vidros codopados com Er³⁺/Yb³⁺.
+
+- date: 2025-02-20
+  category: defense
+  image: /assets/img/research/plasmonics.svg
+  link: https://www.teses.usp.br/teses/disponiveis/76/76134/tde-14042025-110633/
+  link_label: thesis
+  title:
+    en: Gaston Lozano Calderón defends his PhD thesis
+    pt: Gaston Lozano Calderón defende sua tese de doutorado
+  text:
+    en: "Gaston Lozano Calderón defended his PhD thesis, *Insights into the coupling mechanism between rare-earth ions and surface plasmon polaritons: a phenomenological approach*. Congratulations, Dr. Gaston!"
+    pt: "Gaston Lozano Calderón defendeu sua tese de doutorado, *Insights into the coupling mechanism between rare-earth ions and surface plasmon polaritons: a phenomenological approach*. Parabéns, Dr. Gaston!"
+
+- date: 2025-01-10
+  category: publication
+  image: /assets/img/research/2d-materials.svg
+  link: https://doi.org/10.1021/acsnano.4c13867
+  link_label: paper
+  title:
+    en: Paper in ACS Nano
+    pt: Artigo na ACS Nano
+  text:
+    en: Polarization-dependent plasmon-induced doping and strain effects in MoS₂ monolayers on gold nanostructures — work led by Matheus Lemes in collaboration with EPFL.
+    pt: Dopagem induzida por plasmons e efeitos de deformação dependentes da polarização em monocamadas de MoS₂ sobre nanoestruturas de ouro — trabalho liderado por Matheus Lemes em colaboração com a EPFL.
+
+- date: 2025-01-01
+  precision: month
+  category: publication
+  venue: "Ceramics International"
+  link: https://doi.org/10.1016/j.ceramint.2024.11.069
+  link_label: paper
+  title:
+    en: Paper in Ceramics International
+    pt: Artigo na Ceramics International
+  text:
+    en: Nonlinear optical properties of La³⁺-doped tellurite-zinc glasses and their link to chemical bonding, studied by Raman and XPS.
+    pt: Propriedades ópticas não lineares de vidros telurito-zinco dopados com La³⁺ e sua relação com as ligações químicas, estudadas por Raman e XPS.
+
+- date: 2023-07-27
+  category: defense
+  image: /assets/img/research/2d-materials.svg
+  title:
+    en: Two master's defenses in the group
+    pt: Duas defesas de mestrado no grupo
+  text:
+    en: |
+      Matheus Lemes ([*Study of light-matter interaction in single-layer molybdenum disulfide coupled to gold structures*](https://www.teses.usp.br/teses/disponiveis/76/76134/tde-31082023-111042/), July 24) and José Chacaliaza Ricaldi ([*Thin films based on Er³⁺ doped germanate-tellurite nanoglasses for Plasmonics*](https://www.teses.usp.br/teses/disponiveis/76/76134/tde-18082023-093815/), July 27) defended their MSc dissertations. Both continue in the group as PhD students.
+    pt: |
+      Matheus Lemes ([*Study of light-matter interaction in single-layer molybdenum disulfide coupled to gold structures*](https://www.teses.usp.br/teses/disponiveis/76/76134/tde-31082023-111042/), 24 de julho) e José Chacaliaza Ricaldi ([*Thin films based on Er³⁺ doped germanate-tellurite nanoglasses for Plasmonics*](https://www.teses.usp.br/teses/disponiveis/76/76134/tde-18082023-093815/), 27 de julho) defenderam suas dissertações de mestrado. Ambos seguem no grupo como doutorandos.

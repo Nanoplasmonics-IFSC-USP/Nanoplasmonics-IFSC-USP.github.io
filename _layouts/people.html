@@ -18,7 +18,7 @@ layout: default
 
     <div class="people-group">
       <h2 class="section-title">{{ t.people.members }}</h2>
-      <div class="people-filter" role="toolbar" aria-label="{{ t.people.members }}">
+      <div class="people-filter" role="toolbar" aria-label="{{ t.people.members }}" data-filter-target="people-grid">
         <button type="button" class="filter-btn is-active" data-filter="all" aria-pressed="true">{{ t.people.all }}</button>
         {% for cat in categories %}
           {% assign members = site.data.people | where: "category", cat %}
