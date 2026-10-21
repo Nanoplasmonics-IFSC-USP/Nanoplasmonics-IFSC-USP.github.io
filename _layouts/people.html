@@ -39,11 +39,11 @@ layout: default
     {% if alumni.size > 0 %}
     <div class="people-group">
       <h2 class="section-title">{{ t.people.categories.alumni }}</h2>
-      {% assign levels = "postdoc,phd,msc,undergrad" | split: "," %}
+      {% assign levels = "postdoc,phd,msc" | split: "," %}
       {% for level in levels %}
       {% assign level_alumni = alumni | where: "level", level %}
       {% if level_alumni.size > 0 %}
-      {% include sort-people.html people=level_alumni %}
+      {% include sort-alumni.html people=level_alumni %}
       <h3 class="alumni-level">{{ t.people.alumni_levels[level] }} <span class="filter-count">{{ level_alumni.size }}</span></h3>
       <ul class="alumni-list">
         {% for a in sorted_people %}

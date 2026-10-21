@@ -1,6 +1,7 @@
 # Group members. The People page groups them by category, in this order:
 #   pi, researcher, postdoc, phd, msc, undergrad, exchange, staff, alumni
 # Within each category people are listed alphabetically (titles ignored), so order here doesn't matter.
+# Alumni are listed by level (postdoc, phd, msc), most recent year first; undergrad alumni are kept here but not shown.
 #
 # Fields (only name and category are required):
 #   photo:   /assets/img/people/<file>.jpg   (square photos look best; leave "" for a placeholder)
@@ -8,6 +9,7 @@
 #   bio:     en/pt short text (Markdown allowed)
 #   email, lattes, orcid, scholar, linkedin, website: links (leave "" to hide)
 #   level:   alumni only — postdoc, phd, msc or undergrad (highest level done in the group)
+#   year:    alumni only — year they left the group (used for ordering)
 #   now:     alumni only — current position (en/pt)
 #   thesis:  alumni only — link to the thesis/dissertation (USP digital library)
 
@@ -285,6 +287,7 @@
 - name: Dr. Gaston Lozano Calderón
   category: alumni
   level: phd
+  year: 2025
   role:
     en: MSc (2020) and PhD (2025) in Physics, IFSC-USP
     pt: Mestrado (2020) e Doutorado (2025) em Física, IFSC-USP
@@ -300,6 +303,7 @@
 - name: Manoel Messias Pereira de Miranda
   category: alumni
   level: msc
+  year: 2018
   role:
     en: MSc (2018) in Physics, IFSC-USP
     pt: Mestrado (2018) em Física, IFSC-USP
@@ -308,6 +312,7 @@
 - name: Dr. Otavio de Brito Silva
   category: alumni
   level: phd
+  year: 2017
   role:
     en: MSc (2012) and PhD (2017) in Physics, IFSC-USP
     pt: Mestrado (2012) e Doutorado (2017) em Física, IFSC-USP
@@ -320,6 +325,7 @@
 - name: Dr. Fernando Wellysson de Alencar Sobreira
   category: alumni
   level: phd
+  year: 2016
   role:
     en: PhD (2016) in Physics, IFSC-USP
     pt: Doutorado (2016) em Física, IFSC-USP
@@ -332,6 +338,7 @@
 - name: Rafael Bratifich
   category: alumni
   level: msc
+  year: 2015
   role:
     en: MSc (2015) in Physics, IFSC-USP
     pt: Mestrado (2015) em Física, IFSC-USP
@@ -340,6 +347,7 @@
 - name: Rodrigo Marques de Oliveira
   category: alumni
   level: msc
+  year: 2003
   role:
     en: MSc (2003) in Physics, IFSC-USP
     pt: Mestrado (2003) em Física, IFSC-USP
@@ -348,6 +356,7 @@
 - name: Dr. Rafael Humberto Scapin
   category: alumni
   level: phd
+  year: 2003
   role:
     en: PhD (2003) in Physics, IFSC-USP
     pt: Doutorado (2003) em Física, IFSC-USP
@@ -356,6 +365,7 @@
 - name: Marcos José Semenzato
   category: alumni
   level: msc
+  year: 2002
   role:
     en: MSc (2002) in Materials Science and Engineering, USP
     pt: Mestrado (2002) em Ciência e Engenharia de Materiais, USP
@@ -364,6 +374,7 @@
 - name: Aparecido Rodrigues da Silva
   category: alumni
   level: msc
+  year: 2002
   role:
     en: Undergraduate research (1998) and MSc (2002) in Materials Science and Engineering, USP
     pt: Iniciação Científica (1998) e Mestrado (2002) em Ciência e Engenharia de Materiais, USP
@@ -372,6 +383,7 @@
 - name: Dr. Luiz Gilberto de Oliveira Messias
   category: alumni
   level: phd
+  year: 2001
   role:
     en: PhD (2001) in Physics, IFSC-USP
     pt: Doutorado (2001) em Física, IFSC-USP
@@ -380,6 +392,7 @@
 - name: Dr. Diógenes Bosquetti
   category: alumni
   level: phd
+  year: 2001
   role:
     en: PhD (2001) in Physics, IFSC-USP
     pt: Doutorado (2001) em Física, IFSC-USP
@@ -392,6 +405,7 @@
 - name: Dr. Emmanuel Olivier Petitprez
   category: alumni
   level: phd
+  year: 2000
   role:
     en: PhD (2000) in Materials Science and Engineering, USP
     pt: Doutorado (2000) em Ciência e Engenharia de Materiais, USP
@@ -403,6 +417,7 @@
 - name: Kellis Germano Freitas
   category: alumni
   level: msc
+  year: 1999
   role:
     en: MSc (1999) in Physics, IFSC-USP
     pt: Mestrado (1999) em Física, IFSC-USP
@@ -411,6 +426,7 @@
 - name: Marcus Vinícius Alves
   category: alumni
   level: msc
+  year: 1999
   role:
     en: MSc (1999) in Physics, IFSC-USP
     pt: Mestrado (1999) em Física, IFSC-USP
@@ -419,6 +435,7 @@
 - name: Erisaura Leomil Registro
   category: alumni
   level: msc
+  year: 1999
   role:
     en: MSc (1999) in Physics, IFSC-USP
     pt: Mestrado (1999) em Física, IFSC-USP
@@ -427,6 +444,7 @@
 - name: Marco José Franceschini
   category: alumni
   level: msc
+  year: 1997
   role:
     en: MSc (1997) in Physics, IFSC-USP
     pt: Mestrado (1997) em Física, IFSC-USP
@@ -435,6 +453,7 @@
 - name: Renato Antonio Cruz
   category: alumni
   level: msc
+  year: 1997
   role:
     en: MSc (1997) in Physics, IFSC-USP
     pt: Mestrado (1997) em Física, IFSC-USP
@@ -443,6 +462,7 @@
 - name: Sergio Gasques Rodrigues
   category: alumni
   level: msc
+  year: 1997
   role:
     en: MSc (1997) in Materials Science and Engineering, USP
     pt: Mestrado (1997) em Ciência e Engenharia de Materiais, USP
@@ -453,6 +473,7 @@
 - name: Dra. Iram Taj Awan
   category: alumni
   level: postdoc
+  year: 2019
   role:
     en: Postdoc (2019), IFSC-USP
     pt: Pós-doutorado (2019), IFSC-USP
@@ -460,6 +481,7 @@
 - name: Dr. José Luis Clabel Huamán
   category: alumni
   level: postdoc
+  year: 2019
   role:
     en: Postdoc (2017–2019), IFSC-USP
     pt: Pós-doutorado (2017–2019), IFSC-USP
@@ -467,6 +489,7 @@
 - name: Dr. Fábio Aparecido Ferri
   category: alumni
   level: postdoc
+  year: 2015
   role:
     en: Postdoc (2015), IFSC-USP
     pt: Pós-doutorado (2015), IFSC-USP
@@ -474,6 +497,7 @@
 - name: Dr. Sérgio Paulo Amaral Osório
   category: alumni
   level: postdoc
+  year: 2014
   role:
     en: Postdoc (2014), IFSC-USP
     pt: Pós-doutorado (2014), IFSC-USP
@@ -481,6 +505,7 @@
 - name: Dr. Pedro Pablo González Borrero
   category: alumni
   level: postdoc
+  year: 2000
   role:
     en: Research fellow (2000), FAPESP · IFSC-USP
     pt: Bolsista de pesquisa (2000), FAPESP · IFSC-USP
@@ -490,6 +515,7 @@
 - name: Lívia Oliveira Dantas Clementino
   category: alumni
   level: undergrad
+  year: 2017
   role:
     en: Undergraduate research (2017) in Physical and Biomolecular Sciences, USP
     pt: Iniciação Científica (2017) em Ciências Físicas e Biomoleculares, USP
@@ -497,6 +523,7 @@
 - name: Daniel Yoshio Akamatsu
   category: alumni
   level: undergrad
+  year: 2017
   role:
     en: Undergraduate research (2017) in Physics, USP
     pt: Iniciação Científica (2017) em Física, USP
@@ -504,6 +531,7 @@
 - name: Henrique de Almeida Tórtura
   category: alumni
   level: undergrad
+  year: 2017
   role:
     en: Undergraduate research (2017) in Physics, USP
     pt: Iniciação Científica (2017) em Física, USP
@@ -511,6 +539,7 @@
 - name: Bruno dos Santos Pereira Machado
   category: alumni
   level: undergrad
+  year: 2015
   role:
     en: Undergraduate research (2015) in Physics, UFSCar
     pt: Iniciação Científica (2015) em Física, UFSCar
@@ -518,6 +547,7 @@
 - name: Carlos Eduardo Teles
   category: alumni
   level: undergrad
+  year: 2012
   role:
     en: Undergraduate research (2012) in Computational Physics, IFSC-USP
     pt: Iniciação Científica (2012) em Física Computacional, IFSC-USP
@@ -525,6 +555,7 @@
 - name: Leticia Melocro
   category: alumni
   level: undergrad
+  year: 2011
   role:
     en: Undergraduate research (2011) in Physics, IFSC-USP
     pt: Iniciação Científica (2011) em Física, IFSC-USP
@@ -532,6 +563,7 @@
 - name: Rodrigo Andrade e Silva
   category: alumni
   level: undergrad
+  year: 2011
   role:
     en: Undergraduate research (2011) in Physics, IFSC-USP
     pt: Iniciação Científica (2011) em Física, IFSC-USP
@@ -539,6 +571,7 @@
 - name: Marcelo Kiyochi Kawamura
   category: alumni
   level: undergrad
+  year: 2011
   role:
     en: Undergraduate research (2011) in Physics Engineering, IFSC-USP
     pt: Iniciação Científica (2011) em Engenharia Física, IFSC-USP
@@ -546,6 +579,7 @@
 - name: Andreia Correia de Melo
   category: alumni
   level: undergrad
+  year: 2010
   role:
     en: Undergraduate research (2010) in Physics, IFSC-USP
     pt: Iniciação Científica (2010) em Física, IFSC-USP
@@ -553,6 +587,7 @@
 - name: Mario Sergio Mariano
   category: alumni
   level: undergrad
+  year: 2007
   role:
     en: Undergraduate research (2007), IFSC-USP
     pt: Iniciação Científica (2007), IFSC-USP
@@ -560,6 +595,7 @@
 - name: Marcello Mota
   category: alumni
   level: undergrad
+  year: 2006
   role:
     en: Undergraduate research (2006), EESC-USP
     pt: Iniciação Científica (2006), EESC-USP
@@ -567,6 +603,7 @@
 - name: Thiago Neves Doretto
   category: alumni
   level: undergrad
+  year: 1999
   role:
     en: Undergraduate research (1999) in Physics, USP
     pt: Iniciação Científica (1999) em Física, USP
@@ -574,6 +611,7 @@
 - name: Daniel Espanhol Razera
   category: alumni
   level: undergrad
+  year: 1999
   role:
     en: Undergraduate research (1999) in Physics, USP
     pt: Iniciação Científica (1999) em Física, USP
@@ -581,6 +619,7 @@
 - name: Mateus Cecílio Gerólamo
   category: alumni
   level: undergrad
+  year: 1998
   role:
     en: Undergraduate research (1998) in Physics, USP
     pt: Iniciação Científica (1998) em Física, USP
@@ -588,6 +627,7 @@
 - name: Hélio Kikuchi
   category: alumni
   level: undergrad
+  year: 1998
   role:
     en: Undergraduate research (1998) in Physics, USP
     pt: Iniciação Científica (1998) em Física, USP
@@ -595,6 +635,7 @@
 - name: Vivaldo Leira Campo Jr.
   category: alumni
   level: undergrad
+  year: 1997
   role:
     en: Undergraduate research (1997) in Physics, USP
     pt: Iniciação Científica (1997) em Física, USP
@@ -602,6 +643,7 @@
 - name: Ana Lúcia Libardi
   category: alumni
   level: undergrad
+  year: 1997
   role:
     en: Undergraduate research (1997) in Physics, USP
     pt: Iniciação Científica (1997) em Física, USP
@@ -609,6 +651,7 @@
 - name: Fernando I. de Lima Leite
   category: alumni
   level: undergrad
+  year: 1996
   role:
     en: Undergraduate research (1996) in Physics, IFSC-USP
     pt: Iniciação Científica (1996) em Física, IFSC-USP
@@ -616,6 +659,7 @@
 - name: Ernanni D. Vieira
   category: alumni
   level: undergrad
+  year: 1996
   role:
     en: Undergraduate research (1996) in Physics, IFSC-USP
     pt: Iniciação Científica (1996) em Física, IFSC-USP
@@ -623,6 +667,7 @@
 - name: Silvio Cesar Athayde
   category: alumni
   level: undergrad
+  year: 1995
   role:
     en: Undergraduate research (1995) in Physics, USP
     pt: Iniciação Científica (1995) em Física, USP

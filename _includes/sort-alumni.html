@@ -1,0 +1,11 @@
+{%- comment -%}
+  Sorts include.people by year, most recent first; ties are alphabetical (titles ignored).
+  Result is left in `sorted_people`.
+{%- endcomment -%}
+{%- capture sort_keys -%}{%- for p in include.people -%}{{ 9999 | minus: p.year }}::{{ p.name | remove_first: "Profa. Dra. " | remove_first: "Prof. Dr. " | remove_first: "Dra. " | remove_first: "Dr. " }}::{{ forloop.index0 }}{%- unless forloop.last -%};;{%- endunless -%}{%- endfor -%}{%- endcapture -%}
+{%- assign sort_keys = sort_keys | split: ";;" | sort_natural -%}
+{%- assign sorted_people = "" | split: "" -%}
+{%- for key in sort_keys -%}
+  {%- assign idx = key | split: "::" | last | plus: 0 -%}
+  {%- assign sorted_people = sorted_people | push: include.people[idx] -%}
+{%- endfor -%}
