@@ -83,6 +83,17 @@
   url: https://www.unmsm.edu.pe
   logo: /assets/img/partners/unmsm.png
 
+- institution: University of Gujrat — Department of Physics
+  country:
+    en: Pakistan
+    pt: Paquistão
+  people: Prof. Tahir Iqbal Awan
+  topic:
+    en: Nanophotonics and plasmonics, near-field optics and scanning probe microscopy of metallic nanostructures
+    pt: Nanofotônica e plasmônica, óptica de campo próximo e microscopia de varredura por sonda de nanoestruturas metálicas
+  url: https://uog.edu.pk
+  logo: /assets/img/partners/uog.png
+
 - institution: Universidade Estadual Paulista (UNESP)
   country:
     en: Brazil
