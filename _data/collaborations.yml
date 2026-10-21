@@ -116,6 +116,25 @@
   url: https://www.unesp.br
   logo: /assets/img/partners/unesp.png
 
+- institution: Centro Nacional de Pesquisa em Energia e Materiais (CNPEM) — LNNano
+  country:
+    en: Brazil
+    pt: Brasil
+  people: Dra. Maria Clara, Dr. Alisson R. Cadore
+  topic:
+    en: 2D materials and van der Waals heterostructure devices (joint USP–CNPEM postdoctoral project)
+    pt: Materiais 2D e dispositivos de heteroestruturas de van der Waals (projeto de pós-doutorado conjunto USP–CNPEM)
+  url: https://lnnano.cnpem.br
+  logo: /assets/img/partners/cnpem.png
+
+- institution: Instituto Tecnológico de Aeronáutica (ITA)
+  country:
+    en: Brazil
+    pt: Brasil
+  people: Prof. Renan Cunha
+  url: https://www.ita.br
+  logo: /assets/img/partners/ita.png
+
 - institution: Faculdade de Tecnologia de São Paulo (FATEC-SP)
   country:
     en: Brazil
