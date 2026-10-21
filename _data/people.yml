@@ -215,6 +215,11 @@
   role:
     en: Undergraduate researcher · IFSC-USP
     pt: Iniciação Científica · IFSC-USP
+  bio:
+    en: >-
+      Computational Physics undergraduate at IFSC-USP. Works on the group's simulations and machine learning.
+    pt: >-
+      Graduando em Física Computacional no IFSC-USP. Atua nas simulações e em aprendizado de máquina no grupo.
 
 - name: Alexandre
   category: undergrad
@@ -222,6 +227,11 @@
   role:
     en: Undergraduate researcher · IFSC-USP
     pt: Iniciação Científica · IFSC-USP
+  bio:
+    en: >-
+      Computational Physics undergraduate at IFSC-USP. Works on the group's simulations and machine learning.
+    pt: >-
+      Graduando em Física Computacional no IFSC-USP. Atua nas simulações e em aprendizado de máquina no grupo.
 
 # ---------------- Exchange students ----------------
 

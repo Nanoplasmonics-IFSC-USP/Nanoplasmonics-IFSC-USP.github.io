@@ -1,6 +1,6 @@
 {% assign p = include.person %}
 {% assign lang = page.lang %}
-<article class="person">
+<article class="person" data-category="{{ p.category }}">
   <div class="person-photo">
     {% if p.photo and p.photo != "" %}
       <img src="{{ p.photo | relative_url }}" alt="{{ p.name }}" loading="lazy">
@@ -9,6 +9,7 @@
     {% endif %}
   </div>
   <div class="person-body">
+    {% if include.label %}<p class="person-tag">{{ include.label }}</p>{% endif %}
     <h3 class="person-name">{{ p.name }}</h3>
     {% if p.role %}<p class="person-role">{{ p.role[lang] | default: p.role.en }}</p>{% endif %}
     {% if p.note %}<p class="person-note">{{ p.note[lang] | default: p.note.en }}</p>{% endif %}

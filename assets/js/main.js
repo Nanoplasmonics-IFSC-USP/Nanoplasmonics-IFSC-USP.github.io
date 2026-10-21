@@ -17,3 +17,25 @@
     }
   });
 })();
+
+// People page category filter
+(function () {
+  var grid = document.getElementById('people-grid');
+  var buttons = document.querySelectorAll('.filter-btn');
+  if (!grid || !buttons.length) return;
+  var cards = grid.querySelectorAll('.person');
+
+  buttons.forEach(function (button) {
+    button.addEventListener('click', function () {
+      var filter = button.getAttribute('data-filter');
+      buttons.forEach(function (b) {
+        var active = b === button;
+        b.classList.toggle('is-active', active);
+        b.setAttribute('aria-pressed', active ? 'true' : 'false');
+      });
+      cards.forEach(function (card) {
+        card.hidden = filter !== 'all' && card.getAttribute('data-category') !== filter;
+      });
+    });
+  });
+})();

@@ -54,6 +54,8 @@ en:
     title: People
     intro: Meet the team.
     thesis: Thesis
+    members: Members
+    all: All
     categories:
       pi: Principal Investigator
       researcher: Faculty
@@ -188,6 +190,8 @@ pt:
     title: Equipe
     intro: Conheça o time.
     thesis: Tese
+    members: Integrantes
+    all: Todos
     categories:
       pi: Coordenador
       researcher: Docentes

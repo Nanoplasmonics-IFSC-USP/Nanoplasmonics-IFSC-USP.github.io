@@ -5,20 +5,34 @@ layout: default
 {% assign lang = page.lang %}
 {% include page-header.html title=t.people.title intro=t.people.intro %}
 
-{% assign categories = "pi,researcher,postdoc,phd,msc,undergrad,exchange,staff" | split: "," %}
+{% assign categories = "researcher,postdoc,phd,msc,undergrad,exchange,staff" | split: "," %}
 <section class="section">
   <div class="container">
-    {% for cat in categories %}
-      {% assign members = site.data.people | where: "category", cat %}
-      {% if members.size > 0 %}
-      <div class="people-group">
-        <h2 class="section-title">{{ t.people.categories[cat] }}</h2>
-        <div class="people-grid{% if cat == 'pi' %} people-grid-pi{% endif %}">
-          {% for person in members %}{% include person-card.html person=person %}{% endfor %}
-        </div>
+    {% assign pis = site.data.people | where: "category", "pi" %}
+    <div class="people-group">
+      <h2 class="section-title">{{ t.people.categories.pi }}</h2>
+      <div class="people-grid people-grid-pi">
+        {% for person in pis %}{% include person-card.html person=person %}{% endfor %}
       </div>
-      {% endif %}
-    {% endfor %}
+    </div>
+
+    <div class="people-group">
+      <h2 class="section-title">{{ t.people.members }}</h2>
+      <div class="people-filter" role="toolbar" aria-label="{{ t.people.members }}">
+        <button type="button" class="filter-btn is-active" data-filter="all" aria-pressed="true">{{ t.people.all }}</button>
+        {% for cat in categories %}
+          {% assign members = site.data.people | where: "category", cat %}
+          {% if members.size > 0 %}<button type="button" class="filter-btn" data-filter="{{ cat }}" aria-pressed="false">{{ t.people.categories[cat] }} <span class="filter-count">{{ members.size }}</span></button>{% endif %}
+        {% endfor %}
+      </div>
+      <div class="people-grid" id="people-grid">
+        {% for cat in categories %}
+          {% assign members = site.data.people | where: "category", cat %}
+          {% assign cat_label = t.people.categories[cat] %}
+          {% for person in members %}{% include person-card.html person=person label=cat_label %}{% endfor %}
+        {% endfor %}
+      </div>
+    </div>
 
     {% assign alumni = site.data.people | where: "category", "alumni" %}
     {% if alumni.size > 0 %}
