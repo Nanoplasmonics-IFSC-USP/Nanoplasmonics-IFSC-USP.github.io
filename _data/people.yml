@@ -159,12 +159,14 @@
     pt: Doutorando · IFSC-USP
   bio:
     en: >-
-      BSc in Computational Physics from IFSC-USP. Works on the computational modeling of plasmonic and integrated photonic systems, including near-infrared nanolasers and supercontinuum generation.
+      Direct-doctorate student supervised by Prof. Victor A. G. Rivera; BSc in Computational Physics from IFSC-USP, with a Certificate of Special Studies in Computing from ICMC-USP. Works on near-infrared nanolasers with supercontinuum generation and on the modeling and simulation of plasmonic and integrated photonic systems.
     pt: >-
-      Bacharel em Física Computacional pelo IFSC-USP. Atua na modelagem computacional de sistemas plasmônicos e fotônicos integrados, incluindo nanolasers no infravermelho próximo e geração de supercontínuo.
-  lattes: ""
+      Doutorando direto sob orientação do Prof. Victor A. G. Rivera; bacharel em Física Computacional pelo IFSC-USP, com Certificado de Estudos Especiais em Computação pelo ICMC-USP. Atua em nanolasers no infravermelho próximo com geração de supercontínuo e na modelagem e simulação de sistemas plasmônicos e fotônicos integrados.
+  email: gabriel.limaalvs@usp.br
+  lattes: http://lattes.cnpq.br/8811010174446614
   orcid: https://orcid.org/0009-0001-5989-1704
-  linkedin: ""
+  scholar: https://scholar.google.com/citations?user=KEEZHW0AAAAJ
+  linkedin: https://www.linkedin.com/in/gabriellimaalvs/
 
 - name: José Yitzhak Aarón Chacaliaza Ricaldi
   category: phd
