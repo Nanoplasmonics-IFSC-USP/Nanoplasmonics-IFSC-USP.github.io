@@ -29,7 +29,8 @@ layout: default
         {% for cat in categories %}
           {% assign members = site.data.people | where: "category", cat %}
           {% assign cat_label = t.people.categories[cat] %}
-          {% for person in members %}{% include person-card.html person=person label=cat_label %}{% endfor %}
+          {% include sort-people.html people=members %}
+          {% for person in sorted_people %}{% include person-card.html person=person label=cat_label %}{% endfor %}
         {% endfor %}
       </div>
     </div>
@@ -38,8 +39,14 @@ layout: default
     {% if alumni.size > 0 %}
     <div class="people-group">
       <h2 class="section-title">{{ t.people.categories.alumni }}</h2>
+      {% assign levels = "postdoc,phd,msc,undergrad" | split: "," %}
+      {% for level in levels %}
+      {% assign level_alumni = alumni | where: "level", level %}
+      {% if level_alumni.size > 0 %}
+      {% include sort-people.html people=level_alumni %}
+      <h3 class="alumni-level">{{ t.people.alumni_levels[level] }} <span class="filter-count">{{ level_alumni.size }}</span></h3>
       <ul class="alumni-list">
-        {% for a in alumni %}
+        {% for a in sorted_people %}
         <li>
           {% if a.photo and a.photo != "" %}<img class="alumni-photo" src="{{ a.photo | relative_url }}" alt="{{ a.name }}" loading="lazy">{% endif %}
           <div class="alumni-body">
@@ -57,6 +64,8 @@ layout: default
         </li>
         {% endfor %}
       </ul>
+      {% endif %}
+      {% endfor %}
     </div>
     {% endif %}
   </div>

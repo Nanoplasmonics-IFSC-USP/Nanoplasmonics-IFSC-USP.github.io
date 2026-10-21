@@ -1,11 +1,13 @@
 # Group members. The People page groups them by category, in this order:
 #   pi, researcher, postdoc, phd, msc, undergrad, exchange, staff, alumni
+# Within each category people are listed alphabetically (titles ignored), so order here doesn't matter.
 #
 # Fields (only name and category are required):
 #   photo:   /assets/img/people/<file>.jpg   (square photos look best; leave "" for a placeholder)
 #   role:    en/pt text under the name
 #   bio:     en/pt short text (Markdown allowed)
 #   email, lattes, orcid, scholar, linkedin, website: links (leave "" to hide)
+#   level:   alumni only — postdoc, phd, msc or undergrad (highest level done in the group)
 #   now:     alumni only — current position (en/pt)
 #   thesis:  alumni only — link to the thesis/dissertation (USP digital library)
 
@@ -75,6 +77,23 @@
   orcid: https://orcid.org/0000-0002-7225-2667
   scholar: https://scholar.google.com/citations?user=JkLVSJAAAAAJ
   linkedin: https://www.linkedin.com/in/j%C3%A9ssica-f-m-dos-santos-17b347260/
+
+- name: Prof. Dr. Tahir Iqbal Awan
+  category: researcher
+  photo: ""
+  role:
+    en: Professor · University of Gujrat (Pakistan)
+    pt: Professor · University of Gujrat (Paquistão)
+  bio:
+    en: >-
+      Professor at the Department of Physics, University of Gujrat (Pakistan). Works on nanophotonics and plasmonics, nanofabrication and nanocharacterization, near-field optics, scanning probe microscopy and the optical properties of metallic nanostructures. Author of books on plasmonic photocatalysis (CRC Press, 2024), thin-film deposition techniques and noble-metal nanoparticles for sustainable energy (Springer, 2025).
+    pt: >-
+      Professor do Departamento de Física da University of Gujrat (Paquistão). Atua em nanofotônica e plasmônica, nanofabricação e nanocaracterização, óptica de campo próximo, microscopia de varredura por sonda e propriedades ópticas de nanoestruturas metálicas. Autor de livros sobre fotocatálise plasmônica (CRC Press, 2024), técnicas de deposição de filmes finos e nanopartículas de metais nobres para energia sustentável (Springer, 2025).
+  email: ""
+  lattes: ""
+  orcid: ""
+  scholar: ""
+  linkedin: ""
 
 # ---------------- Postdocs ----------------
 
@@ -268,6 +287,7 @@
 
 - name: Dr. Gaston Lozano Calderón
   category: alumni
+  level: phd
   role:
     en: MSc (2020) and PhD (2025) in Physics, IFSC-USP
     pt: Mestrado (2020) e Doutorado (2025) em Física, IFSC-USP
@@ -282,6 +302,7 @@
 
 - name: Manoel Messias Pereira de Miranda
   category: alumni
+  level: msc
   role:
     en: MSc (2018) in Physics, IFSC-USP
     pt: Mestrado (2018) em Física, IFSC-USP
@@ -289,6 +310,7 @@
 
 - name: Dr. Otavio de Brito Silva
   category: alumni
+  level: phd
   role:
     en: MSc (2012) and PhD (2017) in Physics, IFSC-USP
     pt: Mestrado (2012) e Doutorado (2017) em Física, IFSC-USP
@@ -300,6 +322,7 @@
 
 - name: Dr. Fernando Wellysson de Alencar Sobreira
   category: alumni
+  level: phd
   role:
     en: PhD (2016) in Physics, IFSC-USP
     pt: Doutorado (2016) em Física, IFSC-USP
@@ -311,6 +334,7 @@
 
 - name: Rafael Bratifich
   category: alumni
+  level: msc
   role:
     en: MSc (2015) in Physics, IFSC-USP
     pt: Mestrado (2015) em Física, IFSC-USP
@@ -318,6 +342,7 @@
 
 - name: Rodrigo Marques de Oliveira
   category: alumni
+  level: msc
   role:
     en: MSc (2003) in Physics, IFSC-USP
     pt: Mestrado (2003) em Física, IFSC-USP
@@ -325,6 +350,7 @@
 
 - name: Dr. Rafael Humberto Scapin
   category: alumni
+  level: phd
   role:
     en: PhD (2003) in Physics, IFSC-USP
     pt: Doutorado (2003) em Física, IFSC-USP
@@ -332,6 +358,7 @@
 
 - name: Marcos José Semenzato
   category: alumni
+  level: msc
   role:
     en: MSc (2002) in Materials Science and Engineering, USP
     pt: Mestrado (2002) em Ciência e Engenharia de Materiais, USP
@@ -339,6 +366,7 @@
 
 - name: Aparecido Rodrigues da Silva
   category: alumni
+  level: msc
   role:
     en: MSc (2002) in Materials Science and Engineering, USP
     pt: Mestrado (2002) em Ciência e Engenharia de Materiais, USP
@@ -346,6 +374,7 @@
 
 - name: Dr. Luiz Gilberto de Oliveira Messias
   category: alumni
+  level: phd
   role:
     en: PhD (2001) in Physics, IFSC-USP
     pt: Doutorado (2001) em Física, IFSC-USP
@@ -353,6 +382,7 @@
 
 - name: Dr. Diógenes Bosquetti
   category: alumni
+  level: phd
   role:
     en: PhD (2001) in Physics, IFSC-USP
     pt: Doutorado (2001) em Física, IFSC-USP
@@ -364,6 +394,7 @@
 
 - name: Dr. Emmanuel Olivier Petitprez
   category: alumni
+  level: phd
   role:
     en: PhD (2000) in Materials Science and Engineering, USP
     pt: Doutorado (2000) em Ciência e Engenharia de Materiais, USP
@@ -374,6 +405,7 @@
 
 - name: Kellis Germano Freitas
   category: alumni
+  level: msc
   role:
     en: MSc (1999) in Physics, IFSC-USP
     pt: Mestrado (1999) em Física, IFSC-USP
@@ -381,6 +413,7 @@
 
 - name: Marcus Vinícius Alves
   category: alumni
+  level: msc
   role:
     en: MSc (1999) in Physics, IFSC-USP
     pt: Mestrado (1999) em Física, IFSC-USP
@@ -388,6 +421,7 @@
 
 - name: Erisaura Leomil Registro
   category: alumni
+  level: msc
   role:
     en: MSc (1999) in Physics, IFSC-USP
     pt: Mestrado (1999) em Física, IFSC-USP
@@ -395,6 +429,7 @@
 
 - name: Marco José Franceschini
   category: alumni
+  level: msc
   role:
     en: MSc (1997) in Physics, IFSC-USP
     pt: Mestrado (1997) em Física, IFSC-USP
@@ -402,6 +437,7 @@
 
 - name: Renato Antonio Cruz
   category: alumni
+  level: msc
   role:
     en: MSc (1997) in Physics, IFSC-USP
     pt: Mestrado (1997) em Física, IFSC-USP
@@ -409,6 +445,7 @@
 
 - name: Sergio Gasques Rodrigues
   category: alumni
+  level: msc
   role:
     en: MSc (1997) in Materials Science and Engineering, USP
     pt: Mestrado (1997) em Ciência e Engenharia de Materiais, USP

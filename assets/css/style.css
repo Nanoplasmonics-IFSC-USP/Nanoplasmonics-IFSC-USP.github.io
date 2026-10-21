@@ -354,6 +354,9 @@ p { margin: 0 0 1em; }
 /* ---------- People ---------- */
 
 .people-group + .people-group { margin-top: 72px; }
+.alumni-level { font-size: 1.1rem; margin: 32px 0 4px; color: var(--green); }
+.alumni-level:first-of-type { margin-top: 8px; }
+.alumni-level .filter-count { font-weight: 400; opacity: .7; font-size: .9rem; }
 
 .people-filter { display: flex; flex-wrap: wrap; gap: 8px; margin: -8px 0 32px; }
 .filter-btn {

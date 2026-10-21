@@ -66,6 +66,11 @@ en:
       exchange: Exchange Students
       staff: Technical Staff
       alumni: Alumni
+    alumni_levels:
+      postdoc: Postdocs
+      phd: PhD
+      msc: Master's
+      undergrad: Undergraduate research
     now: Now
 
   collaborations:
@@ -214,6 +219,11 @@ pt:
       exchange: Intercâmbio
       staff: Técnicos
       alumni: Ex-membros
+    alumni_levels:
+      postdoc: Pós-doutorado
+      phd: Doutorado
+      msc: Mestrado
+      undergrad: Iniciação Científica
     now: Atualmente
 
   collaborations:
