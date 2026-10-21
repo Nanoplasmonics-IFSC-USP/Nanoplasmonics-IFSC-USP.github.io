@@ -5,7 +5,7 @@
 #   body:    full description (Markdown allowed)
 
 - id: plasmonics
-  image: ""
+  image: /assets/img/research/plasmonics.svg
   title:
     en: Plasmonics and nanophotonics
     pt: Plasmônica e nanofotônica
@@ -13,11 +13,17 @@
     en: Controlling and manipulating light at the nanoscale with metallic and dielectric nanostructures.
     pt: Controle e manipulação da luz em nanoescala com nanoestruturas metálicas e dielétricas.
   body:
-    en: ""
-    pt: ""
+    en: |
+      Metallic nanostructures support surface plasmons — collective oscillations of electrons that confine light far below the diffraction limit and greatly enhance local electromagnetic fields. We design, fabricate and characterize plasmonic platforms, such as metal nanogratings, vertical nanocavities and nanoparticle-doped media, to control how light is emitted, absorbed and guided at the nanoscale.
+
+      A central goal is to use these structures to enhance other optical processes: tuning the grating period and geometry to boost upconversion luminescence, coupling plasmonic modes to emitters to broaden and enhance emission in the telecom bands, and studying interference effects such as Fano resonances in the far field. This work feeds into integrated photonics, optical sensing and light sources for telecommunications.
+    pt: |
+      Nanoestruturas metálicas sustentam plasmons de superfície — oscilações coletivas dos elétrons que confinam a luz muito abaixo do limite de difração e intensificam fortemente os campos eletromagnéticos locais. Projetamos, fabricamos e caracterizamos plataformas plasmônicas, como nanogrades metálicas, nanocavidades verticais e meios dopados com nanopartículas, para controlar como a luz é emitida, absorvida e guiada em nanoescala.
+
+      Um objetivo central é usar essas estruturas para intensificar outros processos ópticos: ajustar o período e a geometria das grades para aumentar a luminescência por conversão ascendente, acoplar modos plasmônicos a emissores para alargar e intensificar a emissão nas bandas de telecomunicações e estudar efeitos de interferência, como ressonâncias de Fano, no campo distante. Esse trabalho alimenta aplicações em fotônica integrada, sensoriamento óptico e fontes de luz para telecomunicações.
 
 - id: 2d-materials
-  image: ""
+  image: /assets/img/research/2d-materials.svg
   title:
     en: Two-dimensional materials
     pt: Materiais bidimensionais (2D)
@@ -25,11 +31,17 @@
     en: Optical and electronic properties of 2D materials and their coupling to nanophotonic structures.
     pt: Propriedades ópticas e eletrônicas de materiais 2D e seu acoplamento a estruturas nanofotônicas.
   body:
-    en: ""
-    pt: ""
+    en: |
+      Atomically thin semiconductors such as MoS₂ and other transition-metal dichalcogenides combine strong excitonic effects, a direct bandgap in the monolayer limit and an optical response that is extremely sensitive to their surroundings — which makes them ideal partners for plasmonic nanostructures.
+
+      We study monolayers placed on gold nanostructures and metasurfaces, looking at how the plasmonic substrate changes their properties: plasmon-induced doping, local strain, charge transfer and polarization-dependent effects, reaching into the nonlinear regime through second-harmonic generation. Combining Raman, photoluminescence and nonlinear spectroscopy with FDTD simulations, we identify the weak- and strong-coupling regimes between plasmons and excitons. Part of this work is done in collaboration with EPFL.
+    pt: |
+      Semicondutores atomicamente finos, como o MoS₂ e outros dicalcogenetos de metais de transição, combinam fortes efeitos excitônicos, gap direto no limite da monocamada e uma resposta óptica extremamente sensível ao ambiente — o que os torna parceiros ideais para nanoestruturas plasmônicas.
+
+      Estudamos monocamadas depositadas sobre nanoestruturas e metassuperfícies de ouro, investigando como o substrato plasmônico modifica suas propriedades: dopagem induzida por plasmons, deformação local, transferência de carga e efeitos dependentes da polarização, chegando ao regime não linear por meio da geração de segundo harmônico. Combinando espectroscopias Raman, de fotoluminescência e não linear com simulações FDTD, identificamos os regimes de acoplamento fraco e forte entre plasmons e éxcitons. Parte desse trabalho é realizada em colaboração com a EPFL.
 
 - id: rare-earth-glasses
-  image: ""
+  image: /assets/img/research/rare-earth-glasses.svg
   title:
     en: Rare-earth-doped glasses
     pt: Vidros dopados com terras-raras
@@ -37,11 +49,17 @@
     en: Rare-earth-doped glasses for photonics and quantum technologies.
     pt: Vidros dopados com íons terras-raras e sua aplicação em fotônica e tecnologias quânticas.
   body:
-    en: ""
-    pt: ""
+    en: |
+      Rare-earth ions such as Er³⁺, Yb³⁺, Tm³⁺ and Pr³⁺ have sharp, long-lived optical transitions that underpin optical amplifiers, lasers and fiber communications. We develop tellurite, germanate-tellurite and related oxide glasses as hosts for these ions, chosen for their low phonon energy, high refractive index and strong nonlinear response.
+
+      Our work covers the whole chain — glass synthesis and composition engineering, structural analysis (Raman, XPS), optical spectroscopy and Judd–Ofelt analysis — and targets broadband emission at 1.5 µm for telecommunications, upconversion and multicolor or white-light emission, low-threshold laser emission at 1 µm and optical thermometry. We also produce these materials as thin films, nanoglass composites and waveguides, and couple them to plasmonic structures to further tailor their emission.
+    pt: |
+      Íons terras-raras como Er³⁺, Yb³⁺, Tm³⁺ e Pr³⁺ possuem transições ópticas estreitas e de longa duração, base de amplificadores ópticos, lasers e comunicações por fibra. Desenvolvemos vidros teluritos, germanato-teluritos e outros vidros óxidos como matrizes para esses íons, escolhidos por sua baixa energia de fônons, alto índice de refração e forte resposta não linear.
+
+      Nosso trabalho cobre toda a cadeia — síntese e engenharia de composição dos vidros, análise estrutural (Raman, XPS), espectroscopia óptica e análise de Judd–Ofelt — e visa emissão de banda larga em 1,5 µm para telecomunicações, emissão por conversão ascendente, multicolorida ou de luz branca, emissão laser de baixo limiar em 1 µm e termometria óptica. Também produzimos esses materiais na forma de filmes finos, compósitos de nanovidros e guias de onda, e os acoplamos a estruturas plasmônicas para controlar ainda mais sua emissão.
 
 - id: light-matter
-  image: ""
+  image: /assets/img/research/light-matter.svg
   title:
     en: Light–matter interaction and quantum phenomena
     pt: Interação luz–matéria e fenômenos quânticos
@@ -49,11 +67,17 @@
     en: Fundamental light–matter interaction and quantum effects in nanostructured systems.
     pt: Interação luz–matéria e fenômenos quânticos em sistemas nanoestruturados.
   body:
-    en: ""
-    pt: ""
+    en: |
+      When light is confined in nanostructures, its interaction with matter can be engineered at a fundamental level. We study how plasmonic and photonic environments change the emission, absorption and coherence of quantum emitters — rare-earth ions, excitons in 2D materials and semiconductor quantum structures.
+
+      The group has a long background in semiconductor nanostructures, including self-organized InAs/GaAs quantum dots and quantum rings and GaAs/AlGaAs quantum wells, with work on spin polarization, exciton decoherence and magneto-optics. Today we explore quantum-plasmonic engineering of radiative emission, strong light–matter coupling, and quantum dots integrated into photonic cavities as single-photon sources, aiming at platforms for quantum information and quantum communications.
+    pt: |
+      Quando a luz é confinada em nanoestruturas, sua interação com a matéria pode ser controlada em nível fundamental. Estudamos como ambientes plasmônicos e fotônicos modificam a emissão, a absorção e a coerência de emissores quânticos — íons terras-raras, éxcitons em materiais 2D e estruturas quânticas semicondutoras.
+
+      O grupo tem longa experiência em nanoestruturas semicondutoras, incluindo pontos e anéis quânticos auto-organizados de InAs/GaAs e poços quânticos de GaAs/AlGaAs, com trabalhos sobre polarização de spin, decoerência excitônica e magneto-óptica. Hoje exploramos a engenharia quântico-plasmônica da emissão radiativa, o acoplamento forte luz–matéria e pontos quânticos integrados a cavidades fotônicas como fontes de fótons únicos, visando plataformas para informação e comunicações quânticas.
 
 - id: computational
-  image: ""
+  image: /assets/img/research/computational.svg
   title:
     en: Computational modeling and AI
     pt: Modelagem computacional e IA
@@ -61,5 +85,11 @@
     en: Computational modeling, artificial intelligence and machine learning for the study, optimization and inverse design of nanostructures.
     pt: Modelagem computacional, inteligência artificial e aprendizado de máquina aplicados ao estudo, otimização e design inverso de nanoestruturas.
   body:
-    en: ""
-    pt: ""
+    en: |
+      Simulation guides every stage of our research, from interpreting experiments to designing new devices. We use electromagnetic methods such as FDTD and finite elements to model plasmonic nanostructures, waveguides, nanolasers and supercontinuum generation, and quantum simulations to describe light–matter coupling.
+
+      On top of these tools we build machine-learning approaches — deep neural networks and physics-informed neural networks (PINNs) — to accelerate simulations and enable the inverse design of nanophotonic devices: instead of testing geometries one by one, we specify the desired optical response and let the algorithm find the structure that produces it.
+    pt: |
+      A simulação orienta todas as etapas da nossa pesquisa, da interpretação de experimentos ao projeto de novos dispositivos. Utilizamos métodos eletromagnéticos como FDTD e elementos finitos para modelar nanoestruturas plasmônicas, guias de onda, nanolasers e geração de supercontínuo, além de simulações quânticas para descrever o acoplamento luz–matéria.
+
+      Sobre essas ferramentas desenvolvemos abordagens de aprendizado de máquina — redes neurais profundas e redes neurais informadas pela física (PINNs) — para acelerar simulações e permitir o design inverso de dispositivos nanofotônicos: em vez de testar geometrias uma a uma, especificamos a resposta óptica desejada e deixamos o algoritmo encontrar a estrutura que a produz.
