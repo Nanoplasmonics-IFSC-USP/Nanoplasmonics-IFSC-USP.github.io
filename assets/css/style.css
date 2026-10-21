@@ -357,6 +357,11 @@ p { margin: 0 0 1em; }
 }
 .chip:hover { background: #e1ecc8; }
 
+.group-photo { margin: 0; }
+.prose + .group-photo { margin-top: 32px; }
+.group-photo + .people-group { margin-top: 56px; }
+.group-photo img { width: 100%; height: auto; display: block; border-radius: var(--radius); border: 1px solid var(--line); }
+.group-photo figcaption { margin-top: 8px; font-size: 0.85rem; color: var(--ink-muted); text-align: center; }
 .alumni-list { list-style: none; padding: 0; margin: 0; display: grid; grid-template-columns: repeat(auto-fill, minmax(300px, 1fr)); gap: 12px 32px; }
 .alumni-list li { padding: 14px 0; border-bottom: 1px solid var(--line); display: flex; gap: 16px; align-items: flex-start; }
 .alumni-body { display: flex; flex-direction: column; min-width: 0; }
