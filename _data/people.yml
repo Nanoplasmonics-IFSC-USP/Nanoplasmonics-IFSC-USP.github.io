@@ -62,18 +62,18 @@
   category: researcher
   photo: /assets/img/people/jessica.jpg
   role:
-    en: Professor · UNESP
-    pt: Professora · UNESP
+    en: Assistant Professor · UNESP Ilha Solteira
+    pt: Professora Assistente · UNESP Ilha Solteira
   bio:
     en: >-
-      PhD in Physics from the University of São Paulo (USP). Works on solid-state spectroscopy, rare-earth-doped glasses, solid-state lasers and plasmon-enhanced luminescence.
+      Degree in Physics teaching from IFSC-USP, MSc and PhD in Science from EESC-USP; postdocs at UEM, IFSC-USP and CEPOF (2023–2025). Works on the spectroscopy of rare-earth- and transition-metal-doped solids and on light–matter interaction in plasmonic metasurfaces, as well as on physics education with microcontrollers, sensors and STEM approaches.
     pt: >-
-      Doutora em Física pela Universidade de São Paulo (USP). Atua em espectroscopia de sólidos, vidros dopados com terras-raras, lasers de estado sólido e luminescência intensificada por plasmons.
-  email: ""
-  lattes: ""
+      Licenciada em Física pelo IFSC-USP, mestre e doutora em Ciências pela EESC-USP; pós-doutorados na UEM, no IFSC-USP e no CEPOF (2023–2025). Atua em espectroscopia de sólidos dopados com terras-raras e metais de transição e na interação luz–matéria em metassuperfícies plasmônicas, além do ensino de Física com microcontroladores, sensores e abordagem STEM.
+  email: jessica.m.santos@unesp.br
+  lattes: http://lattes.cnpq.br/4433990310749305
   orcid: https://orcid.org/0000-0002-7225-2667
   scholar: https://scholar.google.com/citations?user=JkLVSJAAAAAJ
-  linkedin: ""
+  linkedin: https://www.linkedin.com/in/j%C3%A9ssica-f-m-dos-santos-17b347260/
 
 # ---------------- Postdocs ----------------
 
@@ -81,17 +81,18 @@
   category: postdoc
   photo: /assets/img/people/ana-clara.jpg
   role:
-    en: Postdoctoral researcher · IFSC-USP / CEPOF
-    pt: Pós-doutoranda · IFSC-USP / CEPOF
+    en: Postdoctoral researcher · IFSC-USP
+    pt: Pós-doutoranda · IFSC-USP
   bio:
     en: >-
-      Previously a postdoc at the Federal University of Minas Gerais (UFMG). Works on optical spectroscopy (Raman, photoluminescence and second-harmonic generation) of 2D materials and plasmonic nanostructures.
+      BSc, MSc and PhD in Physics from UFMG, followed by a postdoc at the UFMG Nano-spectroscopy Lab and a research stint at EPFL (LANES). Works on light–matter interaction in 2D materials coupled to plasmonic platforms, using photoluminescence, Raman/SERS, second-harmonic generation, sum-frequency generation and four-wave mixing.
     pt: >-
-      Anteriormente pós-doutoranda na Universidade Federal de Minas Gerais (UFMG). Atua em espectroscopia óptica (Raman, fotoluminescência e geração de segundo harmônico) de materiais 2D e nanoestruturas plasmônicas.
+      Bacharela, mestra e doutora em Física pela UFMG, com pós-doutorado no Laboratório de Nanoespectroscopia da UFMG e estágio na EPFL (LANES). Atua na interação luz–matéria em materiais 2D integrados a plataformas plasmônicas, usando fotoluminescência, Raman/SERS, geração de segundo harmônico, soma de frequências e mistura de quatro ondas.
   email: ""
-  lattes: ""
+  lattes: http://lattes.cnpq.br/2784458025817971
   orcid: https://orcid.org/0000-0002-5063-8710
-  linkedin: ""
+  scholar: https://scholar.google.com/citations?user=1pLxG94AAAAJ
+  linkedin: https://www.linkedin.com/in/acspfisica/
 
 # ---------------- PhD students ----------------
 
@@ -103,9 +104,9 @@
     pt: Doutorando · IFSC-USP
   bio:
     en: >-
-      FAPESP direct-doctorate scholar; BSc in Computational Physics from IFSC-USP. Works on the inverse design of nanophotonic devices, combining electromagnetic simulations with deep learning and physics-informed neural networks.
+      FAPESP direct-doctorate scholar; BSc in Computational Physics from IFSC-USP. Works on the inverse design of nanophotonic devices, combining electromagnetic and quantum simulations with deep learning and physics-informed neural networks.
     pt: >-
-      Bolsista de doutorado direto FAPESP; bacharel em Física Computacional pelo IFSC-USP. Atua no design inverso de dispositivos nanofotônicos, combinando simulações eletromagnéticas com aprendizado profundo e redes neurais informadas pela física.
+      Bolsista de doutorado direto FAPESP; bacharel em Física Computacional pelo IFSC-USP. Atua no design inverso de dispositivos nanofotônicos, combinando simulações eletromagnéticas e quânticas com aprendizado profundo e redes neurais informadas pela física.
   email: viniciusbmarcos@usp.br
   lattes: http://lattes.cnpq.br/2111967318340206
   orcid: https://orcid.org/0009-0009-8980-2168
