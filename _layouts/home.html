@@ -94,7 +94,7 @@ layout: default
     <h2 class="section-title">{{ t.collaborations.title }}</h2>
     <p class="section-intro">{{ t.collaborations.intro }}</p>
     <ul class="collab-strip">
-      {% assign strip = "" | split: "" %}{% for c in site.data.collaborations %}{% assign key = c.institution | split: " — " | first | append: "::" | append: c.country[lang] %}{% assign strip = strip | push: key %}{% endfor %}{% assign strip = strip | uniq %}{% for item in strip %}{% assign parts = item | split: "::" %}<li><span class="collab-strip-name">{{ parts[0] }}</span><span class="collab-strip-country">{{ parts[1] }}</span></li>{% endfor %}
+      {% include collabs-sorted.html %}{% assign strip = "" | split: "" %}{% for c in collabs_sorted %}{% assign key = c.institution | split: " — " | first | append: "::" | append: c.country[lang] %}{% assign strip = strip | push: key %}{% endfor %}{% assign strip = strip | uniq %}{% for item in strip %}{% assign parts = item | split: "::" %}<li><span class="collab-strip-name">{{ parts[0] }}</span><span class="collab-strip-country">{{ parts[1] }}</span></li>{% endfor %}
     </ul>
     <a class="text-link" href="{{ prefix | append: '/collaborations/' | relative_url }}">{{ t.collaborations.all }} →</a>
   </div>

@@ -8,7 +8,7 @@ layout: default
 <section class="section">
   <div class="container">
     <div class="collab-grid">
-      {% for c in site.data.collaborations %}
+      {% include collabs-sorted.html %}{% for c in collabs_sorted %}
       <article class="collab">
         {% assign logo_file = nil %}
         {% if c.logo and c.logo != "" %}{% assign logo_base = c.logo | split: "." | first | append: "." %}{% assign logo_file = site.static_files | where_exp: "f", "f.path contains logo_base" | first %}{% endif %}

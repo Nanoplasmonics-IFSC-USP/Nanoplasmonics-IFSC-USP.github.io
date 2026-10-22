@@ -1,4 +1,6 @@
-# Collaborations, shown on the Research page and (names only) on the home page.
+# Collaborations, shown on the Collaborations page and (names only) on the home page,
+# sorted alphabetically by country name in each language (_includes/collabs-sorted.html);
+# entries from the same country keep the order of this file.
 #   institution: name           country: en/pt
 #   people:      collaborators   topic: en/pt short description
 #   url:         institution or lab website (optional)
@@ -93,6 +95,17 @@
     pt: Síntese de vidros, caracterização estrutural e óptica
   url: https://www.unmsm.edu.pe
   logo: /assets/img/partners/unmsm.png
+
+- institution: Universidad Nacional de San Agustín de Arequipa (UNSA) — Escuela Profesional de Física
+  country:
+    en: Peru
+    pt: Peru
+  people: Prof. Jose Luis Javier Vega Ramirez, Prof. Carmelo Mayta Ojeda, Prof. Pedro Petter Sellerico Mamani, Jose Carlos Paredes Malaga, Efrain Gonzalo Gomez Ticona, Enzo Daniel Zúñiga Valencia, Wiliam Sabino Humpiri Nina
+  topic:
+    en: Glass synthesis, structural and optical characterization
+    pt: Síntese de vidros, caracterização estrutural e óptica
+  url: https://www.unsa.edu.pe
+  logo: /assets/img/partners/unsa.png
 
 - institution: University of Gujrat — Department of Physics
   country:
